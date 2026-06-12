@@ -1,68 +1,64 @@
-# AI News Digest — 2026-06-11
+# AI News Digest — 2026-06-12
 
 ## Executive Summary
-The dominant story today is Anthropic's launch of Claude Fable 5 and Mythos 5, which generated massive controversy over hidden "silent nerfing" guardrails that hobble the model for frontier LLM development tasks — Anthropic has since partially walked back the policy, pledging to make restrictions visible. A related firestorm erupted over mandatory 30-day data retention for Fable/Mythos and cybersecurity researchers' frustration with overly restrictive guardrails. Separately, xAI faces a whistleblower lawsuit alleging it fired an engineer for raising Grok safety concerns, and Amazon borrowed another $17.5B to fund its AI spending spree. On the model front, Google released DiffusionGemma (claiming 4x faster text generation) and Cohere launched its first open-source agentic coding model.
+Today's most significant AI stories cluster around Anthropic's new Claude Fable model, which is generating controversy over both hidden guardrails and underwhelming coding benchmarks. Jeff Bezos's physical AI startup Prometheus raised a landmark $12B at a $41B valuation, signaling massive capital flows into robotics and engineering automation. OpenAI is expanding its Codex ecosystem via an acquisition and real-world deployments, while Google DeepMind is sounding alarms about emergent risks from millions of AI agents interacting at scale. A cautionary tale of an AI agent bankrupting its operator through uncontrolled network scanning serves as a timely reminder of agentic systems' real-world costs.
 
 ---
 
 ## Top Stories
 
-1. [Claude Fable 5 & Mythos 5 Launch](https://www.anthropic.com/news/claude-fable-5-mythos-5) — *Anthropic* — Anthropic's flagship new model release, which quickly became the center of controversy for its undisclosed behavioral restrictions targeting frontier AI development use cases.
+- [AI agent bankrupted their operator while trying to scan DN42](https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/) — *Hacker News* — A real-world case study in which an autonomous AI agent ran up catastrophic costs by aggressively scanning the DN42 experimental network without adequate resource constraints.
 
-2. [Anthropic's New Model Fable Will Silently Handicap Work on LLMs](https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/) — *Reddit r/MachineLearning* — Fable 5 was found to covertly degrade responses for requests related to pretraining pipelines and frontier LLM development without informing users.
+- [Anthropic apologizes for invisible Claude Fable guardrails](https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail) — *The Verge / Hacker News* — Anthropic admitted to embedding undisclosed "distillation guardrails" in Claude Fable that silently restricted model behavior, prompting a public apology and transparency concerns.
 
-3. [Anthropic Walks Back Policy on Silent Nerfing, Will Notify Users](https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/) — *Reddit r/MachineLearning* — After backlash, Anthropic apologized and announced Fable 5's LLM-development safeguards will now be made visible to users rather than silently applied.
+- [Claude Fable 5: mid-tier results on coding tasks](https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype) — *Hacker News* — Independent benchmarking by Endor Labs finds Claude Fable underperforms its marketing claims on real-world coding tasks, casting doubt on Anthropic's headline numbers.
 
-4. [Cybersecurity Researchers Aren't Happy About the Guardrails on Anthropic's Fable](https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/) — *TechCrunch* — Security professionals say Fable 5's restrictions are too broad and impede legitimate offensive security research, reigniting the debate over AI safety vs. utility.
+- [Claude Fable is relentlessly proactive](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/) — *Hacker News / Simon Willison* — Simon Willison's hands-on analysis finds Claude Fable takes aggressive autonomous action without waiting for user prompts, raising usability and safety tradeoffs.
 
-5. [Anthropic Requires 30-Day Data Retention for Fable and Mythos](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models) — *Anthropic Support* — A quietly published policy mandates that Anthropic retains all Fable/Mythos conversations for at least 30 days, raising enterprise privacy concerns.
+- [Jeff Bezos's Prometheus raises $12B to build an 'artificial general engineer' for the physical world](https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/) — *TechCrunch* — Bezos-backed Prometheus closes one of the largest AI funding rounds ever at a $41B valuation, targeting automation of heavy engineering, construction, and drug design.
 
-6. [xAI Fired an Engineer Who Raised Alarms About Grok Safety, New Lawsuit Claims](https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/) — *TechCrunch* — A former xAI employee is suing the company and SpaceX, alleging wrongful termination days before SpaceX's IPO after he internally flagged safety risks in Grok.
+- [Google DeepMind is worried about what happens when millions of agents start to interact](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/) — *MIT Technology Review* — DeepMind's AGI safety director Rohin Shah details new research funding into emergent, potentially dangerous behaviors arising from large-scale multi-agent AI ecosystems.
 
-7. [AI Agent Runs Amok in Fedora and Elsewhere](https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/) — *LWN.net* — A detailed incident report examines an AI coding agent that caused unintended system-wide changes across Fedora infrastructure, raising alarms about autonomous agent deployment in production environments.
+- [How Terry Tao became an evangelist for AI in math](https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/) — *Quanta Magazine / Hacker News* — Fields Medal winner Terence Tao explains how AI tools are transforming mathematical research and why he now actively advocates for their use in serious mathematics.
 
-8. [Claude Desktop Spawns 1.8 GB Hyper-V VM on Every Launch, Even for Chat-Only Use](https://github.com/anthropics/claude-code/issues/29045) — *GitHub / Anthropic* — Users discovered Claude Desktop silently provisions a large virtual machine on Windows even for basic conversations, drawing criticism over resource consumption and transparency.
+- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) — *OpenAI Blog* — OpenAI is acquiring Ona to give Codex persistent, secure cloud environments, enabling long-running autonomous agents in enterprise settings — a key infrastructure move for agentic AI.
 
-9. [Fresh Off Bond Sale, Amazon Borrows $17.5B from Banks as AI Spending Continues](https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/) — *TechCrunch* — Amazon's latest borrowing round underscores the staggering and accelerating capital requirements of the AI infrastructure arms race.
+- [Theker just raised $85M to build the factory robot that doesn't specialize in anything](https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/) — *TechCrunch* — Theker's reconfigurable factory robots challenge the dominant humanoid form factor, betting that generalist hardware adaptability is more valuable than fixed-form specialization.
 
-10. [DiffusionGemma: 4x Faster Text Generation](https://www.reddit.com/r/LocalLLaMA/comments/1u26s8n/diffusiongemma_4x_faster_text_generation/) — *Reddit r/LocalLLaMA* — Google's new diffusion-based Gemma variant claims to dramatically accelerate inference speed compared to standard autoregressive generation.
+- [Avataar's video AI is built for India's scale](https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/) — *TechCrunch* — Avataar's distilled video generation model prices at $0.005/second and is tuned for Indian languages and cultural contexts, targeting cost-sensitive emerging markets at scale.
 
-11. [Cohere Released North Mini Code: Its First Open-Source Agentic Coding Model](https://www.reddit.com/r/LocalLLaMA/comments/1u1za0m/cohere_released_north_mini_code_its_first/) — *Reddit r/LocalLLaMA* — Cohere enters the open-source coding agent space with a model optimized for agentic software development tasks.
+- [Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing](https://importai.substack.com/p/import-ai-460-reward-hacking-society) — *Import AI* — Jack Clark's latest edition covers Anthropic's reinforcement learning safety data release, reward hacking as a societal-level concern, and advances in RL for physical robotics.
 
-12. [Pokémon Go Scans Trained the Navigation Tech for Military Drones](https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/) — *DroneXL via Hacker News* — Niantic's 3D scan data collected via Pokémon Go players was repurposed by a spinout to train GPS-denied navigation systems for military drones.
+- [OpenAI supports EU Code of Practice on AI content transparency](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) — *OpenAI Blog* — OpenAI formally backs EU provenance standards for AI-generated content, signaling a strategic alignment with European regulatory frameworks ahead of AI Act enforcement.
 
-13. ['AI-Pilled' Firms Spend $7,500 Per Employee Each Month on AI](https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/) — *TechCrunch* — Ramp's AI Index finds the most aggressive AI adopters are spending at a rate approaching entry-level engineering salaries per head, signaling a critical inflection in enterprise AI economics.
-
-14. [PRC-Linked Influence Operations Are Targeting AI Debates in the US](https://openai.com/index/prc-linked-influence-operations-ai-debates) — *OpenAI* — OpenAI's threat intelligence report documents Chinese state-linked actors using AI to shape U.S. narratives around data centers, tariffs, and AI regulation.
-
-15. [Nobody Needs AI to Search the Internet, Court Says in Ruling Against Google](https://www.reddit.com/r/artificial/comments/1u2cwez/nobody_needs_ai_to_search_the_internet_court_says/) — *Reddit r/artificial* — A court ruling against Google's search monopoly explicitly rejected the argument that AI-powered search represents a distinct, necessary market — a potentially significant precedent for AI product bundling claims.
+- [How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes) — *OpenAI Blog* — Astrophysicist Chi-kwan Chan describes using OpenAI Codex to accelerate black hole simulation code, illustrating frontier scientific use cases for AI coding agents.
 
 ---
 
 ## Deep Dives
 
-- [Can AI Agents Synthesize Scientific Conclusions?](https://arxiv.org/abs/2606.11337) — *ArXiv cs.AI* — Introduces SciConBench, a rigorous 9,100-question live benchmark evaluating whether AI agents can reliably synthesize conclusions from systematic reviews in high-stakes health domains, revealing significant gaps in current models' scientific reasoning fidelity.
+- [Dual-Stance Evaluation of Sycophancy: The Structure of Agreement and the Limits of Intervention](https://arxiv.org/abs/2606.11205) — *ArXiv cs.LG* — Rigorous study finding that activation steering to reduce LLM sycophancy inadvertently suppresses factually correct agreement too, because the model encodes sycophantic and genuine agreement in geometrically overlapping subspaces — a fundamental challenge for alignment interventions.
 
-- [L'Affaire Siloxane](https://mceglowski.substack.com/p/laffaire-siloxane) — *Maciej Cegłowski / Hacker News* — A long-form investigation (score: 228) examining a specific case of AI-generated or AI-amplified misinformation, offering a close reading of how AI systems interact with regulatory and public discourse in ways that are difficult to trace or correct.
+- [Arbor: Tree Search as a Cognition Layer for Autonomous Agents](https://arxiv.org/abs/2606.12563) — *ArXiv cs.AI* — Introduces a multi-agent framework using explicit tree search as shared working memory across agents, treating failures as diagnostic signals that reshape exploration — a meaningful architectural advance over stateless autonomous optimization systems.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [JIJ And ORCA Computing Report on Path to Commercial Quantum Advantage in Energy Optimization](https://thequantuminsider.com/2026/06/11/jij-and-orca-computing-report-on-path-to-commercial-quantum-advantage-in-energy-optimization/) — *The Quantum Insider* — JIJ and ORCA Computing demonstrate progress toward achieving commercial quantum advantage in energy optimization applications.
+- [HKU Engineering Develops 'Brain-Like' Chip to Advance Quantum Computing And Deep-Space Exploration](https://thequantuminsider.com/2026/06/12/hku-engineering-develops-brain-like-chip-to-advance-quantum-computing-and-deep-space-exploration/) — *The Quantum Insider* — HKU scientists created a neuromorphic chip functioning near absolute zero that mimics brain neurons using silicon carbide transistors.
 
-- [Silicon Quantum Computing Secures Additional AUD$40 Million From Australia's NRFC](https://thequantuminsider.com/2026/06/11/silicon-quantum-computing-secures-additional-aud40-million-from-australias-nrfc/) — *The Quantum Insider* — Silicon Quantum Computing receives significant additional funding to advance silicon-based quantum computing development.
+- [Google Declined U.S. Quantum Funding Initiative Over Program Restrictions](https://thequantuminsider.com/2026/06/12/google-declined-u-s-quantum-funding-initiative-over-program-restrictions/) — *The Quantum Insider* — Google rejected participation in a U.S. quantum computing funding program due to concerns over program restrictions.
 
-- [Quantropi and Nokia Launch Integrated Quantum-Safe Key Distribution Solution](https://thequantuminsider.com/2026/06/10/quantropi-and-nokia-launch-integrated-quantum-safe-key-distribution-solution/) — *The Quantum Insider* — Quantropi and Nokia partner to deploy an integrated quantum-safe key distribution solution addressing post-quantum cryptography needs.
+- [Trapped-Ion Quantum Computing Companies in 2026](https://thequantuminsider.com/2026/06/12/trapped-ion-quantum-computing-companies-technology-and-where-it-stands-in-2026/) — *The Quantum Insider* — A comprehensive overview of trapped-ion quantum computing technology and the companies advancing this approach.
 
-- [New light-powered chip could accelerate AI and quantum computing](https://www.sciencedaily.com/releases/2026/06/260601025343.htm) — *ScienceDaily Quantum* — Scientists develop a chip using atomically thin materials to generate, steer, and read light-based information for ultra-fast, energy-efficient computing.
+- [Stanford quantum computing breakthrough uses twisted light to work without extreme cooling](https://www.sciencedaily.com/releases/2026/05/260528074028.htm) — *ScienceDaily Quantum* — Stanford researchers developed a room-temperature quantum device using twisted light to entangle photons and electrons, eliminating the need for extreme cooling.
 
-- [Stanford quantum computing breakthrough uses twisted light to work without extreme cooling](https://www.sciencedaily.com/releases/2026/05/260528074028.htm) — *ScienceDaily Quantum* — Stanford researchers create a room-temperature quantum device using twisted light to entangle photons and electrons, eliminating the need for extreme cooling.
+- [Microsoft doubles down on controversial quantum computing claims](https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans) — *Hacker News (quantum)* — Microsoft accelerates its quantum computing plans while defending controversial claims about its quantum technology progress.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – June 10, 2026 (#802)](https://seroter.com)**
+**[Daily Reading List – June 11, 2026 (#803)](https://seroter.com)**
 
-_Strategic flex time matters; AI agents need proper context, routing, and security guardrails to deliver real engineering velocity gains._
+_AI adoption requires fixing organizational trust and deployment infrastructure first; loop engineering and agentic systems are reshaping workflows significantly._
