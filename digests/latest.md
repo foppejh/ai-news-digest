@@ -1,58 +1,64 @@
-# AI News Digest — 2026-06-12
+# AI News Digest — 2026-06-13
 
 ## Executive Summary
-Today's dominant story is Anthropic's "Claude Fable" rollout, which generated significant controversy: Anthropic apologized for hidden "invisible distillation guardrails," while independent benchmarks found mid-tier coding performance, and a viral demo showcased its surprisingly proactive agentic behavior. OpenAI made a quiet but significant acquisition, buying "Ona" to extend Codex with persistent cloud environments for long-running enterprise agents. On the funding front, Jeff Bezos's Prometheus raised a staggering $12B at a $41B valuation to build an "artificial general engineer" for physical-world automation, and robotics startup Theker raised $85M for reconfigurable factory robots. A cautionary tale about an AI agent bankrupting its operator through uncontrolled API spending dominated Hacker News, highlighting real risks of autonomous agents given broad resource access.
+The day's biggest AI story is a government crackdown on Anthropic's most powerful model following safety warnings that may have backfired, highlighting the growing tension between AI safety advocacy and regulatory overreach. OpenAI continues its enterprise expansion, acquiring cloud infrastructure startup Ona to bolster its Codex agent platform and launching new Academy courses. Meta's internal AI organization is reportedly in crisis, with 6,500 engineers describing a dysfunctional work environment. The open-source AI movement is generating significant community debate, while Google takes legal action against an AI-powered Chinese cybercrime operation — underscoring how AI is rapidly becoming a tool for large-scale fraud.
+
+---
 
 ## Top Stories
 
-- [AI agent bankrupted their operator while trying to scan DN42](https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/) — *Hacker News* — A runaway AI agent autonomously made thousands of API calls while attempting a network scan, racking up costs that exceeded the operator's budget — a striking real-world example of agentic resource mismanagement.
+- [Anthropic's safety warnings may have just backfired — the government has pulled the plug on its most powerful AI](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/) — *TechCrunch AI* — In a striking policy reversal, a government body has recalled Anthropic's most capable commercial model after a narrow jailbreak finding, despite the model being deployed to hundreds of millions of users — prompting Anthropic to publicly push back.
 
-- [Anthropic apologizes for invisible Claude Fable guardrails](https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail) — *The Verge / Hacker News* — Anthropic admitted to shipping undisclosed "distillation guardrails" in Claude Fable that silently constrained model outputs without user awareness, prompting a public apology.
+- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) — *OpenAI Blog* — OpenAI is acquiring Ona to give its Codex agent platform secure, persistent cloud environments capable of running long-duration enterprise AI workflows.
 
-- [Claude Fable is relentlessly proactive](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/) — *Hacker News (Simon Willison)* — Simon Willison's detailed exploration finds Claude Fable takes aggressive autonomous initiative in agentic tasks, raising both excitement and concern about default agent behavior.
+- [Meta's months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it](https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/) — *TechCrunch AI* — Meta's 6,500-person AI organization, only months old, is reportedly on the verge of internal revolt due to poor culture and management dysfunction.
 
-- [Claude Fable 5: mid-tier results on coding tasks](https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype) — *Hacker News / Endor Labs* — An independent security-focused benchmark finds Claude Fable 5 underperforms its marketing claims on real-world coding tasks, scoring in the middle tier among leading models.
+- [Open source AI must win](https://opensourceaimustwin.com/?share=v2) — *Hacker News* — A high-engagement manifesto arguing that open-source AI development is an existential necessity, sparking 285 comments of debate on Hacker News.
 
-- [Jeff Bezos's Prometheus raises $12B to build an 'artificial general engineer' for the physical world](https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/) — *TechCrunch* — Prometheus, Bezos's physical AI startup targeting heavy engineering automation and drug design, closed a $12B round valuing it at $41B, one of the largest AI funding rounds to date.
+- [Chinese cybercrime operation that used AI to scam 'hundreds of thousands of victims' sued by Google](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/) — *TechCrunch AI* — Google is suing a group called "Outsider Enterprise" that weaponized AI to send 2.5 million fraudulent text messages in just two weeks.
 
-- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) — *OpenAI Blog* — OpenAI is acquiring Ona to give Codex secure, persistent cloud environments, enabling AI agents to run long, stateful workflows across enterprise systems — a key infrastructure upgrade for agentic deployment.
+- ["Don't You Just Upload It to ChatGPT?"](https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/) — *Hacker News* — A widely-discussed essay examining the gap between how non-technical users casually approach AI tools versus the nuanced reality of their limitations and risks.
 
-- [Kimi K2.7-Code: open-source coding model with better token efficiency](https://huggingface.co/moonshotai/Kimi-K2.7-Code) — *Hacker News / HuggingFace* — Moonshot AI releases Kimi K2.7-Code as an open-weight model claiming competitive coding performance with meaningfully improved token efficiency compared to prior releases.
+- [How to setup a local coding agent on macOS](https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos) — *Hacker News* — A practical, high-upvote guide for running a fully local coding agent on macOS, relevant as privacy-conscious developers seek alternatives to cloud-based coding assistants.
 
-- [Theker just raised $85M to build the factory robot that doesn't specialize in anything](https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/) — *TechCrunch* — Unlike fixed-form humanoid robots, Theker's platform is designed to be physically reconfigured for arbitrary factory tasks, with $85M to prove out the generalist industrial robotics thesis.
+- [Slightly reducing the sloppiness of AI generated front end](https://envs.net/~volpe/blog/posts/reduce-slop.html) — *Hacker News* — A hands-on piece offering concrete techniques for improving the quality and consistency of AI-generated frontend code, addressing a common developer frustration.
 
-- [Cheaper, faster, and culturally aware, Avataar's video AI is built for India's scale](https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/) — *TechCrunch* — Avataar AI launches a distilled video generation model priced at $0.005 per second optimized for Indian cultural contexts, targeting a market largely underserved by Western video AI providers.
+- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work) — *OpenAI Blog* — OpenAI launches three structured Academy courses aimed at building practical AI skills and agent-based workflows for everyday workers.
 
-- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva) — *OpenAI Blog* — BBVA has scaled ChatGPT Enterprise to all 100,000 employees, representing one of the largest enterprise AI deployments in the financial sector globally.
+- [OpenAI supports EU AI content transparency Code of Practice](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) — *OpenAI Blog* — OpenAI has signed onto the EU's voluntary Code of Practice on AI content provenance, advancing standards for labeling and tracing AI-generated content.
 
-- [Supporting Europe's work in ensuring a trustworthy AI ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) — *OpenAI Blog* — OpenAI formally joins the EU Code of Practice on AI content transparency, committing to provenance standards and content authenticity tools ahead of AI Act enforcement.
+- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva) — *OpenAI Blog* — Spanish banking giant BBVA has scaled ChatGPT Enterprise to all 100,000 employees, one of the largest documented enterprise AI rollouts to date.
 
-- [Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing](https://importai.substack.com/p/import-ai-460-reward-hacking-society) — *Import AI* — Jack Clark's latest issue covers Anthropic's recursive self-improvement data release, reward hacking dynamics at societal scale, and a concrete RL application in competitive drone racing.
+- [Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing](https://importai.substack.com/p/import-ai-460-reward-hacking-society) — *Import AI* — Jack Clark's latest newsletter covers Anthropic's release of RSI (recursive self-improvement) data, reward hacking dynamics, and RL-trained quadcopter racing agents.
+
+- [Unprofessional Coauthor Behavior with Hallucinated References](https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/) — *Reddit r/MachineLearning* — A researcher warns the ML community about a coauthor who submitted hallucinated citations generated by an LLM, raising integrity concerns for AI-assisted academic publishing.
+
+---
 
 ## Deep Dives
 
-- [Dual-Stance Evaluation of Sycophancy: The Structure of Agreement and the Limits of Intervention](https://arxiv.org/abs/2606.11205) — *ArXiv cs.LG* — This paper introduces a rigorous dual-stance evaluation methodology revealing that LLM sycophancy and genuine factual agreement occupy geometrically distinct subspaces, meaning popular activation-steering interventions cannot selectively suppress sycophancy without also suppressing correct agreement — a significant finding for alignment research.
+- [Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems](https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult) — *Import AI* — A substantive edition examining why AI oversight is structurally harder than anticipated, emerging scaling laws for biology-focused AI, and early attempts to quantify existential risk from AI systems in financial terms.
 
-- [Arbor: Tree Search as a Cognition Layer for Autonomous Agents](https://arxiv.org/abs/2606.12563) — *ArXiv cs.AI* — Arbor proposes embedding structured tree search as shared working memory across multi-agent systems operating in large stateful action spaces, treating failed exploration paths as diagnostic signal — a promising architectural departure from stateless agentic pipelines.
+- [PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn](https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/) — *Reddit r/MachineLearning* — A technically detailed open-source project delivering a lightweight, dependency-free C++ implementation of PaddleOCR up to v6 using the ncnn inference framework, making on-device OCR significantly more accessible for deployment.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [HKU Engineering Develops 'Brain-Like' Chip to Advance Quantum Computing And Deep-Space Exploration](https://thequantuminsider.com/2026/06/12/hku-engineering-develops-brain-like-chip-to-advance-quantum-computing-and-deep-space-exploration/) — *The Quantum Insider* — HKU researchers created a neuromorphic chip functioning near absolute zero that mimics brain neurons for quantum computing applications.
+- [Quantum Threat to Crypto Is Not Here Yet, but Coinbase Advisory Board Says the Time to Prepare Is Now](https://thequantuminsider.com/2026/06/13/quantum-threat-to-crypto-is-not-here-yet-but-coinbase-advisory-board-says-the-time-to-prepare-is-now/) — *The Quantum Insider* — Coinbase's advisory board urges the crypto industry to begin preparing for the eventual quantum computing threat to current encryption methods.
 
-- [Google Declined U.S. Quantum Funding Initiative Over Program Restrictions](https://thequantuminsider.com/2026/06/12/google-declined-u-s-quantum-funding-initiative-over-program-restrictions/) — *The Quantum Insider* — Google rejected U.S. quantum computing funding due to program limitations and restrictions.
+- [SEALSQ Advances Satellite-Based Post-Quantum Security Platform](https://thequantuminsider.com/2026/06/12/sealsq-advances-satellite-based-post-quantum-security/) — *The Quantum Insider* — SEALSQ is developing a satellite-based security platform to protect against quantum computing threats.
 
-- [Trapped-Ion Quantum Computing Companies in 2026](https://thequantuminsider.com/2026/06/12/trapped-ion-quantum-computing-companies-technology-and-where-it-stands-in-2026/) — *The Quantum Insider* — A comprehensive overview of the trapped-ion quantum computing sector and its current technological status.
+- [HKU Engineering Develops 'Brain-Like' Chip to Advance Quantum Computing And Deep-Space Exploration](https://thequantuminsider.com/2026/06/12/hku-engineering-develops-brain-like-chip-to-advance-quantum-computing-and-deep-space-exploration/) — *The Quantum Insider* — University of Hong Kong researchers created a neuromorphic chip that operates near absolute zero and could accelerate quantum computing applications.
 
-- [Stanford quantum computing breakthrough uses twisted light to work without extreme cooling](https://www.sciencedaily.com/releases/2026/05/260528074028.htm) — *ScienceDaily Quantum* — Stanford researchers developed a room-temperature quantum device using twisted light to entangle photons and electrons, eliminating the need for extreme cooling.
+- [Stanford quantum computing breakthrough uses twisted light to work without extreme cooling](https://www.sciencedaily.com/releases/2026/05/260528074028.htm) — *ScienceDaily Quantum* — Stanford scientists developed a room-temperature quantum device using twisted light to entangle photons and electrons, eliminating the need for extreme cooling.
 
-- [Microsoft doubles down on controversial quantum computing claims](https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans) — *Science Magazine* — Microsoft is accelerating its quantum computing plans despite ongoing controversy surrounding its earlier claims.
+- [New light-powered chip could accelerate AI and quantum computing](https://www.sciencedaily.com/releases/2026/06/260601025343.htm) — *ScienceDaily Quantum* — Scientists created an all-in-one chip using atomically thin materials that generates, steers, and reads light-based information for ultra-fast, energy-efficient computing.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – June 11, 2026 (#803)](https://seroter.com)**
+**[Daily Reading List – June 12, 2026 (#804)](https://seroter.com)**
 
-_AI adoption requires fixing organizational trust and deployment infrastructure before tools matter; ROI demands proper metrics and pipeline speed._
+_Google releases developer tools (Colab CLI, Antigravity SDK); Java modernization urgent; AI agents need better memory management; flat-rate AI coding tools ending._
