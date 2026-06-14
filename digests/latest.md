@@ -1,59 +1,53 @@
-# AI News Digest — 2026-06-13
+# AI News Digest — 2026-06-14
 
 ## Executive Summary
-The day's biggest AI story is a government crackdown on Anthropic's most powerful model following safety warnings that may have backfired, highlighting the growing tension between AI safety advocacy and regulatory overreach. OpenAI continues its enterprise expansion, acquiring cloud infrastructure startup Ona to bolster its Codex agent platform and launching new Academy courses. Meta's internal AI organization is reportedly in crisis, with 6,500 engineers describing a dysfunctional work environment. The open-source AI movement is generating significant community debate, while Google takes legal action against an AI-powered Chinese cybercrime operation — underscoring how AI is rapidly becoming a tool for large-scale fraud.
-
----
+The dominant story today is the Anthropic access crisis: Amazon CEO Andy Jassy reportedly triggered a U.S. government crackdown that forced Anthropic to suspend access to two new models globally, sending shockwaves through India's AI ecosystem and raising questions about geopolitical control over frontier AI. Meanwhile, Meta is unwinding its $2B Manus acquisition after pressure from Beijing, highlighting how both superpowers are asserting control over AI assets. On the accountability front, a UK police officer is under investigation for fabricating evidence using AI, KPMG pulled an AI report contaminated by hallucinations, and OpenAI faces a multi-state attorneys general investigation — a trio of stories signaling a growing reckoning with AI misuse and reliability.
 
 ## Top Stories
 
-- [Anthropic's safety warnings may have just backfired — the government has pulled the plug on its most powerful AI](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/) — *TechCrunch AI* — In a striking policy reversal, a government body has recalled Anthropic's most capable commercial model after a narrow jailbreak finding, despite the model being deployed to hundreds of millions of users — prompting Anthropic to publicly push back.
+- [Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578) — *WSJ / Hacker News* — Andy Jassy reportedly raised national security concerns with U.S. officials that led directly to Anthropic pulling worldwide access to two newly released models, marking an unprecedented instance of a corporate partner triggering a government-driven AI shutdown.
 
-- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) — *OpenAI Blog* — OpenAI is acquiring Ona to give its Codex agent platform secure, persistent cloud environments capable of running long-duration enterprise AI workflows.
+- [As Anthropic suspends access to new models, India debates its AI future](https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/) — *TechCrunch* — The abrupt U.S.-driven suspension has exposed India's dependence on American AI infrastructure and is catalyzing a national debate about sovereign AI development.
 
-- [Meta's months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it](https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/) — *TechCrunch AI* — Meta's 6,500-person AI organization, only months old, is reportedly on the verge of internal revolt due to poor culture and management dysfunction.
+- [Meta reportedly moves to unwind $2B Manus deal after Beijing's demand](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/) — *TechCrunch* — Beijing ordered Meta to reverse its $2 billion acquisition of Manus, and Meta is complying — a striking demonstration of China's willingness to block foreign tech acquisitions of domestic AI companies.
 
-- [Open source AI must win](https://opensourceaimustwin.com/?share=v2) — *Hacker News* — A high-engagement manifesto arguing that open-source AI development is an existential necessity, sparking 285 comments of debate on Hacker News.
+- [Police officer investigated for using AI to 'create evidence' in multiple cases](https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661) — *Sky News / Hacker News* — A Derbyshire officer is under investigation for allegedly using AI to fabricate or alter evidence across multiple cases, representing one of the first law enforcement AI-evidence fraud cases in the UK.
 
-- [Chinese cybercrime operation that used AI to scam 'hundreds of thousands of victims' sued by Google](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/) — *TechCrunch AI* — Google is suing a group called "Outsider Enterprise" that weaponized AI to send 2.5 million fraudulent text messages in just two weeks.
+- [OpenAI faces investigation from state attorneys general](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/) — *TechCrunch* — Multiple U.S. state AGs have opened investigations into OpenAI covering ad policies, health data handling, and other practices, signaling a new front of regulatory pressure beyond federal oversight.
 
-- ["Don't You Just Upload It to ChatGPT?"](https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/) — *Hacker News* — A widely-discussed essay examining the gap between how non-technical users casually approach AI tools versus the nuanced reality of their limitations and risks.
+- [KPMG pulls report on AI usage due to apparent hallucinations](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/) — *TechCrunch* — KPMG retracted a published report after discovering it contained AI-generated fabrications, underscoring the reputational risk of deploying LLMs in high-stakes professional research.
 
-- [How to setup a local coding agent on macOS](https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos) — *Hacker News* — A practical, high-upvote guide for running a fully local coding agent on macOS, relevant as privacy-conscious developers seek alternatives to cloud-based coding assistants.
+- [AI OSS tool repo goes archived overnight after raising $7.3M Seed](https://github.com/tensorzero/tensorzero) — *Hacker News* — TensorZero, an open-source LLM optimization framework, suddenly archived its GitHub repo the day after announcing a $7.3M seed round, raising community alarm about the future of the project.
 
-- [Slightly reducing the sloppiness of AI generated front end](https://envs.net/~volpe/blog/posts/reduce-slop.html) — *Hacker News* — A hands-on piece offering concrete techniques for improving the quality and consistency of AI-generated frontend code, addressing a common developer frustration.
+- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) — *OpenAI Blog* — OpenAI is acquiring Ona to provide Codex with secure, persistent cloud environments, enabling long-running AI agents to operate reliably across enterprise workflows.
 
-- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work) — *OpenAI Blog* — OpenAI launches three structured Academy courses aimed at building practical AI skills and agent-based workflows for everyday workers.
+- [Making Claude a Chemist](https://www.anthropic.com/research/making-claude-a-chemist) — *Anthropic / Hacker News* — Anthropic details research on fine-tuning and prompting Claude for specialized chemistry tasks, with implications for AI safety in dual-use scientific domains.
 
-- [OpenAI supports EU AI content transparency Code of Practice](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) — *OpenAI Blog* — OpenAI has signed onto the EU's voluntary Code of Practice on AI content provenance, advancing standards for labeling and tracing AI-generated content.
+- [AI coding at home without going broke](https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/) — *Hacker News* — A practical, well-received guide to running capable AI coding workflows locally using cost-efficient model choices, relevant as API costs remain a barrier for individual developers.
 
-- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva) — *OpenAI Blog* — Spanish banking giant BBVA has scaled ChatGPT Enterprise to all 100,000 employees, one of the largest documented enterprise AI rollouts to date.
+- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work) — *OpenAI Blog* — OpenAI launches structured Academy courses focused on building repeatable AI workflows and deploying agents in workplace settings, targeting mainstream professional adoption.
 
-- [Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing](https://importai.substack.com/p/import-ai-460-reward-hacking-society) — *Import AI* — Jack Clark's latest newsletter covers Anthropic's release of RSI (recursive self-improvement) data, reward hacking dynamics, and RL-trained quadcopter racing agents.
-
-- [Unprofessional Coauthor Behavior with Hallucinated References](https://www.reddit.com/r/MachineLearning/comments/1u4m3lz/unprofessional_coauthor_behavior_with/) — *Reddit r/MachineLearning* — A researcher warns the ML community about a coauthor who submitted hallucinated citations generated by an LLM, raising integrity concerns for AI-assisted academic publishing.
-
----
+- [OpenAI supports EU Code of Practice on AI content transparency](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) — *OpenAI Blog* — OpenAI formally endorses EU provenance and content transparency standards, a notable policy commitment ahead of AI Act enforcement deadlines.
 
 ## Deep Dives
 
-- [Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems](https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult) — *Import AI* — A substantive edition examining why AI oversight is structurally harder than anticipated, emerging scaling laws for biology-focused AI, and early attempts to quantify existential risk from AI systems in financial terms.
+- [The Verifier Tax: Horizon-Dependent Safety–Success Tradeoffs in Tool-Using LLM Agents](https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/) — *Reddit r/MachineLearning (ACM CAIS 2026)* — Presented at ACM CAIS 2026, this paper formalizes the tension between task completion and safety compliance in agentic LLMs, introducing the concept of a "verifier tax" — the performance cost of enforcing safety constraints — which becomes more pronounced as task horizons lengthen.
 
-- [PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn](https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/) — *Reddit r/MachineLearning* — A technically detailed open-source project delivering a lightweight, dependency-free C++ implementation of PaddleOCR up to v6 using the ncnn inference framework, making on-device OCR significantly more accessible for deployment.
+- [Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing](https://importai.substack.com/p/import-ai-460-reward-hacking-society) — *Import AI* — The latest edition covers Anthropic's release of reinforcement learning from self-improvement (RSI) data, emerging reward hacking behaviors at scale, and state-of-the-art RL applied to physical robotics — a solid synthesis of current frontier AI research trends.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [Quantum Threat to Crypto Is Not Here Yet, but Coinbase Advisory Board Says the Time to Prepare Is Now](https://thequantuminsider.com/2026/06/13/quantum-threat-to-crypto-is-not-here-yet-but-coinbase-advisory-board-says-the-time-to-prepare-is-now/) — *The Quantum Insider* — Coinbase's advisory board urges the crypto industry to begin preparing for the eventual quantum computing threat to current encryption methods.
+- [Microsoft And Quantinuum Report on Major Gains in Quantum Error Correction](https://thequantuminsider.com/2026/06/13/microsoft-and-quantinuum-report-on-major-gains-in-quantum-error-correction/) — *The Quantum Insider* — Microsoft and Quantinuum achieve significant breakthroughs in quantum error correction technology.
 
-- [SEALSQ Advances Satellite-Based Post-Quantum Security Platform](https://thequantuminsider.com/2026/06/12/sealsq-advances-satellite-based-post-quantum-security/) — *The Quantum Insider* — SEALSQ is developing a satellite-based security platform to protect against quantum computing threats.
+- [Quantum Threat to Crypto Is Not Here Yet, but Coinbase Advisory Board Says the Time to Prepare Is Now](https://thequantuminsider.com/2026/06/13/quantum-threat-to-crypto-is-not-here-yet-but-coinbase-advisory-board-says-the-time-to-prepare-is-now/) — *The Quantum Insider* — Cryptocurrency industry must begin preparing defenses against future quantum computing threats.
 
-- [HKU Engineering Develops 'Brain-Like' Chip to Advance Quantum Computing And Deep-Space Exploration](https://thequantuminsider.com/2026/06/12/hku-engineering-develops-brain-like-chip-to-advance-quantum-computing-and-deep-space-exploration/) — *The Quantum Insider* — University of Hong Kong researchers created a neuromorphic chip that operates near absolute zero and could accelerate quantum computing applications.
+- [Stanford quantum computing breakthrough uses twisted light to work without extreme cooling](https://www.sciencedaily.com/releases/2026/05/260528074028.htm) — *ScienceDaily Quantum* — Stanford develops room-temperature quantum device using twisted light, eliminating the need for extreme cooling systems.
 
-- [Stanford quantum computing breakthrough uses twisted light to work without extreme cooling](https://www.sciencedaily.com/releases/2026/05/260528074028.htm) — *ScienceDaily Quantum* — Stanford scientists developed a room-temperature quantum device using twisted light to entangle photons and electrons, eliminating the need for extreme cooling.
+- [Brain-inspired chip runs near absolute zero and could transform quantum computing](https://www.sciencedaily.com/releases/2026/06/260612032024.htm) — *ScienceDaily Quantum* — University of Hong Kong creates brain-inspired chip functioning near absolute zero that mimics efficient neural firing patterns.
 
-- [New light-powered chip could accelerate AI and quantum computing](https://www.sciencedaily.com/releases/2026/06/260601025343.htm) — *ScienceDaily Quantum* — Scientists created an all-in-one chip using atomically thin materials that generates, steers, and reads light-based information for ultra-fast, energy-efficient computing.
+- [New light-powered chip could accelerate AI and quantum computing](https://www.sciencedaily.com/releases/2026/06/260601025343.htm) — *ScienceDaily Quantum* — Scientists develop chip using atomically thin materials to control quantum properties of light for ultra-fast, energy-efficient computing.
 
 ---
 
@@ -61,4 +55,4 @@ The day's biggest AI story is a government crackdown on Anthropic's most powerfu
 
 **[Daily Reading List – June 12, 2026 (#804)](https://seroter.com)**
 
-_Google releases developer tools (Colab CLI, Antigravity SDK); Java modernization urgent; AI agents need better memory management; flat-rate AI coding tools ending._
+_Google releases new developer tools (Colab CLI, Antigravity SDK); Java modernization urgent; AI agents need smarter context management; flat-rate AI coding pricing ending._
