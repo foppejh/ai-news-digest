@@ -1,57 +1,55 @@
-# AI News Digest — 2026-07-03
+# AI News Digest — 2026-07-04
 
 ## Executive Summary
-Today's AI news is marked by corporate caution and strategic maneuvering: Zuckerberg admitted Meta's AI agents are behind schedule, while Alibaba reportedly moved to ban Anthropic's Claude Code over backdoor concerns. On the infrastructure front, Anthropic is in chip talks with Samsung as the hardware race intensifies. Policy developments were notable, with Japan's top court ruling AI cannot be listed as a patent inventor, and Spain blacklisting Palantir. A compelling research finding suggests a single transformer layer may match full-parameter RL training, potentially reshaping how we think about model efficiency.
+OpenAI launched GeneBench-Pro, a new benchmark for evaluating AI performance in genomics and biological research, signaling growing AI ambitions in life sciences. Meta's Zuckerberg acknowledged internally that AI agent development is behind schedule — a candid admission that tempers recent industry optimism around autonomous agents. A notable Epoch AI analysis found a spike in serious software vulnerabilities correlating with the release of Claude Mythos Preview, raising questions about AI's indirect effects on the security landscape. On the infrastructure side, a popular GitHub guide for running state-of-the-art LLMs locally gained significant traction, reflecting sustained interest in on-device AI. Meanwhile, OpenAI's own data shows ChatGPT adoption continues to grow globally across regions and languages.
 
 ## Top Stories
 
-- [Mark Zuckerberg tells staff that AI agents haven't progressed as quickly as he'd hoped](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/) — *TechCrunch AI* — In a rare internal admission, Meta's CEO acknowledged AI agent development is lagging behind internal expectations, a significant signal given Meta's massive AI investment.
+- [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro) — *OpenAI Blog* — OpenAI releases a new benchmark designed to rigorously test AI capabilities in genomics, biology, and scientific research using complex, real-world datasets.
 
-- [Alibaba to ban Claude Code in workplace over alleged backdoor risks](https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/) — *Hacker News / Reuters* — Alibaba is reportedly prohibiting employee use of Anthropic's Claude Code, citing security concerns about potential backdoors — a notable flashpoint in US-China tech tensions.
+- [New serious vulnerabilities spiked around release of Claude Mythos Preview](https://epoch.ai/data-insights/cve-severity-spike) — *Hacker News* — Epoch AI data shows a statistically notable surge in high-severity CVEs coinciding with the Claude Mythos Preview release, prompting scrutiny of AI's role in the security ecosystem.
 
-- [AI can't be listed as inventor on patent applications, Japan's top court rules](https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/) — *Hacker News / Japan News* — Japan's Supreme Court has definitively ruled that only humans can be named inventors, aligning with similar rulings in the US and UK and closing the door on AI patent rights in Japan.
+- [Mark Zuckerberg tells staff that AI agents haven't progressed as quickly as he'd hoped](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/) — *TechCrunch AI* — At an internal Meta all-hands, Zuckerberg reportedly admitted AI agent development is lagging behind internal expectations, a rare public acknowledgment of limitations from a major AI investor.
 
-- [Spain Orders Blacklist of Palantir from Public and Private Companies](https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv) — *Hacker News* — Spain has taken the sweeping step of barring Palantir from both government and private sector use, one of the most aggressive national-level actions against a US AI/data company to date.
+- [Jamesob's guide to running SOTA LLMs locally](https://github.com/jamesob/local-llm) — *Hacker News* — A highly-upvoted practical GitHub guide covering hardware requirements, software setup, and model selection for running frontier-class LLMs on local machines.
 
-- [Anthropic is discussing a new custom chip with Samsung](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/) — *TechCrunch AI* — Anthropic is pursuing its own silicon strategy in talks with Samsung, following OpenAI's Broadcom chip announcement and signaling that frontier AI labs are racing to reduce dependence on Nvidia.
+- [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded) — *OpenAI Blog* — New OpenAI Signals data reveals ChatGPT's global user base is growing in depth (usage frequency and feature breadth) as well as geographic reach, with notable expansion across non-English languages.
 
-- [OpenAI proposed donating 5% of its equity to a US sovereign wealth fund](https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/) — *TechCrunch AI* — Sam Altman's proposal to share OpenAI equity with a US sovereign wealth fund is a novel attempt to give the American public a financial stake in the AI boom while potentially securing favorable regulatory treatment.
+- [Mapping Europe's AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu) — *OpenAI Blog* — OpenAI publishes a report analyzing which EU occupations face automation risk, workflow augmentation, or new growth due to AI, with policy implications for workforce planning.
 
-- [Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Training](https://arxiv.org/abs/2607.01232) — *Hacker News / ArXiv* — Researchers find that training just one transformer layer can match the performance of full-parameter RL fine-tuning, with major implications for compute efficiency and our understanding of where learning happens in large models.
+- [Meta quietly launches vibe-coded gaming app Pocket](https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/) — *TechCrunch AI* — Meta soft-launched an experimental AI app allowing users to generate and share playable mini-games from text prompts, signaling a push into AI-native interactive entertainment.
 
-- [Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers](https://senior-swe-bench.snorkel.ai/) — *Hacker News* — Snorkel AI launches a harder, more realistic coding benchmark designed to evaluate whether AI agents can perform at the level of experienced software engineers, not just pass entry-level tasks.
+- [Agentic coding notes from Galapagos Island](https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post) — *Hacker News* — Dan Luu shares detailed field notes on practical agentic coding workflows, including observations on where autonomous coding loops succeed and fail in real projects.
 
-- [OpenAI introduces GeneBench-Pro](https://openai.com/index/introducing-genebench-pro) — *OpenAI Blog* — OpenAI releases a new genomics and biology benchmark using complex real-world datasets, marking a push to rigorously evaluate AI performance in scientific research domains.
+- [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) — *OpenAI Blog* — OpenAI engineers describe using large-scale AI-assisted core dump analysis to track down a rare infrastructure crash, uncovering both a hardware fault and an 18-year-old software bug.
 
-- [Meta quietly launches vibe-coded gaming app Pocket](https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/) — *TechCrunch AI* — Meta's new experimental app lets users generate and share interactive mini-games via text prompts, representing a consumer-facing test of AI-generated interactive content at scale.
+- [Jersey Mike's IPO illustrates how bad the AI hype has become](https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/) — *TechCrunch AI* — A TechCrunch columnist finds AI prominently featured in a sandwich chain's IPO filings, using it as a pointed illustration of how pervasive — and hollow — AI hype has become in corporate disclosures.
 
-- [LLMs are stuck in a groupthink groove — this startup is trying to get them out](https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/) — *MIT Technology Review* — A startup is tackling the well-documented problem of LLMs converging on similar outputs, which has implications for diversity of AI-generated thought in high-stakes decision-making.
+- [Contrastive Decoding Diffing (CDD): recovering verbatim finetuning data from logits alone](https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/) — *Reddit r/MachineLearning* — Researchers demonstrate a grey-box technique that recovers verbatim training data from narrowly fine-tuned LLMs using only output logits, with no weight or activation access required — significant for privacy and IP concerns.
 
-- [The short leash AI coding method for beating Fable](https://blog.okturtles.org/2026/07/short-leash-ai-method/) — *Hacker News* — A practical writeup on a constrained, human-oversight-heavy approach to AI-assisted coding that keeps the developer in control, generating significant community discussion about agentic workflow design.
+- [Dispersion loss counteracts embedding condensation in small language models](https://chenliu-1996.github.io/projects/LM-Dispersion/) — *Hacker News* — A research project introduces a dispersion loss technique to prevent representation collapse in small LLM embeddings, potentially improving the efficiency of compact models.
 
-- [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded) — *OpenAI Blog* — OpenAI releases new "Signals" data showing accelerating global ChatGPT adoption, with users deepening engagement and growth spreading across regions and languages.
-
-- [Jersey Mike's IPO illustrates how bad the AI hype has become](https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/) — *TechCrunch AI* — Even a sandwich chain's IPO filing now contains AI references, offering a sharp illustration of how pervasive — and potentially hollow — AI rhetoric has become in corporate filings.
+- [Crafting an agent team that still includes me](https://seroter.com/2026/06/28/crafting-an-agent-team-that-still-includes-me/) — *Richard Seroter's Architecture Musings* — A thoughtful practitioner essay on how to design multi-agent systems that preserve meaningful human oversight rather than ceding full control to autonomous agent loops.
 
 ## Deep Dives
 
-- [Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Training](https://arxiv.org/abs/2607.01232) — *ArXiv* — This paper challenges assumptions about where RL fine-tuning adds value in transformers; if a single layer can replicate gains from full-parameter training, it could fundamentally reshape efficient fine-tuning strategies and reduce training costs at scale.
+- [Agentic coding notes from Galapagos Island](https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post) — *Hacker News* — Dan Luu's characteristically detailed long-form analysis of real-world agentic coding, with an appendix specifically examining how agentic loops were used to write the post itself — a rare honest account of both the power and the friction of current AI coding tools.
 
-- [OpenAI: Mapping Europe's AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu) — *OpenAI Blog* — A detailed report mapping which EU occupations face automation, growth, or workflow transformation from AI — a substantive piece of labor market analysis with real policy implications for European governments navigating the AI transition.
+- [Contrastive Decoding Diffing (CDD): recovering verbatim finetuning data from logits alone](https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/) — *Reddit r/MachineLearning* — A technically significant research result showing that fine-tuning data can be extracted from production LLMs with only API-level logit access, with direct implications for model privacy audits, copyright enforcement, and responsible deployment practices.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [South Korea Expands Quantum Cooperation With Canada, U.K. and EU at Quantum Korea 2026](https://thequantuminsider.com/2026/07/03/south-korea-expands-quantum-cooperation-with-canada-u-k-and-eu-at-quantum-korea-2026/) — *The Quantum Insider* — South Korea strengthens international quantum computing partnerships across multiple nations at a major conference.
+- [IQM Joins Nasdaq as Public Quantum Computing Company](https://thequantuminsider.com/2026/07/03/iqm-begins-trading-on-nasdaq/) — *The Quantum Insider* — IQM became a publicly traded quantum computing company on Nasdaq, marking a significant milestone for the industry.
 
-- [University of Michigan-Led Quantum Photonics Project Receives $4 Million NSF Award](https://thequantuminsider.com/2026/07/02/institute-of-optical-science-advances-with-4-million-nsf-quantum-award/) — *The Quantum Insider* — Major NSF funding supports quantum photonics research at leading U.S. university.
+- [QoreChain Demonstrates End-to-End Post-Quantum Blockchain Transaction](https://thequantuminsider.com/2026/07/03/qorechain-first-post-quantum-blockchain-transaction/) — *The Quantum Insider* — QoreChain successfully completed the first end-to-end post-quantum blockchain transaction, demonstrating quantum-resistant cryptography in practice.
 
-- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extend magnon lifetimes by 100x, making them viable for quantum computing in miniaturized devices.
+- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extended the lifetime of magnons by nearly 100 times, potentially enabling quantum computers that are drastically smaller and more practical.
 
-- [Brain-inspired chip runs near absolute zero and could transform quantum computing](https://www.sciencedaily.com/releases/2026/06/260612032024.htm) — *ScienceDaily Quantum* — University of Hong Kong creates a brain-inspired silicon carbide chip functioning at near absolute zero temperatures.
+- [Ohio State-led Team Secures NSF Award to Advance to Next Phase of the National Quantum Virtual Laboratory Program](https://thequantuminsider.com/2026/07/03/ohio-state-led-team-secures-nsf-award-to-advance-to-next-phase-of-the-national-quantum-virtual-laboratory-program/) — *The Quantum Insider* — An Ohio State-led team advanced to the next phase of the National Quantum Virtual Laboratory Program with an NSF award.
 
-- [Oxford physicists just made Schrödinger's cat even stranger](https://www.sciencedaily.com/releases/2026/06/260614011848.htm) — *ScienceDaily Quantum* — Oxford researchers create new quantum states that could improve quantum computer resilience and deepen quantum understanding.
+- [Brain-inspired chip runs near absolute zero and could transform quantum computing](https://www.sciencedaily.com/releases/2026/06/260612032024.htm) — *ScienceDaily Quantum* — Scientists created a brain-inspired chip functioning just above absolute zero that mimics neuronal behavior, potentially revolutionizing quantum computing efficiency.
 
 ---
 
@@ -59,4 +57,4 @@ Today's AI news is marked by corporate caution and strategic maneuvering: Zucker
 
 **[Daily Reading List – July 2, 2026 (#817)](https://seroter.com)**
 
-_Engineering managers should address capability gaps early; AI adoption requires purposeful strategy over rushed implementation, while new coding tools and cost-effective models reshape development._
+_Engineering managers face common advancement obstacles; AI tools reshape team workflows, security risks, and strategy execution—executives must prioritize purpose over urgency._
