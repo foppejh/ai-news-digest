@@ -1,57 +1,55 @@
-# AI News Digest — 2026-07-11
+# AI News Digest — 2026-07-12
 
 ## Executive Summary
-The day's biggest story is OpenAI's dual-headline moment: Apple has sued the company over alleged trade secret theft by ex-employees, while OpenAI simultaneously launched GPT-5.6, which has produced a claimed proof of the long-standing Cycle Double Cover Conjecture in mathematics — a potential landmark in AI-assisted formal reasoning. Anthropic published novel interpretability research revealing how Claude internally processes concepts, offering rare transparency into LLM cognition. On the business front, companies are increasingly pivoting to open-source AI (per Hugging Face's CEO) to escape soaring proprietary AI costs, while SK Hynix's record-breaking $26.5B US IPO signals the AI chip supply chain is maturing rapidly. A CASP report on terrorist use of frontier AI adds urgency to ongoing safety debates.
-
----
+OpenAI dominates today's news with multiple major announcements: the launch of GPT-5.6 as the new preferred model in Microsoft 365 Copilot, a new "ChatGPT Work" agentic product, and a landmark lawsuit from Apple alleging trade secret theft. Anthropic made a significant research breakthrough with the "Jacobian lens," offering the clearest mechanistic interpretability view yet into how LLMs reason. On the infrastructure side, SK Hynix's record-breaking $26.5B US IPO signals the AI chip investment boom reaching a new apex, while distributed LLM computing and open-source AI continue gaining momentum.
 
 ## Top Stories
 
-- [GPT-5.6](https://openai.com/index/gpt-5-6/) — *Hacker News* — OpenAI launches GPT-5.6, a major model release that is generating significant community discussion and serves as the basis for a claimed mathematical breakthrough.
+- [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/) — *TechCrunch AI* — Apple alleges OpenAI's senior leadership, including a longtime former employee, directed the theft of Apple trade secrets — a potentially industry-reshaping legal confrontation between two AI powerhouses.
 
-- [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) — *Hacker News* — OpenAI's GPT-5.6 Sol Ultra variant has reportedly generated a proof for a decades-old unsolved graph theory conjecture, which if verified would mark a landmark moment for AI in formal mathematics.
+- [GPT-5.6: Frontier intelligence that scales with your ambition](https://openai.com/index/gpt-5-6) — *OpenAI Blog* — OpenAI releases GPT-5.6, promising stronger performance per dollar and greater on-demand capability, now deployed as the default model in Microsoft 365 Copilot across Word, Excel, PowerPoint, and more.
 
-- [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/) — *TechCrunch AI* — Apple alleges that senior OpenAI leadership directed former Apple employees to misappropriate proprietary trade secrets, setting up a major legal clash between two of tech's most powerful AI players.
+- [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work) — *OpenAI Blog* — OpenAI launches "ChatGPT Work," a long-horizon agentic product that can autonomously act across apps and files and sustain multi-hour task execution toward a defined goal.
 
-- [Anthropic found a hidden space where Claude puzzles over concepts](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/) — *MIT Technology Review* — Using a new tool called the Jacobian lens, Anthropic researchers identified an internal representational space where Claude appears to reason through concepts before generating output, providing the clearest window yet into LLM cognition.
+- [Anthropic found a hidden space where Claude puzzles over concepts](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/) — *MIT Technology Review* — Anthropic's new "Jacobian lens" tool gives researchers the clearest mechanistic interpretability window yet into LLM reasoning, with findings described as ranging from mundane to unnerving.
 
-- [How the terrorist group Boko Haram uses frontier AI](https://casp.ac/reports/ai-enabled-terrorism) — *Hacker News* — A CASP report documents concrete ways in which Boko Haram has leveraged cutting-edge AI tools for operational and propaganda purposes, raising alarms about the real-world national security implications of frontier model access.
+- [SK Hynix raises $26.5B in the biggest foreign IPO in US history](https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/) — *TechCrunch AI* — The AI chip boom produced its largest Wall Street milestone yet, with SK Hynix's record IPO accompanied by pressure from US officials to build domestic semiconductor fabs.
 
-- [Hugging Face's CEO on why companies are done renting their AI](https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/) — *TechCrunch AI* — Clem Delangue argues that the shift toward open-source AI is accelerating as enterprises grow wary of cost and dependency risks from proprietary model providers, with Hugging Face now used by roughly half the Fortune 500.
+- [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/) — *TechCrunch AI* — Meta quietly pulled an AI creative feature that allowed public content to be referenced without clear user consent, acknowledging it "missed the mark" following significant user criticism.
 
-- [SK Hynix raises $26.5B in the biggest foreign IPO in US history](https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/) — *TechCrunch AI* — The AI chip boom culminates in a record Wall Street milestone as SK Hynix goes public in the US, with lawmakers pushing the company to localize HBM and advanced memory manufacturing on American soil.
+- [Mesh LLM: distributed AI computing on iroh](https://www.iroh.computer/blog/mesh-llm) — *Hacker News* — A new project enables peer-to-peer distributed LLM inference across machines using the iroh networking library, potentially democratizing access to large model compute.
 
-- [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/) — *TechCrunch AI* — Meta pulled an AI feature that allowed public Instagram content to be referenced by generative tools, citing user feedback that it "missed the mark" on creative control and consent.
+- [Open source AI matters more than ever, according to Hugging Face's Clem Delangue](https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/) — *TechCrunch AI* — Hugging Face's CEO argues that open-source AI adoption is accelerating, with roughly half the Fortune 500 now using the platform, as companies increasingly start open before going proprietary.
 
-- [Companies are scrambling to curtail soaring AI costs](https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs) — *Hacker News* — The Economist reports that enterprises are hitting a wall on AI spending and are actively seeking cheaper inference options, smaller models, and open-source alternatives to manage ballooning costs.
+- [OpenAI bets on families as ChatGPT goes deeper into households](https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/) — *TechCrunch AI* — OpenAI is hiring a dedicated product manager to build ChatGPT experiences tailored for families, caregivers, and older adults, signaling a push into consumer lifestyle beyond power users.
 
-- [Microsoft latest report shows 25% emissions raised due to AI data centers](https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump) — *Hacker News* — Microsoft's environmental report reveals a 25% jump in emissions driven by AI data center expansion and the removal of carbon credit offsets, highlighting the growing environmental cost of the AI boom.
+- [Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio](https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/) — *Hacker News* — A developer details the specific MLX fixes that unlocked reliable daily use of the 122B-parameter Qwen3.5 model on Apple Silicon hardware, useful for local LLM enthusiasts.
 
-- [Import AI 464: Fable writes GPU kernels; AI automation; and analog computation](https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels) — *Import AI* — Jack Clark's latest newsletter covers an AI system capable of writing GPU kernels autonomously, signals of accelerating AI-driven automation, and emerging analog computing approaches.
+- [Import AI 464: Fable writes GPU kernels; AI automation; and analog computation](https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels) — *Import AI* — Jack Clark's latest digest covers AI systems writing their own GPU kernels and the emerging landscape of analog computation, both pointing toward deeper hardware-software co-evolution.
 
-- [AI 2040: Plan A](https://ai-2040.com/) — *Hacker News* — A long-form strategic scenario exploring a plausible optimistic path for AI development through 2040, drawing significant community engagement on assumptions and governance implications.
+- [How Deutsche Telekom is rewiring telecommunications with AI](https://openai.com/index/deutsche-telekom) — *OpenAI Blog* — Deutsche Telekom is deploying OpenAI models across customer service, employee workflows, and network operations as a case study in enterprise AI-native transformation.
 
----
+- [GPT-5.5 Bio Bug Bounty](https://openai.com/index/bio-bug-bounty) — *OpenAI Blog* — OpenAI launches a biosecurity-focused bug bounty program for GPT-5.5, an unusual and significant step acknowledging the dual-use risks of frontier models in biological domains.
 
 ## Deep Dives
 
-- [Anthropic found a hidden space where Claude puzzles over concepts](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/) — *MIT Technology Review* — A technically rich piece detailing Anthropic's Jacobian lens interpretability method, which surfaces internal model states that appear to correspond to intermediate reasoning steps — findings range from confirming expected behavior to surfacing unexpected and potentially concerning internal representations worth reading in full for anyone tracking AI alignment and interpretability.
+- [Anthropic found a hidden space where Claude puzzles over concepts](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/) — *MIT Technology Review* — The Jacobian lens technique represents a genuine methodological advance in mechanistic interpretability, moving beyond probing classifiers to directly observe how concepts are encoded and transformed mid-inference; the "unnerving" findings warrant close reading for anyone tracking AI alignment and transparency research.
 
-- [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf) — *OpenAI (via Hacker News)* — The actual proof document is worth scrutinizing directly, as independent verification of whether this constitutes a genuine mathematical proof will determine whether this is a historic milestone in AI-assisted formal reasoning or an impressive-looking but flawed artifact.
+- [Mesh LLM: distributed AI computing on iroh](https://www.iroh.computer/blog/mesh-llm) — *Hacker News* — A technically detailed exploration of running LLM inference across a peer-to-peer mesh network, with implications for decentralized AI infrastructure and reducing dependence on centralized cloud providers.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [Why Quantum Computing Needs Strong Ecosystems to Scale](https://thequantuminsider.com/2026/07/11/why-quantum-computing-needs-national-ecosystems-to-scale/) — *The Quantum Insider* — Building national quantum computing ecosystems is essential for scaling the technology to practical applications.
+- [QC Design Publishes Plaquette Framework for Fault-Tolerant Quantum Computer Design](https://thequantuminsider.com/2026/07/10/qc-design-publishes-plaquette-hardware-aware-design-platform-for-fault-tolerant-quantum-computers/) — *The Quantum Insider* — QC Design released a hardware-aware platform for designing fault-tolerant quantum computers.
 
-- [QC Design Publishes Plaquette Framework for Fault-Tolerant Quantum Computer Design](https://thequantuminsider.com/2026/07/10/qc-design-publishes-plaquette-hardware-aware-design-platform-for-fault-tolerant-quantum-computers/) — *The Quantum Insider* — QC Design introduces a hardware-aware design platform to advance fault-tolerant quantum computer development.
+- [BTQ Technologies and ICTK Complete Design of Quantum-Secure QCIM Security Chip](https://thequantuminsider.com/2026/07/10/btq-technologies-ictk-complete-design-next-generation-qcim-security-chip-integrating-puf-technology/) — *The Quantum Insider* — BTQ Technologies and ICTK completed the design of a quantum-secure security chip integrating PUF technology.
 
-- [BTQ Technologies and ICTK Complete Design of Quantum-Secure QCIM Security Chip](https://thequantuminsider.com/2026/07/10/btq-technologies-ictk-complete-design-next-generation-qcim-security-chip-integrating-puf-technology/) — *The Quantum Insider* — BTQ and ICTK develop a next-generation quantum-secure security chip integrating PUF technology to protect against future threats.
+- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extended the lifetime of magnons to 18 microseconds, making them viable carriers for quantum information in miniaturized quantum computers.
 
-- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extend magnon lifetime by 100x to 18 microseconds, potentially enabling penny-sized quantum computers.
+- [Oxford physicists just made Schrödinger's cat even stranger](https://www.sciencedaily.com/releases/2026/06/260614011848.htm) — *ScienceDaily Quantum* — Oxford physicists created a new type of quantum superposition state that could enable more resilient quantum computers.
 
-- [Microsoft doubles down on controversial quantum computing claims](https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans) — *Hacker News (quantum)* — Microsoft accelerates quantum computing plans despite ongoing scientific debate over its recent breakthrough claims.
+- [Using mechanical vibrations instead of magnetic memory for quantum computing](https://phys.org/news/2026-07-mechanical-vibrations-magnetic-memory-quantum.html) — *PhysOrg Quantum* — ETH Zurich researchers developed a vibrating mechanical memory system that stores more information in smaller volumes for quantum computing.
 
 ---
 
@@ -59,4 +57,4 @@ The day's biggest story is OpenAI's dual-headline moment: Apple has sued the com
 
 **[Daily Reading List – July 10, 2026 (#822)](https://seroter.com)**
 
-_AI coding requires validated specs upfront; executives must prioritize AI infrastructure control, multi-tenant isolation strategies, and hiring AI-skilled engineers._
+_AI coding requires upfront spec validation; multi-tenancy demands isolation architecture; engineers must own system accountability despite agent autonomy._
