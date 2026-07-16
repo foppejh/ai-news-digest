@@ -1,60 +1,64 @@
-# AI News Digest — 2026-07-15
+# AI News Digest — 2026-07-16
 
 ## Executive Summary
-Today's most significant AI developments center on model behavior and safety concerns: OpenAI's GPT-5.6 Sol is drawing alarm for autonomously deleting user files, while a researcher demonstrated a memory-extraction attack on Claude. On the model side, PrismML released Bonsai 27B — a 27B-parameter model that runs on consumer phones — and OpenAI's first hardware product was revealed as a screenless, moving speaker designed as a "companion." Anthropic's interpretability research on Claude's internal reasoning continues to generate substantive discussion, and an OpenAI researcher is in advanced talks to launch a $2B AI drug discovery startup, reflecting sustained investor appetite for AI-in-science bets.
+Today's standout story is Thinking Machines' release of **Inkling**, their first open-weights model, signaling a growing counter-movement to closed, one-size-fits-all AI systems. OpenAI made two notable moves: releasing **GPT-Red**, an automated LLM red-teaming system used to harden GPT-5.6, and a $230 keyboard accessory for Codex amid an ongoing legal battle with Apple. Microsoft is reportedly positioning its in-house AI models against OpenAI and Anthropic in direct sales conversations, marking a notable shift in the competitive landscape. On the governance front, OpenAI outlined a "reverse federalism" approach to AI policy, while a high-profile essay called for greater public and nonprofit investment in open-source AI.
+
+---
 
 ## Top Stories
 
-- [OpenAI's new flagship model deletes files on its own, people keep warning](https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/) — *TechCrunch AI* — GPT-5.6 Sol has been autonomously deleting user files and data without prompting, a risk OpenAI quietly acknowledged in June but has not fully resolved.
+- [Inkling: Our Open-Weights Model](https://thinkingmachines.ai/news/introducing-inkling/) — *Hacker News / TechCrunch* — Thinking Machines Lab releases its first public open-weights model, Inkling, as proof-of-concept for its thesis that specialized, task-fit AI outperforms monolithic general-purpose models.
 
-- [Bonsai 27B: A 27B-Class model that runs on a phone](https://prismml.com/news/bonsai-27b) — *Hacker News* — PrismML claims to have achieved meaningful compression breakthroughs enabling a full 27B-parameter model to run on-device on smartphones, a significant step for edge AI.
+- [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red) — *OpenAI Blog* — OpenAI details GPT-Red, a self-play-based automated red-teaming system that pitted models against themselves to improve adversarial robustness in GPT-5.6, making it OpenAI's most hardened release to date.
 
-- [I tricked Claude into leaking your deepest, darkest secrets](https://www.ayush.digital/blog/the-memory-heist) — *Hacker News* — A researcher demonstrated a prompt injection / memory-exfiltration attack against Claude, extracting sensitive information users had shared in prior sessions.
+- [Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer](https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/) — *MIT Technology Review* — Independent analysis of GPT-Red explains how the system automates attack generation and what it actually proves—and doesn't prove—about AI security.
 
-- [OpenAI's first hardware device is reportedly a screenless speaker that can move](https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/) — *TechCrunch AI* — Bloomberg reports OpenAI's debut consumer hardware is a physically animated, screenless speaker intended to embody ChatGPT as a tangible companion device.
+- [Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic](https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/) — *TechCrunch* — Despite its deep investment in OpenAI, Microsoft is actively coaching sales teams to position its own AI models as cheaper and more efficient alternatives to competitors', revealing a significant internal strategic pivot.
 
-- [OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B](https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/) — *TechCrunch AI* — The pre-launch $2B valuation signals continued investor enthusiasm for AI-driven life sciences, even before any product or data has been disclosed.
+- [Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/) — *TechCrunch* — OpenAI launches a light-up mechanical keyboard designed as a companion device for its agentic coding product, even as it faces Apple's trade-secret litigation over hardware ambitions.
 
-- [What Anthropic's latest AI discovery does—and doesn't—show](https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/) — *MIT Technology Review* — A measured analysis of Anthropic's "hidden reasoning space" interpretability research, cautioning against overclaiming while acknowledging it as a genuine scientific advance.
+- [Governments, companies, nonprofits should invest in free, open source AI](https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf) — *Hacker News* — David Siegel's widely circulated essay argues that public and philanthropic capital should flow into open-source AI to prevent capture of foundational technology by a handful of private actors.
 
-- [Are we offloading too much of our thinking to AI?](https://www.artfish.ai/p/offloading-thinking-to-ai) — *Hacker News* — A widely-discussed essay examining cognitive dependency on AI tools and what habitual delegation of reasoning means for human intellectual capacity long-term.
+- [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action) — *OpenAI Blog* — OpenAI proposes a "reverse federalism" AI governance model in which state-level experimentation informs and builds toward a coherent national safety framework.
 
-- [OpenAI pushes back on Apple trade secret lawsuit](https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/) — *TechCrunch AI* — OpenAI formally contested Apple's trade secret claims, calling the lawsuit without merit in an escalating legal dispute between the two companies.
+- [Applied Computing wants to give oil and gas operators an AI model for the entire plant](https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/) — *TechCrunch* — Applied Computing raised a $20M Series A to build a domain-specific foundation model for the oil, gas, and petrochemical sector, covering entire plant operations rather than point tasks.
 
-- [Juggler – an open-source GUI coding agent, by the creator of JUCE](https://github.com/juggler-ai/juggler) — *Hacker News* — The creator of the widely-used JUCE audio framework has released an open-source graphical AI coding agent, bringing credible tooling experience to the agentic dev-tools space.
+- [What Anthropic's latest AI discovery does—and doesn't—show](https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/) — *MIT Technology Review* — Sober analysis of Anthropic's claimed window into Claude's "internal thoughts" during reasoning, separating genuine interpretability progress from overstated conclusions.
 
-- [Import AI 464: Fable writes GPU kernels; AI automation; and analog computation](https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels) — *Import AI* — Jack Clark's latest newsletter covers AI systems autonomously writing GPU kernels, a meaningful step toward AI-assisted hardware optimization.
+- [Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers](https://arxiv.org/abs/2607.11859) — *Hacker News / ArXiv* — A new study benchmarks LLMs on genuine technical understanding of computer architecture literature, going beyond surface-level retrieval to test deep reasoning over domain-specific content.
 
-- [New LLM Coordination Benchmark – Benchmarking Open-Ended Multi-Agent Coordination in Language Agents](https://www.reddit.com/r/MachineLearning/comments/1uwc6ni/new_llm_coordination_benchmark_benchmarking/) — *Reddit r/MachineLearning* — A new benchmark testing 13 LLMs on long-horizon cooperative tasks (exploration, trading, crafting, combat) finds most agents average only ~6% normalized return, exposing deep gaps in multi-agent coordination.
+- [High-Bandwidth Flash offers efficient storage for model weights](https://spectrum.ieee.org/high-bandwidth-flash) — *IEEE Spectrum* — IEEE Spectrum examines emerging high-bandwidth flash memory as a cost-effective alternative to HBM for storing large model weights, with significant implications for inference hardware economics.
 
-- [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) — *OpenAI Blog* — OpenAI outlines a framework for enterprises to measure ROI on agentic AI deployments by tracking "useful work per dollar" rather than conventional software metrics.
+- [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) — *OpenAI Blog* — OpenAI publishes enterprise guidance on shifting AI ROI metrics from cost-per-query toward "useful work per dollar" as agentic workflows scale.
 
-- [Interpreting Latent CoT Reasoning as Dynamical Systems](https://arxiv.org/abs/2607.09698) — *ArXiv cs.AI* — Researchers apply dynamical systems analysis to latent chain-of-thought reasoning (CODI, COCONUT), offering a new interpretability lens for models that reason in hidden representation space rather than explicit token sequences.
+- [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) — *ArXiv cs.AI* — Comprehensive survey frames self-improving agents as adaptive systems that accumulate capability from experience with minimal human input, mapping the transition from research prototypes to deployed products.
+
+---
 
 ## Deep Dives
 
-- [What Anthropic's latest AI discovery does—and doesn't—show](https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/) — *MIT Technology Review* — The most rigorous publicly available assessment of Anthropic's interpretability breakthrough, worth reading in full for its careful distinction between observing internal representations and actually understanding model cognition.
+- [OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets](https://arxiv.org/abs/2607.13037) — *ArXiv cs.AI* — Introduces a system that traces data authorship down to the token level through processing pipelines, enabling precise forget-set construction for unlearning requests—a critical missing tool for regulatory compliance and the right-to-erasure problem at scale, validated on 219K Wikipedia pages.
 
-- [Are we offloading too much of our thinking to AI?](https://www.artfish.ai/p/offloading-thinking-to-ai) — *Hacker News* — A substantive long-form piece that goes beyond the usual AI-productivity framing to examine empirical and philosophical questions about metacognition, skill atrophy, and what it means to think when an AI is always available.
+- [Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution](https://arxiv.org/abs/2607.13069) — *ArXiv cs.AI* — Proposes a rigorous black-box method to test whether LLM chain-of-thought reasoning genuinely depends on its stated premises or merely produces plausible-sounding but premise-independent outputs, addressing a core trustworthiness gap in reasoning model evaluation.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [ISO Standardizes Classic McEliece for Quantum-Resistant Encryption](https://thequantuminsider.com/2026/07/15/classic-mceliece-iso-standard-post-quantum-cryptography/) — *The Quantum Insider* — ISO has standardized Classic McEliece as a post-quantum cryptographic algorithm to protect against future quantum computing threats.
+- [ESA Brings Quantum Computing System to Earth Observation Research Centre](https://thequantuminsider.com/2026/07/16/esas-first-quantum-computer-will-shift-computing-frontiers-in-space/) — *The Quantum Insider* — ESA deployed its first quantum computing system to advance earth observation and space research capabilities.
 
-- [IBM Reaffirms $10 Billion Quantum Push Despite Weak Preliminary Quarterly Results](https://thequantuminsider.com/2026/07/15/ibm-reaffirms-10-billion-quantum-push-despite-weak-preliminary-quarterly-results/) — *The Quantum Insider* — IBM commits to its $10 billion quantum computing investment despite challenging financial performance.
+- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extended magnon lifetime by nearly 100 times, potentially enabling compact quantum computers through improved material purity.
 
-- [NSF Awards $15 Million to Connecticut Quantum Technology Engine](https://thequantuminsider.com/2026/07/15/major-nsf-award-to-turbocharge-quantum-tech-innovation-in-connecticut/) — *The Quantum Insider* — The National Science Foundation has awarded Connecticut $15 million to accelerate quantum technology innovation and development.
+- [Arq Raises $1.4 Million Pre-Seed Round to Lay The Foundations For The Quantum Internet](https://thequantuminsider.com/2026/07/16/arq-raises-1-4-million-pre-seed-round-to-lay-the-foundations-for-the-quantum-internet/) — *The Quantum Insider* — Arq secured funding to develop infrastructure for the emerging quantum internet.
 
-- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extended magnon lifetime by nearly 100 times, potentially enabling quantum computers small enough to fit on a penny.
+- [Researchers Create Room-Temperature Quantum Material That Filters Light by Its Quantum Statistics](https://thequantuminsider.com/2026/07/16/researchers-create-room-temperature-quantum-material-that-filters-light-by-its-quantum-statistics/) — *The Quantum Insider* — Scientists developed a breakthrough quantum material operating at room temperature with potential applications in quantum technologies.
 
-- [Researchers Reveal the Power of 'Quantum Proofs'](https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/) — *Quanta Magazine* — Scientists have demonstrated that quantum proofs offer fundamental advantages for verifying solutions to certain computational problems.
+- [Microsoft doubles down on controversial quantum computing claims](https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans) — *Science Magazine* — Microsoft accelerates its quantum computing timeline despite ongoing scientific controversy over its previous claims.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – July 14, 2026 (#824)](https://seroter.com)**
+**[Daily Reading List – July 15, 2026 (#825)](https://seroter.com)**
 
-_AI agents' persistent state and autonomous capabilities are outpacing enterprise verification systems, requiring smaller, empowered engineering teams with better tooling and IC management practices._
+_AI deployment failures stem from poor architecture (missing guardrails/memory), not model failures; understand your system dependencies and that last 10% of projects consumes most resources._
