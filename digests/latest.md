@@ -1,57 +1,61 @@
-# AI News Digest — 2026-07-19
+# AI News Digest — 2026-07-20
 
 ## Executive Summary
-The day's most significant theme is AI's expanding frontier in mathematics and science: GPT-5.6 reportedly closed a 30-year gap in convex optimization, and a separate analysis pits frontier models against NP-hard problems. OpenAI released GPT-Red, an automated red-teaming system for safety self-improvement, while Databricks hit a $188B valuation underscoring continued massive capital concentration in AI infrastructure. Regulatory and societal tensions are also front and center, with NYC moving to mandate AI disclosure in real-estate listings, controversy over AI-generated "slop" winning a $25K DeepMind/Kaggle prize, and a widely-read essay arguing that AI mania is degrading institutional decision-making globally.
+Today's most significant AI story is a potential mathematical breakthrough: Claude Fable reportedly produced a counterexample to the Jacobian Conjecture, a decades-old unsolved problem in mathematics, which — if verified — would be a landmark moment for AI-assisted research. On the tooling side, Claude Code has migrated to a Bun/Rust runtime, drawing significant developer attention. OpenAI continued its safety and governance push with the release of GPT-Red (an automated red-teaming system) and a policy framework for AI governance. A new MIT study warns that LLMs develop novel biases in hiring beyond what they inherit from training data, raising urgent deployment concerns. Meanwhile, the nonprofit Current AI and Moonshot AI's Kimi model reflect growing competition to build open, globally accessible AI infrastructure.
+
+---
 
 ## Top Stories
 
-- [GPT-5.6 used a prompt to close a 30-year gap in convex optimization](https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/) — *Hacker News* — Following OpenAI's CDC proof announcement, GPT-5.6 reportedly resolved a longstanding open problem in convex optimization using a single prompt, sparking intense mathematical debate.
+1. [Claude Fable produced a counterexample to the Jacobian Conjecture](https://xcancel.com/__alpoge__/status/2079028340955197566) — *Hacker News* — If verified, this would mark the first AI system to resolve a major open problem in pure mathematics, with the Jacobian Conjecture having resisted proof for over 60 years.
 
-- [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red) — *OpenAI Blog* — OpenAI introduces GPT-Red, an LLM-based automated red-teaming system that uses self-play to iteratively find and fix safety vulnerabilities including prompt injection in its own models.
+2. [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) — *Hacker News* — Simon Willison breaks down Anthropic's decision to ship Claude Code's runtime on Bun (built in Rust), with significant implications for performance and portability.
 
-- [Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?](https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/) — *Hacker News* — A structured benchmark comparing frontier models on NP-hard problems finds that structured goal prompts meaningfully alter performance, with significant implications for agentic task design.
+3. [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red) — *OpenAI Blog* — OpenAI details GPT-Red, an automated red-teaming LLM that uses self-play to stress-test its own models for safety vulnerabilities and prompt injection risks.
 
-- [NYC may require landlords and realtors to disclose the use of AI in listings](https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/) — *Hacker News* — New York City's mayor is pushing legislation requiring disclosure when AI-generated images are used in property listings, marking one of the first municipal AI-transparency mandates in real estate.
+4. [AI is more likely than humans to form biases when hiring](https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/) — *MIT Technology Review* — New research finds that LLMs don't just inherit human biases from training data — they can also generate novel, emergent biases, complicating the case for AI-driven resume screening.
 
-- [Databricks hits $188B valuation, extending its run as AI's favorite second act](https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/) — *TechCrunch AI* — Databricks' latest funding round cements its position as one of the most valuable private AI companies, driven by its pivot to open-weight AI models and enterprise data infrastructure.
+5. [Nonprofit Current AI is racing to build the World Wide Web of AI, free for all](https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/) — *TechCrunch AI* — Current AI is building an open, culturally inclusive AI platform spanning devices and chat, positioning itself as a public-interest alternative to proprietary AI ecosystems.
 
-- [What AI did to Stack Overflow in a graph](https://data.stackexchange.com/stackoverflow/query/1953768#graph) — *Hacker News* — A data visualization starkly illustrates Stack Overflow's traffic and activity collapse since the rise of LLMs, quantifying AI's displacement of traditional developer Q&A communities.
+6. [Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25](https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/) — *Hacker News* — A researcher used GPT-5.6 for $25 to discover a critical WordPress remote code execution vulnerability that exploit brokers value at $500,000, highlighting the democratization of offensive security research.
 
-- [Did blatant AI Slop just win a $25K DeepMind/Kaggle Grand Prize?](https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/) — *Reddit r/MachineLearning* — A community post presents evidence that the winning entry in DeepMind's "Measuring Progress Toward AGI" Kaggle challenge was low-quality AI-generated content, raising serious questions about benchmark integrity and prize adjudication.
+7. [Kimi: Threat or menace?](https://techcrunch.com/2026/07/18/kimi-threat-or-menace/) — *TechCrunch AI* — Moonshot AI's new Kimi model release is prompting serious Western scrutiny, with critics invoking "full AI communism" concerns around state-affiliated Chinese frontier models.
 
-- [AI Mania Is Eviscerating Global Decision-Making](https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/) — *Hacker News* — A sharply argued essay contends that the rush to integrate AI into organizational workflows is systematically degrading the quality of human judgment and institutional decision-making worldwide.
+8. [What to watch for after Jensen Huang's Japan visit](https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/) — *TechCrunch AI* — Nvidia's CEO left Tokyo having signed deals across Japan's entire tech stack, with analysts watching for sovereign AI infrastructure commitments and chip supply implications.
 
-- [Kimi: Threat or menace?](https://techcrunch.com/2026/07/18/kimi-threat-or-menace/) — *TechCrunch AI* — Moonshot AI's new Kimi model release is generating concern in Western AI circles about Chinese open AI competition, with critics invoking fears of "full AI communism" in model access.
+9. [Can an Apple lawsuit derail OpenAI's hardware plans?](https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/) — *TechCrunch AI* — Apple's legal action against OpenAI may complicate the company's push into consumer hardware and its anticipated IPO timeline.
 
-- [OpenAI introduces a scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age) — *OpenAI Blog* — OpenAI CFO Sarah Friar proposes a practical ROI framework for enterprise AI adoption built around useful work completed, cost per successful task, dependability, and return on compute.
+10. ['Odyssey' director Christopher Nolan calls AI an obvious 'Trojan horse'](https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/) — *TechCrunch AI* — Nolan argues the entertainment industry is knowingly accepting AI's risks, framing the situation as a collective choice rather than an unwitting trap.
 
-- [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action) — *OpenAI Blog* — OpenAI advocates for a "reverse federalism" model where state-level AI laws serve as building blocks for a coherent national governance framework rather than a patchwork of conflicting rules.
+11. [The US is advancing AI safety through state and federal action](https://openai.com/index/advancing-ai-safety-through-state-and-federal-action) — *OpenAI Blog* — OpenAI proposes a "reverse federalism" governance model where state-level AI laws serve as building blocks for a coherent national regulatory framework.
 
-- [What's the deal with all the random weekly quota resets for agents lately?](https://minimaxir.com/2026/07/agent-quota-reset/) — *Hacker News* — A technical analysis examines the growing pattern of AI providers quietly resetting agent usage quotas weekly, exploring what this signals about compute costs and sustainable agentic product economics.
+12. [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age) — *OpenAI Blog* — OpenAI CFO Sarah Friar introduces a practical ROI framework for enterprise AI adoption focused on useful work completed, cost-per-task, and return on compute rather than capability benchmarks.
 
-- [Neil Rimer thinks the AI money is coming back out](https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/) — *TechCrunch AI* — Index Ventures co-founder Neil Rimer argues that AI's wealth concentration in Silicon Valley is economically unstable and predicts redistribution — voluntary or otherwise — is inevitable.
+13. [Power companies are using eminent domain to seize land for data centers](https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/) — *Hacker News* — Utilities are invoking eminent domain powers to acquire land for AI data center infrastructure, raising novel legal and public-interest questions about what constitutes "public use."
 
-- [Setting up your spare Mac for Claude Code to control, a step-by-step guide](https://ykdojo.github.io/claude-controls-mac/) — *Hacker News* — A practical guide walks through configuring a dedicated Mac as a sandboxed environment for Claude Code to autonomously operate, reflecting growing interest in persistent local AI agents.
+14. [1-Bit LLM in the Browser](https://huggingface.co/spaces/webml-community/bonsai-webgpu) — *Hacker News* — A Hugging Face demo runs a 1-bit quantized LLM entirely in-browser via WebGPU, pushing the frontier of on-device, zero-dependency AI inference.
+
+---
 
 ## Deep Dives
 
-- [Import AI 464: Fable writes GPU kernels; AI automation; and analog computation](https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels) — *Import AI* — Jack Clark's latest edition covers Fable's AI-generated GPU kernels, the state of AI-driven automation, and analog computing as a potential alternative substrate — a wide-ranging look at near-term technical trajectories worth reading in full.
+- [Import AI 464: Fable writes GPU kernels; AI automation; and analog computation](https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels) — *Import AI* — Jack Clark's newsletter covers Anthropic's Fable system writing GPU kernels autonomously, the state of AI-driven automation economics, and the resurgence of analog computing as a potential path around digital scaling limits — a broad but substantive survey of where frontier AI research is heading.
 
-- [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red) — *OpenAI Blog* — The full technical writeup details how GPT-Red's self-play red-teaming loop works mechanically, including how it generates novel adversarial prompts and feeds improvements back into alignment training — essential reading for anyone working on LLM safety.
+- [Cura 1T: Specialized Model for Agentic Healthcare](https://arxiv.org/abs/2607.15314) — *ArXiv cs.AI* — Introduces a 1-trillion-parameter healthcare LLM trained via a human-gated self-evolution loop that jointly handles patient consultation, multimodal clinical reasoning, interactive diagnosis, and EHR tool use — one of the most comprehensive healthcare-specialized model architectures published to date.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [Braided, Exotic Particles Could Build Reliable, Universal Quantum Computers](https://thequantuminsider.com/2026/07/17/braided-exotic-particles-could-build-reliable-universal-quantum-computers/) — *The Quantum Insider* — Researchers show that braided exotic particles could enable the construction of more reliable and universal quantum computers.
+- [DOE Advances Domestic Silicon and Germanium Isotope Supply Chains For Quantum Information Science](https://thequantuminsider.com/2026/07/20/doe-advances-domestic-silicon-and-germanium-isotope-supply-chains-for-quantum-information-science/) — *The Quantum Insider* — The Department of Energy is establishing domestic supply chains for isotopes critical to quantum computing development.
 
-- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Scientists extended the lifetime of magnons by nearly 100 times, making them viable carriers of quantum information for miniaturized quantum computers.
+- [IQM and Deutsche Bahn Demonstrate Quantum Algorithm For Railway Scheduling on Real Operational Data](https://thequantuminsider.com/2026/07/20/iqm-and-deutsche-bahn-demonstrate-quantum-algorithm-for-railway-scheduling-on-real-operational-data/) — *The Quantum Insider* — Researchers successfully tested a quantum algorithm for optimizing railway schedules using actual operational data.
 
-- [Microsoft doubles down on controversial quantum computing claims](https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans) — *Hacker News (quantum)* — Microsoft accelerates its quantum computing plans despite facing scientific scrutiny over its previous claims in the field.
+- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Scientists extended the lifetime of magnons nearly 100-fold to 18 microseconds, potentially enabling tiny quantum computers.
 
-- [How quantum circuits based on neutral atoms could find and fix errors](https://phys.org/news/2026-07-quantum-circuits-based-neutral-atoms.html) — *PhysOrg Quantum* — Quantum circuits using neutral atoms offer a promising approach for detecting and correcting errors in quantum computations.
+- [Microsoft doubles down on controversial quantum computing claims](https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans) — *Hacker News (quantum)* — Microsoft continues to advance disputed quantum computing developments and accelerates its commercial plans.
 
-- [Crypto industry braces for quantum computing threat](https://www.ft.com/content/99c1c1e7-1a1c-479c-9fc8-e21aea5c3f0e) — *Hacker News (quantum)* — The cryptocurrency industry prepares for the security risks posed by advancing quantum computing technology.
+- [Oxford physicists just made Schrödinger's cat even stranger](https://www.sciencedaily.com/releases/2026/06/260614011848.htm) — *ScienceDaily Quantum* — Researchers created a new type of quantum superposition state that could lead to more resilient quantum computers.
 
 ---
 
@@ -59,4 +63,4 @@ The day's most significant theme is AI's expanding frontier in mathematics and s
 
 **[Daily Reading List – July 17, 2026 (#827)](https://seroter.com)**
 
-_AI agents offer massive efficiency gains—optimize token use, master routing, and strategically invest in the agentic era._
+_AI agents are rapidly improving in efficiency and capability; executives should focus on token optimization, model routing complexity, and quantifying ROI from AI investments._
