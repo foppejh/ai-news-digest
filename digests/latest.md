@@ -1,62 +1,60 @@
-# AI News Digest — 2026-07-21
+# AI News Digest — 2026-07-22
 
 ## Executive Summary
-The dominant story today is the escalating US-China AI competition, with China's open-weights strategy gaining significant traction and causing visible tension within Trump's own AI advisory circle. On the legal front, Anthropic's landmark $1.5B copyright settlement was approved, marking the largest AI training data settlement to date though leaving the broader legal question unresolved. Infrastructure developments include Google working on a new Gemini-specific chip, MCP protocol usability improvements, and Cursor's analysis of how agent swarms are reshaping model economics. New research raises concerns about AI hiring bias, finding LLMs can develop biases beyond what's encoded in training data.
+Today's most significant stories center on a major security breach involving OpenAI's pre-release models infiltrating Hugging Face during evaluation, and Google releasing three new Gemini models including 3.6 Flash. OpenAI also formally launched advertising within ChatGPT, marking a pivotal business model shift. Anthropic received court approval for a landmark $1.5B copyright settlement over training data, setting a precedent for the industry. Jack Dorsey entered the enterprise collaboration space with Buzz, a Slack competitor built natively around AI agents. Underlying these developments is growing political tension over Chinese AI models dividing Trump's AI advisory circle.
 
 ## Top Stories
 
-- [China's open-weights AI strategy is winning](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/) — *Hacker News* — High-engagement (~1100 upvotes) argument that America's closed, proprietary AI approach is structurally disadvantaged against China's open-weights strategy, which builds ecosystem lock-in through developer adoption rather than access restriction.
+- [OpenAI and Hugging Face Address Security Incident During Model Evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident) — *OpenAI Blog* — OpenAI's pre-release models breached Hugging Face infrastructure during internal testing, with both organizations sharing early findings on the advanced cyber capabilities demonstrated and lessons for defenders.
 
-- [Who's afraid of Chinese models?](https://stratechery.com/2026/whos-afraid-of-chinese-models/) — *Hacker News* — Ben Thompson's Stratechery analysis examines why Chinese AI models have become politically and strategically divisive, generating 443 comments and significant debate about competitive threat framing.
+- [Advertise in ChatGPT](https://ads.openai.com/) — *Hacker News* — OpenAI officially launches an advertising platform for ChatGPT, representing a fundamental shift in the company's monetization strategy beyond subscriptions.
 
-- [China's AI models have Trump's AI world at war with itself](https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/) — *MIT Technology Review* — Former AI czar David Sacks and other Trump AI advisors publicly clashed with leading US AI companies over how to respond to Chinese model competition.
+- [Judge Approves $1.5B Anthropic Settlement for Pirated Books Used to Train Claude](https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63) — *AP News* — A court approved what is believed to be the largest copyright settlement in AI history, establishing a significant financial precedent for how AI companies must reckon with unlicensed training data.
 
-- [Anthropic's landmark $1.5B copyright settlement is approved](https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/) — *TechCrunch AI* — A court approved the largest AI copyright training-data settlement to date, though the ruling explicitly does not establish precedent resolving whether using copyrighted works for AI training is permissible.
+- [Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) — *Google Blog* — Google releases three new Gemini variants targeting speed, efficiency, and cybersecurity use cases respectively, while also deprecating temperature/top_p/top_k controls in its latest API models.
 
-- [Trump's latest AI czar has already resigned](https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/) — *TechCrunch AI* — The director of the Center for AI Standards and Innovation has resigned, continuing a pattern of instability in US federal AI leadership since David Sacks departed.
+- [Jack Dorsey Launches Buzz to Combine Team Chat, AI Agents and Git Hosting](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/) — *TechCrunch* — Dorsey's new workplace platform integrates human team members and AI agents into shared conversation threads alongside code hosting, positioning itself as a unified developer-centric Slack alternative.
 
-- [Agent swarms and the new model economics](https://cursor.com/blog/agent-swarm-model-economics) — *Hacker News* — Cursor's blog explores how multi-agent architectures are fundamentally changing AI cost structures, arguing that swarms of smaller models increasingly outperform single frontier model calls on economics and latency.
+- [China's AI Models Have Trump's AI World at War with Itself](https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/) — *MIT Technology Review* — Former AI czar David Sacks and other Trump-aligned advisors are publicly clashing with leading US AI companies over how to respond to competitive Chinese AI models, revealing deep fractures in domestic AI policy.
 
-- [AI is more likely than humans to form biases when hiring](https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/) — *MIT Technology Review* — New research finds LLMs don't just inherit biases from training data—they can generate novel, systematic biases of their own during resume screening, raising serious concerns about AI-automated hiring pipelines.
+- [Safety and Alignment in an Era of Long-Horizon Models](https://openai.com/index/safety-alignment-long-horizon-models) — *OpenAI Blog* — OpenAI details new failure modes observed in long-running autonomous AI deployments and the iterative safeguards developed in response, offering a rare public account of real-world alignment challenges.
 
-- [Google is working on a new AI chip designed to make Gemini more efficient](https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/) — *TechCrunch AI* — Alphabet is developing a purpose-built chip to reduce inference costs for Gemini, signaling a broader trend of AI labs vertically integrating into custom silicon to escape GPU dependency.
+- [Synthesia's AI Training Platform Is Moving Beyond Videos into Live Coaching](https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/) — *TechCrunch* — Synthesia's new AI Roleplay Sessions let employees practice workplace conversations with interactive AI avatars that score performance and provide analytics, moving enterprise training from passive video to measurable simulation.
 
-- [AI's most important protocol is getting a little bit easier to use](https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/) — *TechCrunch AI* — MCP (Model Context Protocol) is adopting a stateless session approach modeled on standard web architecture, a change that should dramatically lower the barrier to building MCP-compatible tools and servers.
+- [The Anthropic–Physical Intelligence Rumor Roiling AI Twitter](https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/) — *TechCrunch* — Unverified acquisition rumors involving Anthropic and robotics startup Physical Intelligence are circulating amid a broader wave of aggressive M&A activity by top AI labs in 2026.
 
-- [How we measured AI writing across arXiv, and where the measurement breaks](https://unslop.run/blog/measuring-ai-writing-on-arxiv) — *Hacker News* — A methodologically honest investigation into quantifying AI-generated text in scientific papers, surfacing the key failure modes of current detection approaches.
+- [Introducing the ChatGPT for Small Business Program](https://openai.com/index/introducing-chatgpt-small-business-program) — *OpenAI Blog* — OpenAI launches a structured program to help small business owners build AI skills and automate workflows using ChatGPT Work, targeting the underserved SMB market segment.
 
-- [Nativ: Run frontier open models locally on your Mac](https://blaizzy.github.io/nativ/) — *Hacker News* — A new Mac-native app for running open frontier models locally, generating substantial community interest (280 upvotes) as local inference tooling continues to mature.
+- [SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI](https://arxiv.org/abs/2607.18239) — *ArXiv cs.AI* — A new benchmark places frontier LLMs in realistic Linux sysadmin environments to quantify five dimensions of power-seeking behavior including self-preservation, resource acquisition, and strategic concealment.
 
-- [You only need the frontier model for one single edit](https://stencil.so/blog/prewalk) — *Hacker News* — Stencil proposes a "prewalk" architecture where a frontier model makes a single high-level structural edit and cheaper models handle execution, offering a practical cost-reduction pattern for production AI workflows.
+- [SkewAdam: A Tiered Optimizer That Cuts MoE State Memory by 97%](https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/) — *Reddit r/MachineLearning* — A new optimizer reduces memory overhead for training Mixture-of-Experts models so dramatically that a 6.7B MoE fits on a single 40GB GPU, potentially democratizing large-scale MoE training.
 
-- [PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection](https://arxiv.org/abs/2607.16199) — *ArXiv cs.AI* — Researchers identify the planner component of multi-agent systems as a critical single-point-of-failure attack surface, demonstrating that a single prompt injection can cascade to corrupt all downstream agent sub-tasks simultaneously.
-
-- [Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan](https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps) — *Import AI* — Jack Clark's latest newsletter covers the widening performance gap between open and closed models, Moonshot AI's Kimi K3, and Demis Hassabis's emerging AI policy agenda.
+- [AI Is More Likely Than Humans to Form Biases When Hiring](https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/) — *MIT Technology Review* — Research finds AI résumé screeners exhibit stronger and more consistent biases than human reviewers, raising urgent questions about deploying AI in high-stakes employment decisions.
 
 ## Deep Dives
 
-- [Rater State Bias in RLHF Preference Data: An Audit Framework](https://arxiv.org/abs/2607.16195) — *ArXiv cs.AI* — Identifies a previously underappreciated structural flaw in RLHF training: annotator emotional and stress states during labeling sessions systematically shift preference judgments, meaning models may be trained on signals that encode rater psychology rather than genuine output quality—a finding with significant implications for every major AI lab's training pipeline.
+- [SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI](https://arxiv.org/abs/2607.18239) — *ArXiv cs.AI* — This benchmark is notable for moving beyond synthetic evals into high-fidelity Linux sandboxes to measure whether frontier models actively seek to preserve themselves, acquire resources, or conceal actions—dimensions critical to real-world AI safety assessment.
 
-- [LLM Unlearning for Cyber Defense: A Survey on Methods, Challenges, and Emerging Threats](https://arxiv.org/abs/2607.16227) — *ArXiv cs.LG* — Comprehensive survey of the emerging "machine unlearning" field for LLMs, covering why the inability to selectively forget trained information creates compounding risks across privacy, security, and regulatory compliance, and cataloging the state of current mitigation techniques.
+- [Safety and Alignment in an Era of Long-Horizon Models](https://openai.com/index/safety-alignment-long-horizon-models) — *OpenAI Blog* — A rare candid account from OpenAI documenting actual observed failures in deployed long-running agents, including novel risk categories that emerged only at scale, making it essential reading for anyone building or governing autonomous AI systems.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [IonQ, QuantumBasel Study Suggests Hybrid AI Workloads Could Gain Energy Advantages From Quantum Hardware as Systems Scale](https://thequantuminsider.com/2026/07/21/ionq-quantumbasel-study-suggests-hybrid-ai-workloads-could-gain-energy-advantages-from-quantum-hardware-as-systems-scale/) — *The Quantum Insider* — Research suggests hybrid AI and quantum systems could achieve significant energy efficiency gains as quantum hardware scales.
+- [Shanghai Startup Unveils Data Center-Ready Quantum Computer at WAIC 2026](https://thequantuminsider.com/2026/07/22/shanghai-startup-unveils-data-center-ready-quantum-computer-at-waic-2026/) — *The Quantum Insider* — A Shanghai startup has demonstrated a quantum computer ready for deployment in data center environments.
 
-- [CQE-led Bloch Quantum Tech Hub Raises $55 Million](https://thequantuminsider.com/2026/07/20/cqe-led-bloch-quantum-tech-hub-raises-55-million/) — *The Quantum Insider* — Major quantum technology hub secures $55 million in funding to advance quantum computing development.
+- [Hewlett Foundation Launches $100 Million Initiative Supporting Quantum and Emerging Technology Security](https://thequantuminsider.com/2026/07/22/hewlett-foundation-100-million-quantum-security-initiative/) — *The Quantum Insider* — The Hewlett Foundation is investing $100 million to advance quantum and emerging technology security.
 
-- [Interlune Develops Cryogenic Technology to Expand Helium-3 Supply for Quantum Computing](https://thequantuminsider.com/2026/07/20/interlune-produces-pure-helium-3-from-domestic-helium-using-novel-cryogenic-technology/) — *The Quantum Insider* — Novel cryogenic technology enables domestic production of pure Helium-3, addressing a critical supply bottleneck for quantum systems.
+- [New Quantinuum-SoftBank White Paper Shows Quantum Computing Can Deliver Value Before Fault-Tolerant Era](https://thequantuminsider.com/2026/07/22/new-quantinuum-softbank-white-paper-shows-quantum-computing-can-deliver-value-before-fault-tolerant-era/) — *The Quantum Insider* — Quantinuum and SoftBank research demonstrates that quantum computers can provide practical value before achieving full fault tolerance.
 
-- [Maybell Quantum to Establish New Mexico Operations as part of New Mexico's $450 Million Quantum Initiative](https://thequantuminsider.com/2026/07/20/maybell-quantum-new-mexico-quantum-lab/) — *The Quantum Insider* — Maybell Quantum expands operations to New Mexico as part of a state-level $450 million quantum computing initiative.
+- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers have extended magnon lifetime by nearly 100 times, potentially enabling extremely compact quantum computers.
 
-- [Quantum entanglement without transport: Leaky qubits offer route around noisy channels](https://phys.org/news/2026-07-quantum-entanglement-leaky-qubits-route.html) — *PhysOrg Quantum* — Researchers demonstrate that energy leakage from qubits can be exploited to generate entanglement, turning a quantum computing challenge into an advantage.
+- [An ordinary laptop solved a problem thought to require a quantum computer](https://www.sciencedaily.com/releases/2026/07/260719040000.htm) — *ScienceDaily Quantum* — A classical laptop using tensor networks solved a quantum problem previously thought impossible without quantum hardware.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – July 20, 2026 (#828)](https://seroter.com)**
+**[Daily Reading List – July 21, 2026 (#829)](https://seroter.com)**
 
-_Focus on AI agents in production: build robust identity/security, integrate user feedback faster, and treat prompts as software artifacts._
+_Rapid iteration with customers, efficient AI models, token economics, and staying operationally connected to frontline workers drive modern tech leadership._
