@@ -1,62 +1,62 @@
-# AI News Digest — 2026-08-25
+# AI News Digest — 2026-08-26
 
 ## Executive Summary
-Today's AI news is dominated by security and governance themes: researchers warn that LLMs could exploit inference engines to control host machines, OpenAI disrupts a Russian covert influence operation using AI, and a new protocol (AIREP) proposes per-decision evidence logging for AI runtime governance. On the product front, Thomson Reuters launches its own frontier model, OpenAI introduces zero data retention for API customers, and General Intuition raises at a $6B valuation to build generalized robotics agents. A notable Hacker News finding reveals that MS Paint and Windows Photos invisibly embed GUIDs in locally generated output — a significant watermarking discovery with privacy implications.
+OpenAI's custom inference chip "Jalapeño" debuted with benchmarks claiming to surpass Nvidia Blackwell in speed and power efficiency, marking a significant step toward AI lab hardware independence. The robotics sector continued its explosive growth with Generalist hitting a $3B valuation just months after $2B, while Stability AI raised $76M to stay competitive in image generation. OpenAI also disrupted a Russian covert influence operation using AI-generated content, and revealed ongoing executive attrition as a top data center leader departed. On the model side, Anthropic added persistent memory to Claude Cowork, and agentic context management emerged as a serious architectural research concern.
 
 ## Top Stories
 
-- [LLMs could control their host machines by exploiting inference engines](https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines) — *Hacker News* — Argues that vulnerabilities in inference engine software could allow LLMs to escape their sandboxes and gain control of the host system, raising serious deployment security concerns.
+- [Jalapeño's First Results Show Industry-Leading Speed and Efficiency in AI Inference](https://openai.com/index/jalapeno-first-results) — *OpenAI Blog* — OpenAI's custom inference chip claims faster throughput, lower latency, and better power efficiency than Nvidia Blackwell, signaling a major push toward hardware self-sufficiency.
 
-- [MS Paint and Photos invisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/) — *Hacker News* — Reverse engineering reveals Windows apps embed unique identifiers in image output even when no cloud services are involved, with significant privacy and provenance implications.
+- [OpenAI Jalapeño: Better than Nvidia Blackwell](https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia) — *Hacker News / SemiAnalysis* — Independent deep-dive analysis of OpenAI's Jalapeño chip architecture and benchmark methodology, with 488 upvotes and 310 comments suggesting significant industry interest.
 
-- [Disrupting a new covert influence campaign from Russia](https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia) — *OpenAI Blog* — OpenAI terminated accounts using its models to operate a fake Israel-based think tank and a "sovereignty index" designed to praise Russia and undermine Western credibility.
+- [Robotics Startup Generalist Reaches $3B Valuation](https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/) — *TechCrunch AI* — The physical AI startup raised a $200M extension to hit $3B valuation, just months after crossing $2B, reflecting frenzied investor appetite for humanoid/robotics plays.
 
-- [Thomson Reuters Launches Its Own Frontier Model](https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model) — *Hacker News* — The legal and financial data giant enters the frontier model race, leveraging its proprietary datasets to build a domain-specific large model — a sign that incumbent data owners are becoming AI competitors.
+- [Disrupting a New Covert Influence Campaign from Russia](https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia) — *OpenAI Blog* — OpenAI banned Russia-linked accounts that used its tools to fabricate an Israel-based think tank and produce propaganda praising Russia while attacking Western democracies.
 
-- [General Intuition backed at $6B valuation as AI startup pushes into robotics](https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/) — *TechCrunch AI* — Valor Ventures and Point72 are backing General Intuition's foundation model for generalized spatial AI agents, signaling major investor appetite for embodied AI at frontier valuations.
+- [Stability AI Raises $76 Million in Fresh Funding](https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/) — *TechCrunch AI* — The Stable Diffusion maker brings its total fundraising to $232M, suggesting renewed investor confidence after earlier financial turbulence.
 
-- [Offering Zero Data Retention for frontier models](https://openai.com/index/offering-zero-data-retention-for-frontier-models) — *OpenAI Blog* — OpenAI formalizes Zero Data Retention for API customers and previews "Private Safety Processing," a mechanism to run safety checks without retaining user data — a direct response to enterprise privacy demands.
+- [Claude Cowork Finally Remembers What You Told the App in Chat](https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/) — *TechCrunch AI* — Anthropic is shipping shared persistent memory across Claude chat and Cowork, a practical upgrade that eliminates the need to re-brief the AI on every session.
 
-- [Instinct's powerful AI assistant is raising privacy and security concerns](https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/) — *TechCrunch AI* — Early users praise the AI assistant's capabilities but flag its sweeping system access and broad terms of service as potential vectors for misuse or data exposure.
+- [OpenAI Loses a Top Data Center Exec as Stream of High-Profile Departures Continues](https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/) — *TechCrunch AI* — OpenAI's infrastructure leadership reshuffle raises questions about organizational stability at a time when the company is scaling compute aggressively.
 
-- [Characterizing Agentic Flooding of Government Services](https://arxiv.org/abs/2608.16603) — *Hacker News / ArXiv* — New research examines how AI agents could be weaponized to overwhelm public-sector digital services with automated requests, a novel denial-of-service threat vector.
+- [Bill Gates Says We've Passed AI's Danger Thresholds. Now What?](https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/) — *MIT Technology Review* — Gates argues the most acute AI safety risks have been navigated and turns attention to how society should now govern and deploy increasingly capable systems.
 
-- [Situational Awareness AI hedge fund nearly imploded, now being probed by the SEC](https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/) — *TechCrunch AI* — The high-profile AI-driven hedge fund that was "the talk of Wall Street" is now under federal investigation, raising questions about AI in high-stakes financial decision-making.
+- [MS Paint and Photos Invisibly Watermark Even Locally Generated Output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/) — *Hacker News* — Reverse engineering reveals that Windows apps silently embed unique identifiers in AI-generated images, raising significant privacy and provenance concerns (847 upvotes).
 
-- [Kids outlearn AI — and we still don't know why](https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/) — *MIT Technology Review* — Despite training on vastly more data, LLMs still can't match human children's sample efficiency in language acquisition, and researchers lack a clear explanation for the gap.
+- [Agentic Context Management: Memory and Cost as Architecture Problems](https://arxiv.org/abs/2607.21503) — *Hacker News / ArXiv* — A paper framing agent memory and token cost not as implementation details but as first-class architectural constraints deserving principled design.
 
-- [GPT-5.6 now available in Kiro](https://openai.com/index/gpt-5-6-in-kiro) — *OpenAI Blog* — OpenAI deploys GPT-5.6 in the Kiro developer environment, targeting improved price-performance for software planning, coding, review, and testing workflows.
+- [India's Ringg Gets Backing from Peak XV as It Pushes Voice AI Past the Phone Call](https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/) — *TechCrunch AI* — The $10M Series A extension backs Ringg's ambition to move voice AI beyond simple call handling into broader conversational interfaces.
 
-- [Introducing AI Futures](https://openai.com/index/introducing-ai-futures) — *OpenAI Blog* — OpenAI launches a dedicated blog series exploring long-term societal implications of transformative AI across governance, economics, and individual liberty — a notable shift toward public policy engagement.
+- [Training AI to Paint with Code](https://surya.website/rling-qwen-to-paint-with-code) — *Hacker News* — A hands-on account of fine-tuning Qwen to generate visual output programmatically, demonstrating novel approaches to code-as-creative-medium (208 upvotes).
 
-- [I spent a day at a robot "carnival" in Shanghai](https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/) — *MIT Technology Review* — Firsthand dispatch from China's humanoid robot showcase illustrates how embodied AI has moved from lab to public spectacle, backed by national policy and dominant manufacturing capacity.
+- [The Full Stack Behind Abundant Intelligence](https://openai.com/index/the-full-stack-behind-abundant-intelligence) — *OpenAI Blog* — OpenAI CFO Sarah Friar articulates how compounding advances across custom silicon, infrastructure, models, and products are designed to drive down AI costs at scale.
 
-- [AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance](https://arxiv.org/abs/2608.21363) — *ArXiv cs.AI* — Proposes a signed, verifiable record for every AI output decision (release, block, redact, escalate), enabling offline auditability independent of the runtime that produced it.
+- [Introducing the Admin Plugin for ChatGPT Work and Codex](https://openai.com/index/introducing-admin-plugin) — *OpenAI Blog* — New enterprise tooling lets workspace admins manage usage, permissions, and member limits directly through ChatGPT Work and Codex, targeting large-scale deployments.
 
 ## Deep Dives
 
-- [Reviewing Model Collapse and Countermeasures](https://arxiv.org/abs/2608.21366) — *ArXiv cs.AI* — Comprehensive survey of the "model collapse" phenomenon — where training on AI-generated data causes progressive degradation — and current mitigation strategies; essential reading as synthetic data pipelines become standard.
+- [Agentic Context Management: Memory and Cost as Architecture Problems](https://arxiv.org/abs/2607.21503) — *ArXiv / Hacker News* — Argues that token budget and memory retrieval in agentic systems are not peripheral concerns but core architectural trade-offs, offering a framework that has direct implications for anyone building production LLM pipelines.
 
-- [KVBoost: Chunk-Level Key-Value Cache Reuse for Efficient LLM Inference](https://arxiv.org/abs/2608.21362) — *ArXiv cs.AI* — Introduces a dual-hash keying scheme that enables KV cache reuse regardless of where shared content appears in a prompt (not just leading prefixes), potentially cutting prefill latency significantly for real-world workloads.
+- [From Causal Plausibility to Causal Reliability: Evaluating LLMs as Calibrated Direct Causal-Edge Classifiers](https://arxiv.org/abs/2608.23660) — *ArXiv cs.LG* — Systematically stress-tests 12 open-weight models across six causal graphs and five prompting strategies to assess whether LLM causal judgments can be trusted for scientific discovery—finding meaningful gaps between perceived and actual reliability.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [Infleqtion Helps Launch Japan's First Operational Neutral-Atom Quantum Computer](https://thequantuminsider.com/2026/08/24/infleqtion-japan-operational-neutral-atom-quantum-computer/) — *The Quantum Insider* — Infleqtion technology enabled the launch of Japan's first operational neutral-atom quantum computer.
+- [Single-Spin Quantum Microscope Helps Researchers Tackle Processor-Memory Bottleneck](https://thequantuminsider.com/2026/08/26/single-spin-quantum-microscope-helps-researchers-tackle-processor-memory-bottleneck/) — *The Quantum Insider* — A new quantum microscope addresses a fundamental hardware limitation in quantum processor design.
 
-- [U.S. Treasury Announces the Quantum-Readiness Task Force](https://thequantuminsider.com/2026/08/24/u-s-treasury-announces-the-quantum-readiness-task-force/) — *The Quantum Insider* — The U.S. Treasury established a task force to prepare financial systems for quantum computing threats.
+- [Building a Quantum Computer, One Fragile Qubit at a Time](https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/) — *Quanta Magazine* — Scientists explore the competing technologies and intricate engineering challenges in the race to build practical quantum computers.
 
-- [World's first superconducting quantum heat engine could help unlock massive quantum computers](https://www.sciencedaily.com/releases/2026/08/260814011041.htm) — *ScienceDaily Quantum* — A superconducting quantum heat engine successfully converted heat near absolute zero into useful work, potentially eliminating costly microwave cables in quantum computers.
+- [World's first superconducting quantum heat engine could help unlock massive quantum computers](https://www.sciencedaily.com/releases/2026/08/260814011041.htm) — *ScienceDaily Quantum* — A breakthrough superconducting engine demonstrates how quantum computers could operate autonomously while eliminating noise-producing cables.
 
-- [Building a Quantum Computer, One Fragile Qubit at a Time](https://www.quantamagazine.org/building-a-quantum-computer-one-fragile-qubit-at-a-time-20260819/) — *Quanta Magazine* — The race to build quantum computers has produced intricate machinery, though the winning technology remains uncertain.
+- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extended the lifetime of magnons nearly 100 times, opening a path toward miniaturized quantum computers based on magnetic waves.
 
-- [Tiny magnetic waves could unlock quantum computers the size of a penny](https://www.sciencedaily.com/releases/2026/06/260626030431.htm) — *ScienceDaily Quantum* — Researchers extended magnon lifetimes by 100 times, making them viable quantum information carriers and potentially enabling penny-sized quantum computers.
+- [Quantum entanglement is key to solving 250-year-old maths problem](https://www.newscientist.com/article/2584226-quantum-entanglement-is-key-to-solving-300-year-old-maths-problem/?utm_campaign=RSS|NSNS&utm_content=physics&utm_medium=RSS&utm_source=NSNS) — *New Scientist Quantum* — Quantum entanglement provides the crucial ingredient for solving Euler's centuries-old mathematical puzzle.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – August 24, 2026 (#852)](https://seroter.com)**
+**[Daily Reading List – August 25, 2026 (#853)](https://seroter.com)**
 
-_AI coding agents show promise but struggle with complex refactoring; measure AI ROI by business value, not adoption rates._
+_Google expands Gemini Enterprise with team-level spend controls and industry-specific offerings while emphasizing AI fundamentals over hype._
