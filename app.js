@@ -170,7 +170,12 @@ function showPanel(blob, message, cls) {
 
 if (notifyBtn) {
   notifyBtn.addEventListener('click', enableNotifications);
-  document.getElementById('close-panel').addEventListener('click', () => { panel.hidden = true; });
+  const closePanel = () => { panel.hidden = true; };
+  document.getElementById('close-panel').addEventListener('click', closePanel);
+  // Tap outside the card dismisses too.
+  panel.addEventListener('click', (e) => { if (e.target === panel) closePanel(); });
+  // Tap the code to select it all (easier copy on iOS).
+  subBlob.addEventListener('focus', () => subBlob.select());
   document.getElementById('copy-sub').addEventListener('click', async () => {
     try { await navigator.clipboard.writeText(subBlob.value); notifyMsg.textContent = 'Copied ✓'; notifyMsg.className = 'notify-msg ok'; }
     catch (_) { subBlob.select(); document.execCommand('copy'); }
