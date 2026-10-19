@@ -15,7 +15,10 @@
 </head>
 <body>
 <header class="topbar">
-  <h1>AI News Digest</h1>
+  <div class="titlerow">
+    <h1>AI News Digest</h1>
+    <button id="notify-btn" class="notify-btn" title="Daily notification">🔔</button>
+  </div>
   <div class="tabs">
     <button id="tab-today" class="tab active" data-view="today">Today</button>
     <button id="tab-history" class="tab" data-view="history">History</button>
@@ -25,6 +28,22 @@
 <main id="content">
   <div id="loading" class="status">Loading…</div>
 </main>
+
+<!-- One-time notification hand-off: shown after subscribing. -->
+<div id="notify-panel" class="panel" hidden>
+  <div class="panel-card">
+    <h2>Finish enabling notifications</h2>
+    <p>Copy the code below, then on your Mac run this once in Terminal:</p>
+    <pre class="cmd">cd ~/code/work/ai-news-agent
+./.venv/bin/python -m utils.push_register '&lt;paste code&gt;'</pre>
+    <textarea id="sub-blob" readonly rows="5"></textarea>
+    <div class="panel-actions">
+      <button id="copy-sub" class="btn-primary">Copy code</button>
+      <button id="close-panel" class="btn-ghost">Done</button>
+    </div>
+    <p id="notify-msg" class="notify-msg"></p>
+  </div>
+</div>
 
 <div id="pull-hint" class="pull-hint" hidden>Release to refresh…</div>
 
