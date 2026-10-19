@@ -1,6 +1,6 @@
 // Service worker: precache the app shell, runtime-cache digests for offline reading.
 // Bump CACHE when shell files change to force an update.
-const CACHE = 'ai-digest-v1';
+const CACHE = 'ai-digest-v2';
 const SHELL = [
   './',
   './index.html',
@@ -43,4 +43,30 @@ self.addEventListener('fetch', (e) => {
 
   // Shell + assets: cache-first.
   e.respondWith(caches.match(req).then(hit => hit || fetch(req)));
+});
+
+// --- Web Push: show a notification when the Mac agent sends one. ---
+self.addEventListener('push', (e) => {
+  let data = {};
+  try { data = e.data ? e.data.json() : {}; } catch (_) { data = { body: e.data ? e.data.text() : '' }; }
+  const title = data.title || 'AI News Digest';
+  const body = data.body || 'Today’s digest is ready.';
+  const url = data.url || './';
+  e.waitUntil(self.registration.showNotification(title, {
+    body,
+    icon: './icons/icon-192.png',
+    badge: './icons/icon-192.png',
+    data: { url }
+  }));
+});
+
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close();
+  const url = (e.notification.data && e.notification.data.url) || './';
+  e.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
+      for (const c of list) { if ('focus' in c) { c.navigate && c.navigate(url); return c.focus(); } }
+      return self.clients.openWindow ? self.clients.openWindow(url) : undefined;
+    })
+  );
 });
