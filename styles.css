@@ -85,6 +85,7 @@ main {
 .panel { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.6);
   display: flex; align-items: center; justify-content: center;
   padding: calc(env(safe-area-inset-top) + 1rem) 1rem; }
+.panel[hidden] { display: none; }  /* the hidden attribute must win over display:flex */
 .panel-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
   padding: 1.25rem; max-width: 460px; width: 100%; }
 .panel-card h2 { color: var(--accent2); font-size: 1.1rem; margin-bottom: .6rem; }
