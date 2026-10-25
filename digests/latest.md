@@ -1,78 +1,82 @@
-# AI News Digest — 2026-10-22
+# AI News Digest — 2026-10-23
 
 ## 🍴 Restaurant Industry
 
-**Franchise distress and value messaging dominate as QSR chains fight traffic headwinds.**
+**QSR value wars wind down as chains pivot to quality, while AI and loyalty tech reshape operations.**
 
-- Wendy's franchisee Meritage Hospitality (Chapter 11) may close up to 60 locations, with 42 being sold to Hiren Patel for $18.6M; separately, Wendy's launched a $7.99 Dave's Single combo LTO after six quarters of declining sales — [Nation's Restaurant News](https://www.nrn.com/restaurant-finance/a-big-wendy-s-franchisee-could-close-up-to-60-restaurants)
-- Olo's new consumer app aims to undercut third-party delivery commission rates, a potential shift in the delivery economics that chains like Chick-fil-A navigate — [Restaurant Dive](https://www.restaurantdive.com/news/olo-app-delivery-commission-fees-aggregator-competition/833536/)
-- Sweetgreen's expanded housemade beverage lineup drove a ~25% jump in beverage transaction share, signaling beverages as a meaningful attach-rate lever in fast casual — [Restaurant Dive](https://www.restaurantdive.com/news/sweetgreen-expands-housemade-beverages-120-locations/833491/)
-- Pollo Campero hired CKE veteran Julio Sánchez as U.S. CEO, targeting 250 units as the chicken-focused fast casual segment intensifies — [Restaurant Dive](https://www.restaurantdive.com/news/pollo-campero-hires-julio-sanchez-us-ceo/833439/)
-- Landry's bid $22M to acquire most of Fireman Hospitality Group's concepts (Café Fiorello, Trattoria Dell'Arte, Bond 45) out of bankruptcy, continuing consolidation among full-service brands — [Nation's Restaurant News](https://www.nrn.com/mergers-acquisitions/landry-s-to-acquire-most-of-fireman-hospitality-group-concepts-in-bankruptcy-auction)
-- Il Fornaio agreed to a $3M EEOC settlement over workplace sexual harassment affecting at least 100 women across multiple California locations — a labor compliance signal for multi-unit operators — [Restaurant Dive](https://www.restaurantdive.com/news/il-fornaio-to-pay-3m-to-settle-eeoc-sexual-harassment-claims/833460/)
-- Golden Corral is closing more restaurants than usual in 2026, underscoring continued softness in the buffet/family-dining segment — [Nation's Restaurant News](https://www.nrn.com/casual-dining/golden-corral-is-closing-more-restaurants-than-usual-this-year)
+- Fast food's two-year value war ended with no winners; brands are now shifting to food quality as the primary frequency driver — [Restaurant Dive](https://www.restaurantdive.com/news/price-value-wars-over-fast-food-chains-shift-food-quality/833658/)
+- Bojangles is expanding Hi Auto's voice AI to 100 more drive-thrus, reaching 600 locations; the system processes 1M orders/week at 98% accuracy — [Restaurant Dive](https://www.restaurantdive.com/news/hi-auto-bojangles-expand-extend-600-stores-voice-ai/833707/)
+- Olo's new consumer app aims to eliminate third-party delivery commissions, a potential structural shift in restaurant delivery economics — [Restaurant Dive](https://www.restaurantdive.com/news/olo-app-delivery-commission-fees-aggregator-competition/833536/)
+- Domino's Rewards tops a new loyalty benchmarking report as the fastest path to a free item, highlighting loyalty program differentiation as a key competitive lever — [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/this-restaurant-loyalty-program-offers-the-most-bang-for-your-buck)
+- Chubby Cattle Group is rebranding or converting all 47 acquired Gen Korean BBQ locations, a notable casual-dining M&A consolidation — [Nation's Restaurant News](https://www.nrn.com/casual-dining/gen-korean-bbq-restaurants-will-all-be-rebranded-or-converted-under-new-ownership)
+- Multi-state operators face a growing compliance burden as cross-jurisdictional allergen labeling rules require unified policy planning — [Restaurant Dive](https://www.restaurantdive.com/news/restaurants-are-about-to-inherit-the-food-industrys-hardest-labeling-probl/833533/)
+- Il Fornaio will pay $3M to settle EEOC sexual harassment claims affecting 100+ women, a labor/legal risk reminder for multi-unit operators — [Restaurant Dive](https://www.restaurantdive.com/news/il-fornaio-to-pay-3m-to-settle-eeoc-sexual-harassment-claims/833460/)
 
 ---
 
 ## Executive Summary
-Today's most significant developments center on several concurrent major announcements: Anthropic launched Claude Duet (a new collaborative AI product), OpenAI models are coming to Google Cloud in a landmark cross-competitor partnership, and a critical supply-chain security breach was discovered in the widely-used LiteLLM PyPI package. On the agentic frontier, OpenAI launched a coordinated open-source vulnerability disclosure initiative ("Patch the Planet"), and Walmart embraced AI shopping agents while Amazon blocks them—marking a clear divergence in retail AI strategy. The day also saw notable AI self-improvement milestones, with Recursive launching a coding model largely built by its own AI system.
+OpenAI dominates today's news cycle with a reported $30B fundraise at a record $1.25T valuation, the launch of a new Decisions API for fast low-latency inference, and a major ChatGPT Work rollout to 30,000+ Uber employees. NVIDIA open-sourced OpenShell, a secure runtime for autonomous AI agent fleets, while Anthropic published research showing LLMs can make formal software verification tractable at scale — a potential breakthrough for software safety. On the agentic frontier, multiple stories highlight the growing complexity of AI agents operating autonomously: banks are catching agents going off-script, MIT researchers observed idle agents spontaneously inventing games, and 1Password launched credential-safe agent login infrastructure.
 
 ---
 
 ## Top Stories
 
-- [Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor](https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/) — *Hacker News* — A widely-used LLM routing library was supply-chain attacked, with a malicious version on PyPI silently exfiltrating credentials and installing a backdoor—immediate action required for any users of this package.
+- [OpenAI working on new $30B raise at $1.25T valuation ahead of IPO](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/) — *TechCrunch AI* — Would set a record as the highest-valued private company ever, signaling sustained investor conviction in AI's commercial trajectory ahead of a public offering.
 
-- [Claude Duet](https://claude.com/product/claude-duet) — *Hacker News* — Anthropic's new Claude Duet product enables real-time collaborative AI interaction, representing a significant expansion of Claude's product line beyond chat.
+- [OpenShell – A safe, private runtime for fleets of autonomous AI agents](https://github.com/NVIDIA/OpenShell) — *Hacker News / NVIDIA* — NVIDIA open-sources a sandboxed execution environment designed specifically to run and govern large-scale autonomous agent deployments securely.
 
-- [OpenAI Models Are Coming to Google Cloud](https://openai.com/index/openai-models-google-cloud) — *OpenAI Blog* — In a striking cross-competitor deal, OpenAI's frontier models and Codex workflows will be available via Google Cloud's Model Garden and Marketplace, signaling pragmatic business collaboration despite fierce rivalry.
+- [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification) — *Hacker News / Anthropic* — Anthropic research demonstrates that LLMs can dramatically expand the scope of formal verification, potentially making provably-correct software practical beyond narrow academic use cases.
 
-- [Patch the Planet: Global Response Coordination as Agents Uncover Critical Vulnerabilities](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities) — *OpenAI Blog* — OpenAI launched a program connecting AI agents, security researchers, and maintainers to proactively discover and coordinate disclosure of critical open-source vulnerabilities at scale.
+- [Build more responsive apps with the Decisions API](https://openai.com/index/decisions-api) — *OpenAI Blog* — OpenAI launches a dedicated low-latency, low-cost API optimized for rapid, focused decision-making within applications and agent workflows.
 
-- [While Amazon Blocks AI Agents, Walmart Rolls Out the Welcome Mat](https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/) — *TechCrunch* — Walmart is introducing infrastructure allowing AI agents to make purchases on customers' behalf with spending controls, while Amazon actively blocks such agents—a defining strategic fork in retail AI adoption.
+- [OpenAI makes its Jev competitor widely available as decision model competition heats up](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/) — *TechCrunch AI* — OpenAI opens up its specialized decision model to the public, entering a competitive segment where structured reasoning and action selection are increasingly contested.
 
-- [Recursive Launches Flint, a Laptop Coding Model It Says Was Largely Built by AI](https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/) — *TechCrunch* — Flint is a free, locally-runnable coding model that Recursive claims was substantially constructed by its own AI research system, representing a concrete early-stage demonstration of recursive self-improvement in model development.
+- [1Password launches a way for AI agents to log in on your behalf without seeing your password](https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/) — *TechCrunch AI* — A new credential-delegation system lets AI agents authenticate to web services without ever exposing the underlying password, addressing a key security gap in agentic workflows.
 
-- [ChatGPT Ads Expands to 26 New Countries](https://openai.com/index/chatgpt-ads-expands-26-new-countries) — *OpenAI Blog* — OpenAI is scaling its advertising platform globally, now reaching over 100,000 advertisers, marking a major step in monetizing ChatGPT's massive user base.
+- [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/) — *TechCrunch AI* — MIT experiment placed 13 AI agents in an unstructured virtual environment; they spontaneously developed games and social behaviors, raising questions about emergent purposiveness.
 
-- [Meta Says Muse Has Over 10M Users, With Shopping a Top Activity](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/) — *TechCrunch* — Meta's AI app Muse hit 10M users with shopping and productivity as dominant use cases, revealed during Q3 earnings—signaling strong consumer AI app traction outside of ChatGPT.
+- [U.S. banks catch AI agents going off-script](https://www.therundown.ai/articles/us-banks-catch-ai-agents-going-off-script) — *The Rundown AI* — Financial institutions are reporting incidents where deployed AI agents deviate from intended behavior, highlighting real-world reliability and control challenges in high-stakes settings.
 
-- [OpenAI CLI](https://github.com/openai/openai-cli) — *Hacker News* — OpenAI released an official command-line interface, giving developers a native terminal tool for interacting with OpenAI APIs and workflows.
+- [WorldTUI: I trained a 360M model to pretend to be a terminal](https://simedw.com/2026/10/21/world-model-terminal/) — *Hacker News* — A developer trained a compact world model to simulate a realistic interactive terminal environment, offering a novel demonstration of environment modeling at small scale.
 
-- [Using LLM for Confidence Scoring Is a Bad Idea](https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html) — *Hacker News* — A well-evidenced technical argument that LLM-generated confidence scores are systematically unreliable, with practical implications for anyone building RAG or decision-support systems.
+- [Every AI model has the same "controversial" take on humans](https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans) — *Hacker News* — Cross-model comparison reveals a consistent, convergent bias in how frontier LLMs characterize human nature, suggesting shared training data or RLHF artifacts rather than genuine diversity of perspective.
 
-- [AI's Hidden Storage Bill: What Inference Leaves Behind](https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/) — *MIT Technology Review* — Examines the underappreciated and rapidly growing cost of storing the data generated by billions of daily AI inference requests, beyond just compute and GPU expenditure.
+- [Uber brings ChatGPT Work to all employees with OpenAI](https://openai.com/index/uber-chatgpt-work-rollout) — *OpenAI Blog* — One of the largest enterprise AI deployments to date, giving 30,000+ Uber employees access to ChatGPT for research, data analysis, and complex workflows.
 
-- [WorldTUI: I Trained a 360M Model to Pretend to Be a Terminal](https://simedw.com/2026/10/21/world-model-terminal/) — *Hacker News* — A developer trained a world-model to simulate an interactive terminal environment, a novel application of small-scale world modeling with interesting implications for agent sandboxing and testing.
+- [Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia](https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/) — *TechCrunch AI* — Pony.ai's autonomous vehicles will be integrated into inDrive's platform for pilot testing in Kazakhstan, expanding the robotaxi race beyond China and the US.
 
-- [SimHack: Predicting the Onset of Detectable Reward Hacking Before RL Training](https://arxiv.org/abs/2610.28707) — *ArXiv cs.LG* — Researchers propose a method to predict whether an RL training run will produce detectable reward hacking *before* executing it, enabling safer recipe selection without costly trial-and-error.
+- [AI finds a security hole in 70% of the web](https://www.therundown.ai/articles/ai-finds-a-security-hole-in-70-of-the-web) — *The Rundown AI* — AI-assisted security research reportedly identified a widespread vulnerability affecting the majority of websites, with significant implications for internet security infrastructure.
+
+- [OpenAI and Poland's NASK partner to advance AI safety and security](https://openai.com/index/openai-nask-ai-safety-security-partnership) — *OpenAI Blog* — OpenAI expands its international safety partnerships into Eastern Europe, collaborating with Poland's national cybersecurity agency on research and safeguards.
+
+- [Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)](https://openai.com/index/scaling-storage-one-billion-users-part-two) — *OpenAI Blog* — OpenAI details its Habitat storage architecture achieving 12× faster reads via multi-tenancy and global caching with Azure Cosmos DB, a rare look at the infrastructure behind a billion-user product.
 
 ---
 
 ## Deep Dives
 
-- [Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?](https://arxiv.org/abs/2610.28763) — *ArXiv cs.AI* — Introduces Agent4Sci, a rigorous 20-benchmark testbed across 11 scientific domains measuring how far today's coding agents can autonomously improve state-of-the-art scientific ML models—a serious stress test of the "AI as autonomous researcher" claim.
+- [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification) — *Anthropic* — Anthropic's research paper argues that LLMs can close the longstanding gap between the theoretical promise and practical limitations of formal verification, potentially enabling mathematically proven software correctness at production scale — worth reading in full for its methodology and implications for software engineering and AI safety.
 
-- [SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery](https://arxiv.org/abs/2610.28706) — *ArXiv cs.AI* — Proposes a multi-LLM framework that pairs cheap "speculator" models with frontier models to accelerate evolutionary program search for scientific discovery, achieving better cost-efficiency by continuously distilling evidence from failed and successful trials.
+- [MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs](https://arxiv.org/abs/2610.30206) — *ArXiv cs.LG* — Identifies a previously overlooked problem where KV cache eviction in MoE models silently corrupts expert routing during inference, and proposes a routing-aware compression scheme to fix it — technically substantive and relevant to anyone deploying large MoE models in long-context settings.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [GOTT Funds NPL Project to Scale Trapped-Ion Quantum Technology](https://thequantuminsider.com/2026/10/21/gott-funds-npl-project-to-scale-trapped-ion-quantum-technology/) — *The Quantum Insider* — NPL secures funding to accelerate trapped-ion quantum computing development and address scalability challenges for commercial adoption.
+- [Governor Hochul Announces New Study Highlighting New York's Position as a National Leader in Quantum Technology](https://thequantuminsider.com/2026/10/23/governor-hochul-announces-new-study-highlighting-new-yorks-position-as-a-national-leader-in-quantum-technology/) — *The Quantum Insider* — New York State ranks second nationally in quantum-related businesses, research groups, and patents according to a comprehensive study commissioned by Empire State Development.
 
-- [This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough](https://www.sciencedaily.com/releases/2026/09/260930020309.htm) — *ScienceDaily Quantum* — A proposed superfluid helium qubit could reduce quantum computing error rates by approximately 100 times by shielding quantum information from electromagnetic noise.
+- [IQM and Telefónica Plan Quantum Computer for Madrid University](https://thequantuminsider.com/2026/10/23/madrid-first-quantum-computer-telefonica-iqm/) — *The Quantum Insider* — Telefónica and IQM Quantum Computers have partnered to deploy the first quantum computer in the Community of Madrid to strengthen scientific capabilities and develop real-world applications.
 
-- [Scientists recreate a bizarre quantum effect that stops a particle cold](https://www.sciencedaily.com/releases/2026/10/261011211554.htm) — *ScienceDaily Quantum* — Oxford physicists used a hybrid quantum computer to demonstrate quantum interference effects that halt particle movement in response to magnetic fields.
+- [Quandela And Quanova Partner to Deploy Vietnam's First Quantum Computer](https://thequantuminsider.com/2026/10/23/quandela-and-quanova-partner-to-deploy-vietnams-first-quantum-computer/) — *The Quantum Insider* — Quandela's photonic quantum computing solution has been selected to establish Vietnam's first quantum research and innovation program at Quang Trung University.
 
-- [Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge](https://www.sciencedaily.com/releases/2026/09/260929053550.htm) — *ScienceDaily Quantum* — Researchers developed a method for identifying W states of multi-photon quantum entanglement, enabling easier measurement for quantum teleportation and computing applications.
+- [This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough](https://www.sciencedaily.com/releases/2026/09/260930020309.htm) — *ScienceDaily Quantum* — A proposed superfluid helium qubit could reduce quantum computing error rates by around 100 times by shielding quantum information from electromagnetic noise.
 
-- [RhymeQ Secures $2.2 Million to Simplify Quantum Software Development](https://thequantuminsider.com/2026/10/22/rhymeq-secures-2-2-million-to-simplify-quantum-software-development/) — *The Quantum Insider* — RhymeQ raised $2.2 million in pre-seed funding to make quantum computers more accessible to software developers worldwide.
+- [Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge](https://www.sciencedaily.com/releases/2026/09/260929053550.htm) — *ScienceDaily Quantum* — Scientists have demonstrated a long-sought method for identifying W states, enabling easier measurement of complex entangled systems for quantum teleportation and computing applications.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – October 21, 2026 (#892)](https://seroter.com)**
+**[Daily Reading List – October 23, 2026 (#895)](https://seroter.com)**
 
-_Google offers multicloud AI choice; patch critical PHP vulnerabilities immediately; personal agents becoming essential workplace tools._
+_CLIs outperform agents for token efficiency; developers prefer AI suggestions at natural work boundaries; design—not language—drives performance._
