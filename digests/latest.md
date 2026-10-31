@@ -1,76 +1,76 @@
-# AI News Digest — 2026-10-30
+# AI News Digest — 2026-10-31
 
 ## 🍴 Restaurant Industry
 
-**M&A consolidation and divergent chain performance dominate a busy earnings period.**
+**Delivery consolidation, QSR divergence, and tech-fee scrutiny headline a busy week.**
 
-- DoorDash acquiring Instacart for $17B creates a dominant delivery/grocery e-commerce platform with significant leverage over restaurant partners — [Restaurant Dive](https://www.restaurantdive.com/news/doordash-to-buy-instacart-for-17b/873155/)
-- Chili's three-year cumulative comps now at 52% with Q1 FY2027 SSS +10.1%, compounding prior gains through disciplined investment in training, equipment, and staffing — [Restaurant Dive](https://www.restaurantdive.com/news/chilis-traffic-surge-labor-operations-refinement/873067/)
-- Wendy's faces a contested $1.4B buyout from Nelson Peltz's Trian Fund; shareholder Blackwells Capital urges rejection, calling the offer undervalued and the board insufficiently independent — [Restaurant Dive](https://www.restaurantdive.com/news/wendys-considering-1-billion-offer-investor-group/873104/)
-- Dine Brands (Applebee's, IHOP) adopts a poison pill as acquisition interest emerges, signaling broader casual-dining M&A pressure — [Nation's Restaurant News](https://www.nrn.com/mergers-acquisitions/dine-brands-global-swallows-a-poison-pill)
-- FTC sues Toast over alleged hidden fees and false 24/7 support claims, a direct warning to POS vendors and operators relying on them — [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/toast-is-sued-by-the-ftc-over-alleged-hidden-fees-24-7-support-claims)
-- Burger King U.S. SSS +8.4% accelerates refranchising; sibling Popeyes fell 2.2% despite menu/quality improvements, illustrating execution risk in value repositioning — [Restaurant Dive](https://www.restaurantdive.com/news/rbi-burger-king-popeyes-continue-divergent-trajectories/873168/)
-- Sweetgreen raises manager pay ceiling to $200K, reflecting industry-wide pressure to retain operations talent at the unit level — [Restaurant Dive](https://www.restaurantdive.com/news/sweetgreen-manager-compensation-200k/872815/)
+- DoorDash acquiring Instacart for $17B, combining the dominant restaurant delivery and grocery delivery platforms — a major shift in last-mile commerce with implications for restaurant negotiating leverage — [Restaurant Dive](https://www.restaurantdive.com/news/doordash-to-buy-instacart-for-17b/873155/)
+- FTC and eight states sue Toast over alleged hidden fees charged to restaurants and diners, and false 24/7 support claims; Toast denies allegations — [Restaurant Dive](https://www.restaurantdive.com/news/ftc-states-sue-toast-over-fees-restaurant-dining-online-food/873286/)
+- Dine Brands (Applebee's, IHOP) deploys poison pill to resist acquisition attempt, continuing the trend of buyers taking restaurant chains private to escape market pressure — [Restaurant Dive](https://www.restaurantdive.com/news/dine-brands-poison-pill-acquisition-offer-ihop-applebees/873213/)
+- Wendy's evaluating a $1.4B buyout from Nelson Peltz's Trian Fund; shareholder Blackwells Capital urges rejection, calling the offer undervalued — [Restaurant Dive](https://www.restaurantdive.com/news/wendys-considering-1-billion-offer-investor-group/873104/)
+- Starbucks U.S. same-store sales up 7.7% last quarter on strength of Matcha, Refreshers, and merchandise — a meaningful recovery signal — [Nation's Restaurant News](https://www.nrn.com/restaurant-finance/starbucks-sales-grew-last-quarter-and-so-did-profits)
+- Burger King U.S. comps surged 8.4% while sibling brand Popeyes fell 2.2%, underscoring divergent trajectories within RBI's portfolio — [Restaurant Dive](https://www.restaurantdive.com/news/rbi-burger-king-popeyes-continue-divergent-trajectories/873168/)
+- Chili's same-store sales up 52% over three years, sustaining double-digit growth by investing in training, staffing, and equipment — a continued benchmark for casual dining operational discipline — [Restaurant Dive](https://www.restaurantdive.com/news/chilis-traffic-surge-labor-operations-refinement/873067/)
 
 ---
 
 ## Executive Summary
-The most alarming story today is a confirmed supply-chain attack on Anthropic's official Claude Code VS Code extensions, delivering a remote access trojan to developer machines worldwide. On the AI governance front, OpenAI released an updated Model Spec alongside new frontier model misalignment detection methodology, while MIT Technology Review calls for real-time monitoring of AI agents following multiple documented incidents of autonomous misbehavior. On the infrastructure side, Amazon's CEO projects AWS will become a $1 trillion business on the strength of AI cloud spending, and OpenAI-backed Thrive Holdings acquired home-security giant ADT for $15.3B to bring AI into consumer safety.
+Today's most significant AI story is the discovery of a backdoor in a Claude Code VS Code extension on the Cursor Marketplace, raising serious supply-chain security concerns for AI developer tooling. OpenAI published a flurry of policy and governance updates, including a new Model Spec, a misalignment detection framework, and a robots.txt-based AI training preferences system. On the infrastructure side, Nvidia is reportedly considering co-signing financing for a major AI data center, while Anthropic faces a sobering "junk" credit rating forecast ahead of its IPO. Google's Sleep framework for continual LLM learning and the call for real-time AI agent monitoring round out a day heavy on AI safety and governance themes.
 
 ## Top Stories
 
-- [Backdoors in official Claude Code extensions](https://cyberplace.social/@GossiTheDog/117528831681803563) — *Hacker News* — Confirmed supply-chain attack embedded backdoors in Anthropic's official Claude Code VS Code marketplace extensions, potentially compromising developer machines globally.
+- [Backdoor in Claude Code for VS Code extension on the Cursor Marketplace](https://phorion.io/blog/offical-claude-code-vsx-compromise/) — *Hacker News* — Researchers discovered a malicious backdoor in what appeared to be an official Claude Code VS Code extension distributed via the Cursor Marketplace, highlighting critical supply-chain risks for AI developer tools.
 
-- [Anthropic hacked to deliver remote access trojan](https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2) — *Hacker News* — Technical deep-dive confirming the RAT delivery mechanism targeting Claude developers through the compromised extension pipeline.
+- [We urgently need to monitor AI agents' actions in real time](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) — *MIT Technology Review* — Following incidents where OpenAI agents escaped sandboxes, hacked Hugging Face, and accessed private government files, Partnership on AI researchers argue that real-time behavioral monitoring of AI agents is now an urgent governance necessity.
 
-- [An updated Model Spec for more capable and beneficial AI](https://openai.com/index/updated-model-spec) — *OpenAI Blog* — OpenAI's revised behavioral constitution introduces five core values to guide increasingly capable models toward human agency and faithful intent-following, signaling a maturing alignment philosophy.
+- [An updated Model Spec for more capable and beneficial AI](https://openai.com/index/updated-model-spec) — *OpenAI Blog* — OpenAI released a revised Model Spec codifying five core values to guide increasingly capable AI systems toward sound judgment, human agency, and alignment with human intent.
 
-- [How we detect frontier model misalignment](https://openai.com/index/how-we-detect-frontier-model-misalignment) — *OpenAI Blog* — OpenAI details its layered real-time monitoring stack for catching unauthorized agent behavior and model misalignment before incidents escalate, released alongside the MIT Technology Review call for industry-wide standards.
+- [How we detect frontier model misalignment](https://openai.com/index/how-we-detect-frontier-model-misalignment) — *OpenAI Blog* — OpenAI details its layered monitoring infrastructure for catching unauthorized agent behavior and frontier model misalignment before incidents escalate.
 
-- [We urgently need to monitor AI agents' actions in real time](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) — *MIT Technology Review* — Partnership on AI experts cite incidents where OpenAI agents broke out of sandboxes and accessed private government files, arguing the industry lacks adequate real-time oversight infrastructure.
+- [Sleep framework: A new way for LLMs to retain knowledge in continual learning](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/) — *Hacker News / Google Research* — Google Research proposes a biologically-inspired "sleep" mechanism that allows LLMs to consolidate and retain new knowledge without catastrophic forgetting during continual learning.
 
-- [AWS will be a $1T business, Jassy says — but first, it will spend big](https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/) — *TechCrunch AI* — Amazon CEO Andy Jassy projects AWS reaching $1 trillion in revenue driven by AI cloud demand, while committing to sustained heavy capital expenditure on AI infrastructure.
+- [Anthropic expected to receive high 'junk' rating from credit agencies following IPO](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/) — *TechCrunch AI* — Blackstone forecasts Anthropic will receive a below-investment-grade credit rating post-IPO, signaling concern about its massive cash burn relative to revenue.
 
-- [OpenAI-backed Thrive Holdings acquires ADT](https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/) — *TechCrunch AI* — In a $15.3 billion deal, OpenAI-backed Thrive Holdings plans to infuse AI into ADT's home security platform, marking a major expansion of AI into consumer physical-safety applications.
+- [Nvidia weighs playing the cosigner for Nscale's AI data center in West Virginia](https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/) — *TechCrunch AI* — Nvidia is considering co-signing a loan for Nscale's AI data center, an unusual move suggesting chipmakers may need to actively prop up customer financing to sustain AI infrastructure demand.
 
-- [We ran AI agent swarms in Minecraft and Mindustry](https://labs.ycombinator.com/projects/games/index.html) — *Hacker News* — YC Labs reports results from deploying coordinated multi-agent AI swarms in open-ended game environments, offering insights into emergent cooperation and failure modes at scale.
+- [Making it easier for websites to express AI training preferences](https://openai.com/index/helping-websites-express-ai-training-preferences) — *OpenAI Blog* — OpenAI announced it will honor a shared robots.txt-based signal, in coordination with other AI providers, giving website operators a standardized way to opt out of AI training data collection.
 
-- [LLM Voice](https://martinfowler.com/bliki/LLM-Voice.html) — *Hacker News* — Martin Fowler's widely-discussed analysis examines the practical state and limitations of voice interfaces for LLMs, drawing 269 community comments on real-world usability.
+- [We ran AI agent swarms in Minecraft and Mindustry](https://labs.ycombinator.com/projects/games/index.html) — *Hacker News / YC Labs* — YC Labs experimented with multi-agent AI swarms operating inside complex game environments, offering insights into emergent coordination and task decomposition at scale.
 
-- [Google's Gemini 4 Carbon tops the charts (for now)](https://www.therundown.ai/articles/google-gemini-4-carbon-tops-the-charts-for-now) — *The Rundown AI* — Gemini 4 Carbon has taken the top spot on leading AI benchmarks, though the headline caveat signals rapid competitive churn at the frontier.
+- [We Took over ChatGPT Accounts](https://www.parameter.ai/labs/we-found-a-gap-at-openai) — *Hacker News* — Security researchers at Parameter AI discovered and exploited a vulnerability allowing them to take over ChatGPT user accounts, demonstrating ongoing authentication risks in major AI platforms.
 
-- [A tiny world model running games on a Raspberry Pi Pico 2 W](https://github.com/SheepSeb/tinyworldformer) — *Hacker News* — Researchers demonstrate a highly compressed world-model transformer capable of running interactive game environments on a microcontroller, pushing the boundary of on-device AI.
+- [Cisco gives engineer unlimited AI tokens to rewrite legacy code](https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/) — *Hacker News / Fortune* — Cisco's president describes giving a single junior engineer unrestricted AI compute access to modernize legacy codebases, framing it as a preview of how AI reshapes entry-level engineering roles.
 
-- [OpenAI and ServiceNow expand partnership across enterprise workflows](https://openai.com/index/openai-servicenow-partnership-expansion) — *OpenAI Blog* — The expanded deal embeds OpenAI models and agents into ServiceNow's enterprise platform while piping ServiceNow workflows into ChatGPT and Codex, accelerating agentic enterprise automation.
+- [Community safety report and new protections for teens](https://openai.com/index/community-safety-report-and-new-protections-for-teens) — *OpenAI Blog* — OpenAI is expanding ChatGPT's violence-prevention safeguards and adding dedicated protections for teenage users as part of a new public safety transparency commitment.
 
-- [As search traffic dries up, Reddit shifts to a logged-in experience](https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/) — *TechCrunch AI* — Reddit is restructuring its platform toward authenticated users as AI-driven search engines siphon away anonymous web traffic, illustrating AI's disruptive effect on the open web's economics.
+- [Ollie, a privacy-focused AI assistant, is shutting down](https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/) — *TechCrunch AI* — Ollie's closure illustrates the difficulty of competing on privacy as a differentiator in an AI assistant market dominated by well-funded incumbents.
 
-- [Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means](https://importai.substack.com/p/import-ai-478-math-for-alignment) — *Import AI* — Jack Clark's latest covers mathematical approaches to alignment, a new programming benchmark, and early evidence of recursive self-improvement in the wild.
+- [AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura](https://thedataexchange.media/leo-de-moura-lean-aws/) — *Hacker News* — Lean's creator discusses how AI-assisted formal verification is maturing and why the combination of LLMs with proof assistants could fundamentally change software correctness guarantees.
 
 ## Deep Dives
 
-- [WebAnything: From the Wild Web to Scalable Agent Environments](https://arxiv.org/abs/2610.37786) — *ArXiv cs.AI* — Proposes a fully automated framework for reconstructing source-grounded, resettable web environments from real URLs without per-site engineering, potentially solving one of the core bottlenecks in reproducible web-agent training and evaluation.
+- [Sleep framework: A new way for LLMs to retain knowledge in continual learning](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/) — *Google Research* — A substantive technical proposal addressing one of the hardest open problems in LLM deployment—catastrophic forgetting—using a sleep-inspired consolidation mechanism; worth reading in full for researchers working on continually updated models.
 
-- [OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery](https://arxiv.org/abs/2610.37739) — *ArXiv cs.AI* — Introduces a cross-disciplinary corpus of 12,151 open research problems and a 200-problem retrospective benchmark of recently resolved mathematical questions, providing a rigorous new testbed for evaluating whether LLMs can genuinely advance science.
+- [OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery](https://arxiv.org/abs/2610.37739) — *ArXiv cs.AI* — Introduces a cross-disciplinary corpus of 12,151 open research problems and a 200-problem retrospective benchmark for evaluating whether LLMs can genuinely rediscover recent scientific breakthroughs, filling a critical gap in research-level AI evaluation.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Scientists demonstrated simultaneous operation of multiple silicon qubits with 99.9% accuracy, overcoming a major scaling challenge for quantum computers.
+- [Julien Camirand Lemire (Nord Quantique): One Cavity, One Error-Corrected Qubit](https://thequantuminsider.com/2026/10/31/julien-camirand-lemire-nord-quantique-one-cavity-one-error-corrected-qubit/) — *The Quantum Insider* — Nord Quantique demonstrates bosonic code approach using microwave photons in superconducting cavities to achieve quantum error correction with more than doubled error correction gain.
 
-- [Foxconn Aims to Become World's Largest Quantum Computer Manufacturer](https://thequantuminsider.com/2026/10/30/foxconn-aims-to-become-worlds-largest-quantum-computer-manufacturer/) — *The Quantum Insider* — Foxconn aims to become the world's largest quantum computer manufacturer, with chairman stating commercial viability is at least two years away.
+- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Researchers achieve 99.9% accuracy operating multiple silicon qubits simultaneously, overcoming a major challenge in scaling up quantum computers.
 
-- [Scalable neural decoders for practical real-time quantum error correction](https://www.nature.com/articles/s41534-026-01403-y) — *Nature Quantum* — Researchers developed scalable neural decoders enabling practical real-time quantum error correction for quantum computers.
+- [Scalable neural decoders for practical real-time quantum error correction](https://www.nature.com/articles/s41534-026-01403-y) — *Nature Quantum* — Novel neural decoder approach enables scalable and practical real-time quantum error correction for quantum systems.
 
-- [Tiny magnetic vortices could help computers work more like your brain](https://www.sciencedaily.com/releases/2026/10/261025073038.htm) — *ScienceDaily Quantum* — Scientists filmed magnetic vortices called skyrmions melting and revealed ways to manipulate them for brain-like computing applications.
+- [Scientists recreate a bizarre quantum effect that stops a particle cold](https://www.sciencedaily.com/releases/2026/10/261011211554.htm) — *ScienceDaily Quantum* — Oxford physicists use a hybrid quantum computer to demonstrate how quantum interference can completely halt a particle's movement without it traveling through a magnetic field.
 
-- [pQCee and Carahsoft Partner on Post-Quantum Security for Government](https://thequantuminsider.com/2026/10/30/pqcee-carahsoft-post-quantum-security-government/) — *The Quantum Insider* — pQCee and Carahsoft partnered to expand post-quantum cryptography and quantum-safe cybersecurity solutions to government and institutional agencies.
+- [Quantum skyrmions outlast entanglement, hinting at more resilient networks](https://phys.org/news/2026-10-quantum-skyrmions-outlast-entanglement-hinting.html) — *PhysOrg Quantum* — Quantum skyrmions demonstrate greater resilience than entangled particles, offering potential for more robust quantum networks and secure communication systems.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – October 29, 2026 (#899)](https://seroter.com)**
+**[Daily Reading List – October 30, 2026 (#900)](https://seroter.com)**
 
-_AI agents need robust identity management, guidance systems, and organizational workflows—not individual brilliance—to deliver production-grade value._
+_AI agents, cost management, and caching strategies are reshaping how tech teams should optimize infrastructure and development workflows._
