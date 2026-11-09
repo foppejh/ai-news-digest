@@ -1,71 +1,79 @@
-# AI News Digest — 2026-11-07
+# AI News Digest — 2026-11-09
 
 ## 🍴 Restaurant Industry
 
-**Consumer pressure, leadership churn, and AI ambition define a volatile period for major chains.**
+**McDonald's tech and marketing turbulence headlines a week of mixed chain performance and accelerating delivery consolidation.**
 
-- McDonald's U.S. CMO is departing amid declining sales; the company is targeting nationwide drive-thru AI ordering by 2027 (projected 50 weekly labor hours saved per unit) while testing mix-and-match value bundles to restore frequency — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-us-cmo-steps-down-as-sales-decline/873934/) / [AI rollout](https://www.restaurantdive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873788/) / [bundles](https://www.restaurantdive.com/news/mcdonalds-tests-entry-level-value-mix-match-bundles/873702/)
-- Texas Roadhouse traffic cratered in September after a viral social-media hoax alleging racist behavior; executives say recovery is underway but the incident underscores brand vulnerability to misinformation — [Nation's Restaurant News](https://www.nrn.com/casual-dining/texas-roadhouse-takes-a-hit-from-social-media-hoax)
-- Wendy's new CEO plans to make breakfast optional for franchisees and pivot to quality-and-marketing fundamentals to reverse the chain's slide — [Restaurant Dive](https://www.restaurantdive.com/news/wendys-daves-way-turnaround-strategy/873907/)
-- Papa Johns launches "Unbox Better" quality-focused strategy under CEO Todd Penegor, targeting consistency over discounting in a structurally weak QSR pizza segment — [Restaurant Dive](https://www.restaurantdive.com/news/papa-johns-unbox-better-marketing-consistency-discount-investments/873816/)
-- Wonder confidentially filed an S-1 for an IPO, signaling maturation of the food-hall/delivery hybrid model after years of heavy investment — [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/wonder-files-confidentially-for-an-ipo)
-- Amazon replaced Grubhub with Uber Eats for Prime member delivery perks, further consolidating Uber Eats' third-party delivery dominance — [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/amazon-switches-to-uber-eats-for-restaurant-delivery-perks)
-- Portillo's plans to close 5–9 underperforming out-of-market units as part of a strategic reset, while a large Denny's franchisee (EYM) filed Chapter 11 — signaling continued pressure on expansion-heavy operators — [Nation's Restaurant News](https://www.nrn.com/fast-casual/portillo-s-to-shutter-five-to-nine-restaurants-outside-chicago) / [Restaurant Dive](https://www.restaurantdive.com/news/eym-dennys-chapter-11-bankruptcy/873903/)
+- McDonald's U.S. CMO departed amid sales declines; the chain is simultaneously targeting nationwide drive-thru AI by 2027 (claiming 50 weekly labor hours saved) and moving customer reviews in-app — signaling a broad operational reset — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-us-cmo-steps-down-as-sales-decline/873934/) / [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873788/) / [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-changing-how-it-collects-customer-feedback/873987/)
+
+- McDonald's and Uber announced a multi-year global delivery and rewards expansion across 14 markets, reinforcing Uber Eats' momentum as Amazon simultaneously dropped Grubhub in favor of Uber Eats for Prime members — [QSR Magazine](https://www.qsrmagazine.com/news/mcdonalds-and-uber-announce-multi-year-expansion-of-partnership/) / [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/amazon-switches-to-uber-eats-for-restaurant-delivery-perks)
+
+- BJ's Restaurants posted SSS and traffic growth above 8% for a ninth consecutive quarter, while Texas Roadhouse traffic cratered in September following a viral social media hoax and Kura Sushi cited tariffs and consumer headwinds for a sharp Q4 traffic decline — [Nation's Restaurant News](https://www.nrn.com/casual-dining/bj-s-restaurants-same-store-sales-traffic-continue-to-skyrocket) / [Nation's Restaurant News](https://www.nrn.com/casual-dining/texas-roadhouse-takes-a-hit-from-social-media-hoax) / [Nation's Restaurant News](https://www.nrn.com/casual-dining/kura-sushi-sees-sharp-traffic-decline-in-fourth-quarter)
+
+- Wendy's new CEO unveiled a turnaround plan making breakfast optional for franchisees and prioritizing ingredient quality and portfolio rationalization — a candid acknowledgment of structural brand weakness — [Restaurant Dive](https://www.restaurantdive.com/news/wendys-daves-way-turnaround-strategy/873907/)
+
+- Portillo's announced restaurant closures, retreating from expansion markets and rethinking restaurant size after multiple difficult quarters — [Restaurant Dive](https://www.restaurantdive.com/news/portillos-closures-texas-california-arizona-florida/874023/)
+
+- OHG Brands (formerly Fat Brands, post-bankruptcy) is rebuilding its C-suite, including a new COO from Dunkin', signaling a restructuring push — [Restaurant Dive](https://www.restaurantdive.com/news/ohg-brands-hires-stephen-england-chief-operating-officer/873973/)
+
+- Chili's supply chain overhaul under CSCO James Butler is delivering measurable menu consistency gains and contributing to sales growth — a notable ops model worth benchmarking — [Restaurant Dive](https://www.restaurantdive.com/news/how-chilis-supply-chain-improvements-are-helping-menu-consistency/873893/)
 
 ---
 
 ## Executive Summary
-Today's AI news is dominated by a significant privacy controversy around Claude Code leaking user email addresses to websites, alongside major product launches including Google's Gemini Omni 1.2 Flash and OpenAI's GPT-6 Cyber security model. OpenAI continues its extraordinary fundraising trajectory, reportedly closing an additional $11B at a $1.25T valuation. The post-midterm political landscape is reshaping AI infrastructure policy, with voters broadly supporting restrictions on data center development and Texas's AI boom potentially at risk. Meanwhile, Anthropic published new research on agent memory architecture, and evidence mounts that AI is materially accelerating AI research itself.
+The dominant story today is the unfolding scandal around Nvidia CEO Jensen Huang, who admitted to an extramarital affair with a woman reportedly recruited by China's Ministry of State Security to spy on him, triggering a formal board investigation and 50/50 odds on his tenure. On the enterprise AI front, Goldman Sachs pulling Claude Code from bankers and traders signals real friction in deploying coding AI in regulated industries. OpenAI launched GPT-6 Cyber, a specialized cybersecurity model, and introduced BioBasicsBench for evaluating AI agents in wet-lab science contexts. The debate over AI's economic staying power also surfaced prominently, with a high-engagement piece arguing the AI bubble narrative is overblown.
+
+---
 
 ## Top Stories
 
-- [Claude Code sends your email address to websites](https://github.com/anthropics/claude-code/issues/107757) — *Hacker News* — A widely-upvoted GitHub issue reveals Claude Code transmits users' email addresses to third-party websites, raising serious privacy concerns about one of Anthropic's flagship developer tools.
+- [Nvidia CEO Jensen Huang admits affair amid Chinese spy investigation](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/) — *TechCrunch AI* — Nvidia's board has launched a formal investigation after Huang admitted to an affair with a tech executive who US intelligence alleges was recruited by China's Ministry of State Security to surveil him.
 
-- [GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents](https://openai.com/index/introducing-gpt-6-cyber) — *OpenAI Blog* — OpenAI launches a specialized cybersecurity model trained to find exploitable vulnerabilities and develop fixes while staying within authorized scope, marking a major push into offensive/defensive security tooling.
+- [Is Jensen Huang's job on the line? Yale's Jeffrey Sonnenfeld estimates it's "about a 50-50"](https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/) — *TechCrunch AI* — Corporate governance experts weigh in on whether Huang can survive the dual reputational and national-security dimensions of the scandal.
 
-- [Gemini Omni 1.2 Flash](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/) — *Hacker News* — Google releases its latest multimodal Flash model, continuing the rapid cadence of Gemini updates and drawing significant developer interest.
+- [Goldman Sachs is pulling Claude Code from its bankers and traders](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers) — *Hacker News* — The Wall Street giant is walking back its Claude Code deployment, a notable enterprise setback for Anthropic in a high-stakes regulated sector.
 
-- [OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/) — *TechCrunch AI* — The funding round hasn't officially closed but signals continued extraordinary investor appetite despite OpenAI's already-stratospheric valuation.
+- [GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents](https://openai.com/index/introducing-gpt-6-cyber) — *OpenAI Blog* — OpenAI launches a specialized model trained to find exploitable vulnerabilities and develop fixes while staying within authorized scope, targeting the offensive/defensive security market.
 
-- [AI is dramatically accelerating AI research](https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai) — *Hacker News* — A well-evidenced essay arguing that AI tools are compressing research timelines in a self-reinforcing loop, with significant implications for how fast capabilities may advance.
+- [I'm not convinced the AI bubble exists](https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists) — *Hacker News* — A widely-discussed essay argues that standard bubble indicators don't apply cleanly to AI infrastructure investment, generating nearly 800 comments of debate.
 
-- [How a Blue Wave midterm might reshape the AI industry](https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/) — *TechCrunch AI* — Democrats' midterm victories, combined with voters approving data center restrictions on 40 of 41 ballot measures, could substantially alter the regulatory and infrastructure environment for AI.
+- [Measuring how AI agents handle everyday wet-lab science](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science) — *OpenAI Blog* — OpenAI releases BioBasicsBench, a 100-task benchmark specifically designed to test AI agents on interpreting raw experimental data from biology wet labs.
 
-- [Texas was the new epicenter of the AI data center buildout. That might be kaput.](https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/) — *MIT Technology Review* — Democratic sweeps in Texas governor and Senate races may reverse the state's permissive data center policies that made it Big Tech's preferred AI infrastructure hub.
+- [The climate case for AI has not been made](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) — *MIT Technology Review* — Written by former California Air Resources Board chair Mary Nichols, the piece argues that industry's AI-for-climate claims lack the empirical foundation needed to justify AI's growing energy footprint.
 
-- [Crusoe sells troubled Wyoming data center project to Google](https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/) — *TechCrunch AI* — The sale underscores both the difficulty of building massive AI data centers and Google's aggressive strategy to acquire capacity rather than build from scratch.
+- [ChatGPT Desktop forwards your SSH agent to remote machines](https://news.ycombinator.com/item?id=50422628) — *Hacker News* — A security disclosure reveals that ChatGPT's desktop app silently forwards users' SSH agents, posing a potential credential exposure risk.
 
-- [I watched a humanoid robot clean my apartment. It felt like a taste of the future.](https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/) — *MIT Technology Review* — A firsthand account of a commercial humanoid robot cleaning service now operating in San Francisco, offering a rare ground-level look at real-world humanoid deployment.
+- [Automattic debuts Spacefast, a platform to deploy vibe coding apps](https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/) — *TechCrunch AI* — Automattic enters the AI-assisted app deployment space to compete directly with Lovable, betting on its web infrastructure expertise.
 
-- [Meta introduces Spaces, a new way to collaborate with your Muse agent](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/) — *TechCrunch AI* — Meta expands its Muse AI agent ecosystem with Spaces, a new collaborative interface that deepens integration between users and their AI helpers.
+- [Partnering with Hacktron to find vulnerabilities in OpenAI's systems](https://openai.com/index/partnering-with-hacktron) — *OpenAI Blog* — OpenAI formalizes a red-teaming partnership to stress-test its infrastructure and third-party integrations using frontier AI-assisted penetration testing.
 
-- [Hundreds of Artex AI hacking tools found publicly exposed to the web](https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/) — *TechCrunch AI* — Security researchers discovered hundreds of misconfigured servers hosting the AI-powered penetration testing tool Artex, leaving potent hacking capabilities openly accessible to anyone online.
+- [I watched a humanoid robot clean my apartment](https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/) — *MIT Technology Review* — A firsthand account of a commercial humanoid robot cleaning service operating in San Francisco, offering a grounded look at real-world capabilities and limitations.
 
-- [OpenAI introduces BioBasicsBench for wet-lab AI agents](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science) — *OpenAI Blog* — A new 100-task benchmark tests whether AI agents can interpret raw experimental data and handle real laboratory workflows, filling a gap in biology-specific AI evaluation.
+- [After the midterms, things are looking rocky for Elon Musk and data centers](https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/) — *TechCrunch AI* — Post-midterm political shifts threaten regulatory tailwinds that Musk-affiliated AI and data center projects had been counting on.
 
-- [OpenAI partnering with Hacktron for vulnerability research](https://openai.com/index/partnering-with-hacktron) — *OpenAI Blog* — OpenAI brings in an external security firm to stress-test its own systems and third-party integrations, complementing the GPT-6 Cyber launch with a defensive posture.
+- [Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation](https://arxiv.org/abs/2610.14162) — *Hacker News / ArXiv* — A new approach to LLM text generation that operates coarse-to-fine in parallel, potentially offering substantial speed gains over standard autoregressive decoding.
 
-- [The Components of Agent Memory](https://www.anthropic.com/research/components-of-agent-memory) — *Hacker News / Anthropic* — Anthropic publishes a research breakdown of the distinct memory mechanisms available to AI agents, providing a useful taxonomy for the field.
+---
 
 ## Deep Dives
 
-- [AI is dramatically accelerating AI research](https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai) — *Hacker News* — A substantive long-form analysis presenting concrete evidence that AI is now materially compressing the cycle time of its own research progress, with serious implications for forecasting capability timelines and understanding potential recursive improvement dynamics.
+- [NormGym: Evaluating Normative Competence through Social Interaction](https://arxiv.org/abs/2611.08613) — *ArXiv cs.AI* — A novel interactive benchmark that tests whether AI agents can *infer* previously unknown social norms from live interaction rather than merely recognizing norms they were trained on — a meaningful step toward agents that can adapt to unfamiliar human communities.
 
-- [The Components of Agent Memory](https://www.anthropic.com/research/components-of-agent-memory) — *Anthropic* — Anthropic's research team offers a rigorous architectural breakdown of how agents store and retrieve information across in-context, external, parametric, and cached memory, providing foundational vocabulary for agentic system design.
+- [Decision Context: Persistent Behavioral Learning for AI Agents](https://arxiv.org/abs/2611.08644) — *ArXiv cs.AI* — Introduces `forge_dc`, a system that captures human corrections and tool-call failures across sessions, compiling them into persistent behavioral rules injected at relevant decision points — directly addressing the well-known problem of LLM agents repeating the same mistakes every conversation.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [AI-Assisted Proof Settles Longstanding Question About Quantum Speedups](https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/) — *The Quantum Insider* — A mathematical proof resolves the Aaronson-Ambainis conjecture, establishing fundamental limits on quantum computers' ability to outperform classical algorithms on unstructured inputs.
+- [hzero Emerges From Stealth to Coordinate Quantum and Classical Computing](https://thequantuminsider.com/2026/11/09/hzero-emerges-from-stealth-to-coordinate-quantum-and-classical-computing/) — *The Quantum Insider* — Munich-based hzero launched software to coordinate quantum processors and classical computing systems with backing from major venture investors.
 
-- [A tiny supercurrent could unlock quantum information without destroying it](https://www.sciencedaily.com/releases/2026/11/261102202831.htm) — *ScienceDaily Quantum* — Researchers propose a breakthrough technique for reading quantum information without destruction by detecting electrical signals from qubits with up to 99.85% accuracy.
+- [Horizon Quantum Integrates OQC's 32-Qubit Processor with Triple Alpha](https://thequantuminsider.com/2026/11/09/horizon-quantum-oqc-pulse-level-integration-triple-alpha/) — *The Quantum Insider* — Horizon Quantum successfully integrated OQC's 32-qubit quantum processor at the pulse level with its Triple Alpha development platform.
 
-- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Scientists demonstrate simultaneous operation of multiple silicon qubits with 99.9% accuracy, overcoming a major scaling challenge for quantum computers.
+- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Researchers demonstrated simultaneous operation of five silicon qubits with 99.9% accuracy, overcoming a major barrier to scaling quantum computers.
 
-- [Quantum gas microscope reveals individual atoms in first tunable three-component Hubbard system](https://phys.org/news/2026-11-quantum-gas-microscope-reveals-individual.html) — *PhysOrg Quantum* — An international team creates the first three-component Hubbard system with tunable interactions using a quantum gas microscope, providing a foundation for quantum simulations.
+- [A tiny supercurrent could unlock quantum information without destroying it](https://www.sciencedaily.com/releases/2026/11/261102202831.htm) — *ScienceDaily Quantum* — Researchers developed a breakthrough technique for reading quantum information non-destructively by detecting electrical signals from qubits with up to 99.85% accuracy.
 
-- [Scientists achieve record-breaking low temperature on China's space station, paving the way for new physics experiments](https://phys.org/news/2026-11-scientists-temperature-china-space-station.html) — *PhysOrg Quantum* — Researchers achieve a new low-temperature record aboard the Tiangong space station, enabling new quantum physics experiments and precision measurements in space.
+- [Intel to Acquire Classiq to Create a Full-Stack Quantum Computing Platform](https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum) — *Hacker News* — Intel announced its acquisition of Classiq to build a complete full-stack quantum computing platform.
 
 ---
 
@@ -73,4 +81,4 @@ Today's AI news is dominated by a significant privacy controversy around Claude 
 
 **[Daily Reading List – November 6, 2026 (#905)](https://seroter.com)**
 
-_AI agents require infrastructure beyond code isolation—explicit contracts, governance layers, and deployment capabilities—to scale safely in enterprise environments._
+_AI agents need infrastructure (isolation, contracts, governance) and human focus on *what* to build and *proving* it works—not just coding._
