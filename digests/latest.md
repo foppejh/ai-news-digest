@@ -1,79 +1,71 @@
-# AI News Digest — 2026-11-09
+# AI News Digest — 2026-11-10
 
 ## 🍴 Restaurant Industry
 
-**McDonald's tech and marketing turbulence headlines a week of mixed chain performance and accelerating delivery consolidation.**
+**Loyalty tech, turnarounds, and franchise stress define the period.**
 
-- McDonald's U.S. CMO departed amid sales declines; the chain is simultaneously targeting nationwide drive-thru AI by 2027 (claiming 50 weekly labor hours saved) and moving customer reviews in-app — signaling a broad operational reset — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-us-cmo-steps-down-as-sales-decline/873934/) / [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873788/) / [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-changing-how-it-collects-customer-feedback/873987/)
-
-- McDonald's and Uber announced a multi-year global delivery and rewards expansion across 14 markets, reinforcing Uber Eats' momentum as Amazon simultaneously dropped Grubhub in favor of Uber Eats for Prime members — [QSR Magazine](https://www.qsrmagazine.com/news/mcdonalds-and-uber-announce-multi-year-expansion-of-partnership/) / [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/amazon-switches-to-uber-eats-for-restaurant-delivery-perks)
-
-- BJ's Restaurants posted SSS and traffic growth above 8% for a ninth consecutive quarter, while Texas Roadhouse traffic cratered in September following a viral social media hoax and Kura Sushi cited tariffs and consumer headwinds for a sharp Q4 traffic decline — [Nation's Restaurant News](https://www.nrn.com/casual-dining/bj-s-restaurants-same-store-sales-traffic-continue-to-skyrocket) / [Nation's Restaurant News](https://www.nrn.com/casual-dining/texas-roadhouse-takes-a-hit-from-social-media-hoax) / [Nation's Restaurant News](https://www.nrn.com/casual-dining/kura-sushi-sees-sharp-traffic-decline-in-fourth-quarter)
-
-- Wendy's new CEO unveiled a turnaround plan making breakfast optional for franchisees and prioritizing ingredient quality and portfolio rationalization — a candid acknowledgment of structural brand weakness — [Restaurant Dive](https://www.restaurantdive.com/news/wendys-daves-way-turnaround-strategy/873907/)
-
-- Portillo's announced restaurant closures, retreating from expansion markets and rethinking restaurant size after multiple difficult quarters — [Restaurant Dive](https://www.restaurantdive.com/news/portillos-closures-texas-california-arizona-florida/874023/)
-
-- OHG Brands (formerly Fat Brands, post-bankruptcy) is rebuilding its C-suite, including a new COO from Dunkin', signaling a restructuring push — [Restaurant Dive](https://www.restaurantdive.com/news/ohg-brands-hires-stephen-england-chief-operating-officer/873973/)
-
-- Chili's supply chain overhaul under CSCO James Butler is delivering measurable menu consistency gains and contributing to sales growth — a notable ops model worth benchmarking — [Restaurant Dive](https://www.restaurantdive.com/news/how-chilis-supply-chain-improvements-are-helping-menu-consistency/873893/)
+- McDonald's named Uber its preferred in-app delivery partner across 14 countries and added in-app customer reviews, while its U.S. CMO departed amid declining sales — signaling a broad commercial and marketing reset — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/) / [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-changing-how-it-collects-customer-feedback/873987/) / [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-us-cmo-steps-down-as-sales-decline/873934/)
+- Franchisee financial stress is widening: a Denny's operator filed Chapter 11, a Schlotzsky's franchisee followed, and OHG Brands (formerly Fat Brands, post-bankruptcy) overhauled its C-suite — [Restaurant Dive](https://www.restaurantdive.com/news/eym-dennys-chapter-11-bankruptcy/873903/) / [QSR Magazine](https://www.qsrmagazine.com/uncategorized/schlotzskys-franchisee-files-for-bankruptcy/) / [Restaurant Dive](https://www.restaurantdive.com/news/ohg-brands-hires-stephen-england-chief-operating-officer/873973/)
+- Portillo's is closing a mid-to-high single-digit number of underperforming out-of-market locations and rethinking restaurant size, a sharp pivot from its prior aggressive expansion posture — [Restaurant Dive](https://www.restaurantdive.com/news/portillos-closures-texas-california-arizona-florida/874023/)
+- Wendy's new CEO outlined a turnaround making breakfast optional for franchisees and refocusing on ingredient quality and marketing — [Restaurant Dive](https://www.restaurantdive.com/news/wendys-daves-way-turnaround-strategy/873907/)
+- Chick-fil-A's Chicken & Waffles Sandwiches exit the national menu Nov. 14, with limited market continuation in Tampa, Chicago, and Raleigh — [QSR Magazine](https://www.qsrmagazine.com/news/chick-fil-as-chicken-waffles-sandwiches-leaving-menu-soon/)
+- Restaurant employment fell 7,200 jobs in October even as the broader economy added jobs, a notable divergence worth watching for labor cost and staffing planning — [Nation's Restaurant News](https://www.nrn.com/restaurant-labor/restaurant-employment-slipped-by-7-200-jobs-in-october)
+- Chili's supply chain restructuring under CSCO James Butler — prioritizing diner experience over cost — is producing measurable sales gains, a model worth benchmarking — [Restaurant Dive](https://www.restaurantdive.com/news/how-chilis-supply-chain-improvements-are-helping-menu-consistency/873893/)
 
 ---
 
 ## Executive Summary
-The dominant story today is the unfolding scandal around Nvidia CEO Jensen Huang, who admitted to an extramarital affair with a woman reportedly recruited by China's Ministry of State Security to spy on him, triggering a formal board investigation and 50/50 odds on his tenure. On the enterprise AI front, Goldman Sachs pulling Claude Code from bankers and traders signals real friction in deploying coding AI in regulated industries. OpenAI launched GPT-6 Cyber, a specialized cybersecurity model, and introduced BioBasicsBench for evaluating AI agents in wet-lab science contexts. The debate over AI's economic staying power also surfaced prominently, with a high-engagement piece arguing the AI bubble narrative is overblown.
-
----
+The Jensen Huang/Nvidia scandal dominates today's coverage, with the CEO admitting an affair, pulling out of public events, and facing a board investigation into ties with a suspected Chinese spy—triggering a stock slide and a wave of securities litigation. On the model front, Anthropic's Claude Fable 5.2 sets a new benchmark high on Artificial Analysis while Anthropic separately advances IPO plans, underscoring the company's rising market ambitions. A serious privacy allegation emerged against Google Gemini, with claims it routes personal Drive files and emails to human annotators. Meanwhile, Meta released Muse Ember, its smallest efficient model yet, and DeepX claimed edge-inference of 100B-parameter models at under 5W—both pointing to a broader push toward on-device AI efficiency.
 
 ## Top Stories
 
-- [Nvidia CEO Jensen Huang admits affair amid Chinese spy investigation](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/) — *TechCrunch AI* — Nvidia's board has launched a formal investigation after Huang admitted to an affair with a tech executive who US intelligence alleges was recruited by China's Ministry of State Security to surveil him.
+- [Google Gemini routes personal Drive files and emails to human annotators](https://github.com/thisisme6598/gemini_files/) — *Hacker News* — A high-scoring community post alleges that Google Gemini sends users' private Drive documents and Gmail content to human reviewers, raising significant privacy concerns.
 
-- [Is Jensen Huang's job on the line? Yale's Jeffrey Sonnenfeld estimates it's "about a 50-50"](https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/) — *TechCrunch AI* — Corporate governance experts weigh in on whether Huang can survive the dual reputational and national-security dimensions of the scandal.
+- [Jensen Huang admits affair amid spy claims](https://www.therundown.ai/articles/jensen-huang-admits-affair-amid-spy-claims) — *The Rundown AI* — Nvidia's CEO publicly acknowledged an affair as a board investigation into his relationship with a suspected Chinese spy rattled investors and triggered legal scrutiny.
 
-- [Goldman Sachs is pulling Claude Code from its bankers and traders](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers) — *Hacker News* — The Wall Street giant is walking back its Claude Code deployment, a notable enterprise setback for Anthropic in a high-stakes regulated sector.
+- [The race is on to sue Nvidia](https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/) — *TechCrunch AI* — Securities lawyers are mobilizing after Nvidia's stock dropped 4%+ on the spy-scandal investigation, with the company's earlier "normal relationship" statements potentially creating significant liability.
 
-- [GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents](https://openai.com/index/introducing-gpt-6-cyber) — *OpenAI Blog* — OpenAI launches a specialized model trained to find exploitable vulnerabilities and develop fixes while staying within authorized scope, targeting the offensive/defensive security market.
+- [Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far](https://artificialanalysis.ai/models/claude-fable-5-2) — *Hacker News* — Anthropic's new Claude Fable 5.2 achieved the highest benchmark score yet recorded on Artificial Analysis, outpacing all prior models in the leaderboard.
 
-- [I'm not convinced the AI bubble exists](https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists) — *Hacker News* — A widely-discussed essay argues that standard bubble indicators don't apply cleanly to AI infrastructure investment, generating nearly 800 comments of debate.
+- [Anthropic reportedly plans to move forward with IPO plans](https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/) — *TechCrunch AI* — Anthropic is expected to set its valuation range imminently, marking a major step toward becoming a publicly traded AI company.
 
-- [Measuring how AI agents handle everyday wet-lab science](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science) — *OpenAI Blog* — OpenAI releases BioBasicsBench, a 100-task benchmark specifically designed to test AI agents on interpreting raw experimental data from biology wet labs.
+- [Muse Ember: Our smallest, most efficient model](https://research.meta.ai/blog/muse-ember) — *Hacker News* — Meta released Muse Ember, positioning it as the most efficient model in its lineup and signaling a push toward lightweight, deployable AI.
 
-- [The climate case for AI has not been made](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) — *MIT Technology Review* — Written by former California Air Resources Board chair Mary Nichols, the piece argues that industry's AI-for-climate claims lack the empirical foundation needed to justify AI's growing energy footprint.
+- [DeepX claims inference up to 100B parameters at less than 5W](https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/) — *Hacker News* — DeepX's second-generation chip, using LPDDR5X PIM, projects a 6.7x performance gain and would enable frontier-scale model inference at extreme power efficiency if validated.
 
-- [ChatGPT Desktop forwards your SSH agent to remote machines](https://news.ycombinator.com/item?id=50422628) — *Hacker News* — A security disclosure reveals that ChatGPT's desktop app silently forwards users' SSH agents, posing a potential credential exposure risk.
+- [CoreWeave bond yield tops 16% as AI credit stress rises](https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html) — *Hacker News* — CoreWeave's bonds are trading at distressed levels, suggesting growing investor skepticism about the financial sustainability of GPU cloud infrastructure plays.
 
-- [Automattic debuts Spacefast, a platform to deploy vibe coding apps](https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/) — *TechCrunch AI* — Automattic enters the AI-assisted app deployment space to compete directly with Lovable, betting on its web infrastructure expertise.
+- [Nancy Pelosi's replacement is ready to regulate AI](https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/) — *MIT Technology Review* — Scott Wiener, author of California's landmark AI safety bill, won Nancy Pelosi's congressional seat and is poised to bring an AI regulatory agenda to the federal level.
 
-- [Partnering with Hacktron to find vulnerabilities in OpenAI's systems](https://openai.com/index/partnering-with-hacktron) — *OpenAI Blog* — OpenAI formalizes a red-teaming partnership to stress-test its infrastructure and third-party integrations using frontier AI-assisted penetration testing.
+- [The climate case for AI has not been made](https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/) — *MIT Technology Review* — A former California Air Resources Board chair argues that as the UN climate conference convenes, AI's energy consumption undermines industry claims that the technology is a net positive for the climate.
 
-- [I watched a humanoid robot clean my apartment](https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/) — *MIT Technology Review* — A firsthand account of a commercial humanoid robot cleaning service operating in San Francisco, offering a grounded look at real-world capabilities and limitations.
+- [The backlash about data centers might really just be about electricity](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) — *MIT Technology Review* — On-the-ground reporting from Data Center Alley in Virginia finds that community opposition to AI infrastructure is fundamentally driven by power grid strain rather than land use or noise.
 
-- [After the midterms, things are looking rocky for Elon Musk and data centers](https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/) — *TechCrunch AI* — Post-midterm political shifts threaten regulatory tailwinds that Musk-affiliated AI and data center projects had been counting on.
+- [OpenAI Control Room: A central system to track and stop model workloads](https://openai.com/index/control-room) — *OpenAI Blog* — OpenAI unveiled an internal infrastructure system capable of rapidly halting any model workload across its research infrastructure when safety or security concerns are detected.
 
-- [Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation](https://arxiv.org/abs/2610.14162) — *Hacker News / ArXiv* — A new approach to LLM text generation that operates coarse-to-fine in parallel, potentially offering substantial speed gains over standard autoregressive decoding.
+- [ChatGPT Enterprise now available in AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace) — *OpenAI Blog* — Enterprises can now procure ChatGPT Enterprise through existing AWS billing relationships, lowering friction for large-scale corporate adoption.
 
----
+- [Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy](https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/) — *TechCrunch AI* — Huang has now withdrawn from multiple high-profile AI industry events, including an Anthropic event, as the scandal's fallout continues.
 
 ## Deep Dives
 
-- [NormGym: Evaluating Normative Competence through Social Interaction](https://arxiv.org/abs/2611.08613) — *ArXiv cs.AI* — A novel interactive benchmark that tests whether AI agents can *infer* previously unknown social norms from live interaction rather than merely recognizing norms they were trained on — a meaningful step toward agents that can adapt to unfamiliar human communities.
+- [NormGym: Evaluating Normative Competence through Social Interaction](https://arxiv.org/abs/2611.08613) — *ArXiv cs.AI* — A novel interactive benchmark that tests whether AI agents can *acquire* previously unknown social norms through multi-agent interaction—rather than just recognizing known ones—addressing a critical gap in evaluating agents intended for real-world human environments.
 
-- [Decision Context: Persistent Behavioral Learning for AI Agents](https://arxiv.org/abs/2611.08644) — *ArXiv cs.AI* — Introduces `forge_dc`, a system that captures human corrections and tool-call failures across sessions, compiling them into persistent behavioral rules injected at relevant decision points — directly addressing the well-known problem of LLM agents repeating the same mistakes every conversation.
+- [Decision Context: Persistent Behavioral Learning for AI Agents](https://arxiv.org/abs/2611.08644) — *ArXiv cs.AI* — Proposes a system (forge_dc) that captures human corrections and tool-call failures, compiles them into persistent behavioral rules, and injects them at relevant decision points across sessions—a practical step toward agents that actually learn from repeated user feedback.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [hzero Emerges From Stealth to Coordinate Quantum and Classical Computing](https://thequantuminsider.com/2026/11/09/hzero-emerges-from-stealth-to-coordinate-quantum-and-classical-computing/) — *The Quantum Insider* — Munich-based hzero launched software to coordinate quantum processors and classical computing systems with backing from major venture investors.
+- [Diraq Deploys Silicon Spin Quantum Computer Inside a Commercial Data Center](https://thequantuminsider.com/2026/11/09/diraq-deploys-silicon-spin-quantum-computer-inside-a-commercial-data-center/) — *The Quantum Insider* — Diraq installed the world's first silicon spin quantum computer in a commercial data center at Equinix in Sydney, Australia.
 
-- [Horizon Quantum Integrates OQC's 32-Qubit Processor with Triple Alpha](https://thequantuminsider.com/2026/11/09/horizon-quantum-oqc-pulse-level-integration-triple-alpha/) — *The Quantum Insider* — Horizon Quantum successfully integrated OQC's 32-qubit quantum processor at the pulse level with its Triple Alpha development platform.
+- [IonQ and Carahsoft Partner to Bring Quantum Solutions to the Public Sector](https://thequantuminsider.com/2026/11/09/ionq-carahsoft-quantum-technologies-government/) — *The Quantum Insider* — IonQ and Carahsoft announced a strategic partnership to drive quantum computing adoption across Federal agencies and their industry partners.
 
-- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Researchers demonstrated simultaneous operation of five silicon qubits with 99.9% accuracy, overcoming a major barrier to scaling quantum computers.
+- [Q.ANT and IONOS Launch Pilot for Photonic Computing](https://thequantuminsider.com/2026/11/09/qant-photonic-processors-ionos-cloud-infrastructure/) — *The Quantum Insider* — Q.ANT and IONOS launched a pilot program to bring photonic computing to commercial bare metal server environments for the first time.
 
-- [A tiny supercurrent could unlock quantum information without destroying it](https://www.sciencedaily.com/releases/2026/11/261102202831.htm) — *ScienceDaily Quantum* — Researchers developed a breakthrough technique for reading quantum information non-destructively by detecting electrical signals from qubits with up to 99.85% accuracy.
+- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Scientists developed a new technique to operate multiple silicon qubits simultaneously with 99.9% accuracy, overcoming a major scaling challenge.
 
-- [Intel to Acquire Classiq to Create a Full-Stack Quantum Computing Platform](https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum) — *Hacker News* — Intel announced its acquisition of Classiq to build a complete full-stack quantum computing platform.
+- [A tiny supercurrent could unlock quantum information without destroying it](https://www.sciencedaily.com/releases/2026/11/261102202831.htm) — *ScienceDaily Quantum* — Researchers proposed a breakthrough technique for reading quantum information without destroying delicate qubit states, achieving up to 99.85% accuracy in simulations.
 
 ---
 
@@ -81,4 +73,4 @@ The dominant story today is the unfolding scandal around Nvidia CEO Jensen Huang
 
 **[Daily Reading List – November 6, 2026 (#905)](https://seroter.com)**
 
-_AI agents need infrastructure (isolation, contracts, governance) and human focus on *what* to build and *proving* it works—not just coding._
+_AI coding agents need explicit contracts, isolated resources, governance layers, and deployment infrastructure—not just better code generation—to scale safely in enterprises._
