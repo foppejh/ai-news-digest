@@ -1,72 +1,76 @@
-# AI News Digest — 2026-11-11
+# AI News Digest — 2026-11-12
 
 ## 🍴 Restaurant Industry
 
-**Value menus, loyalty integrations, and cautious AI adoption define the period as the Democratic midterm sweep adds regulatory uncertainty for franchising.**
+**M&A activity, cautious AI adoption, and loyalty-driven value moves headline a busy week.**
 
-- Yum Brands terminated its Puerto Rico franchisee just before Encanto Restaurants filed for bankruptcy, while Craveworthy Brands acquired Papa Gino's (its largest deal to date) — signals of continued franchisee stress and portfolio consolidation — [NRN](https://www.nrn.com/quick-service/kfc-taco-bell-puerto-rico-franchisee-files-bankruptcy) / [NRN](https://www.nrn.com/mergers-acquisitions/craveworthy-brands-adds-papa-gino-s-to-its-roster)
-- McDonald's is integrating its loyalty program with Uber and shifting customer feedback collection into its own app, deepening first-party data and frequency levers — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/) / [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-changing-how-it-collects-customer-feedback/873987/)
-- Value menu launches are proliferating: Habit Burger (loyalty-exclusive $2/$4/$6 tiers), Checkers & Rally's (under $2 items), and White Castle (holiday deals) all moved simultaneously, reflecting sustained consumer price sensitivity — [NRN](https://www.nrn.com/fast-casual/habit-burger-adds-a-value-menu-for-loyalty-members) / [QSR](https://www.qsrmagazine.com/news/checkers-rallys-introduces-under-2-cha-ching-menu/)
-- Restaurant employment fell 7,200 jobs in October despite broader economic gains, a warning sign on sector health heading into the holiday quarter — [NRN](https://www.nrn.com/restaurant-labor/restaurant-employment-slipped-by-7-200-jobs-in-october)
-- The Democratic midterm landslide raises joint-employer risk for franchisors and reshapes the regulatory outlook for labor and tariffs — [Restaurant Dive](https://www.restaurantdive.com/news/nra-ifa-rfdc-midterm-election-political-fallout-restaurant-franchising/874213/)
-- Sweetgreen relaunched its Plates category with larger-format rotisserie chicken and new items to capture the dinner daypart, using the cross-functional lesson from its successful Molly Baz collab — [NRN](https://www.nrn.com/fast-casual/sweetgreen-positions-to-capture-the-dinner-daypart)
-- More than 40% of operators remain cautious on AI adoption, with most still early-stage — a material gap vs. the pace of tool availability entering 2027 — [NRN](https://www.nrn.com/restaurant-technology/restaurants-are-still-taking-a-cautious-approach-to-ai)
+- Craveworthy Brands is acquiring Papa Gino's parent New England Authentic Eats (160+ units, ~$160M revenue), continuing its aggressive roll-up strategy — [Restaurant Dive](https://www.restaurantdive.com/news/craveworthy-brands-acquires-new-england-authentic-eats/874279/)
+- Portillo's will close 5–9 restaurants outside its Chicago core, overhauling its geographic and format strategy after several difficult quarters — [Restaurant Dive](https://www.restaurantdive.com/news/portillos-closures-texas-california-arizona-florida/874023/)
+- Chili's supply chain restructuring—prioritizing diner experience over cost—is delivering measurable sales growth, a useful case study in ops discipline — [Restaurant Dive](https://www.restaurantdive.com/news/how-chilis-supply-chain-improvements-are-helping-menu-consistency/873893/)
+- McDonald's linked its loyalty program to Uber, deepening delivery integration and member frequency; a Democratic midterm landslide meanwhile raises joint-employer risk for franchisors — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/) / [Restaurant Dive](https://www.restaurantdive.com/news/nra-ifa-rfdc-midterm-election-political-fallout-restaurant-franchising/874213/)
+- Applebee's maintains eight quarters of pre-planned menu innovation, releasing one new item per quarter—driving traffic and spend gains — [Restaurant Dive](https://www.restaurantdive.com/news/dine-brands-applebees-ihop-menu-innovation-strategy/874031/)
+- More than 40% of operators remain cautious on AI adoption; only ~25% are enthusiastic, signaling the industry is still early in meaningful deployment — [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/restaurants-are-still-taking-a-cautious-approach-to-ai)
+- Krispy Kreme's post-restructuring results show profitable channel focus outperforms raw unit expansion—a distribution-quality-over-quantity signal relevant across QSR — [QSR Magazine](https://www.qsrmagazine.com/story/krispy-kremes-leaner-business-delivers-results/)
 
 ---
 
 ## Executive Summary
-The AI industry is seeing significant corporate consolidation and regulatory pressure today. Anthropic's IPO is advancing with all seven founders set to cash out ~$250M each, while simultaneously facing new compliance obligations under New York's AI safety law. OpenAI is expanding beyond its core business by acquiring travel startup Odessia and launching a business-discovery feature in ChatGPT. On the technical side, a widely-discussed Hacker News post argues AI-assisted coding produces fragile codebases, and new research challenges whether foundation time-series models can beat simple baselines in real-world settings.
+The biggest story of the day is the unfolding Jensen Huang/Nvidia scandal, with the CEO admitting to multiple affairs — including one with a subordinate and another involving alleged Chinese intelligence ties — as Nvidia's board reportedly prepares to remove him. On the product front, Apple is building a native Mac app for local AI model management, Google launched a Gemini Decisions API, and United Airlines made waves by banning AI agents from booking flights on behalf of travelers. A standout citizen-science story saw an independent researcher claim AI agents helped discover an unmapped Maya archaeological site, while Anthropic signaled an IPO filing.
 
 ## Top Stories
 
-- [All 7 Anthropic founders will each cash out about $250M in IPO](https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/) — *TechCrunch AI* — Each co-founder plans to sell an identical share tranche at IPO midpoint valuation while the group retains company control, signaling a major liquidity event for one of AI's highest-profile labs.
+- [Nvidia's board reportedly preps to oust CEO Jensen Huang](https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/) — *TechCrunch AI* — Nvidia's stock dropped sharply as its board considered removing founder Jensen Huang amid dual affair scandals, one involving a woman accused of being a Chinese intelligence agent, raising significant national security concerns for the AI chip giant.
 
-- [OpenAI, Anthropic face new oversight as New York's AI safety law takes effect](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/) — *TechCrunch AI* — New York's sweeping AI safety law now requires major AI developers to register, disclose safety practices, and report critical incidents or face financial penalties, marking one of the first enforceable state-level AI regulations in the US.
+- [Jensen Huang accused of having another affair — with an Nvidia exec](https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/) — *TechCrunch AI* — A second relationship allegation emerged against Huang — this time with a direct subordinate at Nvidia — compounding the crisis around the company's leadership and corporate governance.
 
-- [AI usage generates a fragile codebase](https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/) — *Hacker News* — A highly-upvoted (454 points, 450 comments) developer post argues that AI-generated code systematically produces brittle, poorly-understood codebases that accumulate hidden technical debt.
+- [United Airlines bans AI agents from booking flights on behalf of travelers](https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/) — *Hacker News* — United becomes one of the first major carriers to explicitly prohibit autonomous AI agents from purchasing tickets, signaling emerging corporate resistance to agentic AI acting on consumers' behalf.
 
-- [Nancy Pelosi's replacement is ready to regulate AI](https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/) — *MIT Technology Review* — Scott Wiener, author of California's landmark AI safety legislation, won Pelosi's congressional seat and is positioned to shape federal AI policy from Washington.
+- [Apple has new Mac app coming to make running local AI models easy](https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/) — *Hacker News* — Apple is reportedly developing a first-party macOS application to streamline local LLM deployment, a move that could dramatically lower the barrier to on-device AI for mainstream users.
 
-- [OpenAI acquires Odessia, travel startup created by Sonder founder](https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/) — *TechCrunch AI* — OpenAI's acquisition of Odessia suggests it is building toward AI-powered consumer travel applications, extending well beyond its core LLM business.
+- [Gemini Decisions API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/) — *Hacker News* — Google launched a new API enabling developers to integrate Gemini's reasoning and decision-making capabilities directly into applications, expanding the model's footprint beyond chat interfaces.
 
-- [Oura to acquire AI-native primary care startup Counsel Health for $625M](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/) — *TechCrunch AI* — The deal combines Oura's wearable health data platform with an AI-first primary care provider, accelerating the convergence of continuous monitoring and clinical care.
+- [My AI agents found an unmapped Maya site?](https://pietromiotti.com/latest/maya-site) — *Hacker News* — A researcher claims AI-assisted analysis of satellite and topographic data surfaced a previously uncharted Maya archaeological site, illustrating the potential of AI agents in scientific discovery.
 
-- [PSI is trying to make a business out of AI-driven scientific discovery](https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/) — *TechCrunch AI* — PSI used an unreleased Anthropic model to answer a nearly two-decade-old open question in quantum computing, positioning AI as a core tool for fundamental research breakthroughs.
+- [Anthropic IPO](https://ipo.anthropic.com/us/) — *Hacker News* — Anthropic has opened an IPO landing page, signaling an imminent public offering from one of the most prominent AI safety-focused labs.
 
-- [The backlash about data centers might really just be about electricity](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) — *MIT Technology Review* — On-the-ground reporting from Virginia's Data Center Alley finds that community opposition is driven primarily by power grid strain rather than land use or privacy concerns.
+- [Anthropic says 'pacing, not pausing' with Fable 5.2](https://www.therundown.ai/articles/anthropic-says-pacing-not-pausing-with-fable-5-2/) — *The Rundown AI* — Anthropic articulated a "pacing" philosophy around AI development with its Fable 5.2 release, positioning itself between accelerationist and moratorium camps in the AI safety debate.
 
-- [Tracking Anthropic-discovered vulnerabilities](https://www.vulncheck.com/blog/anthropic-glasswing-november-update) — *Hacker News* — VulnCheck documents the latest update to Anthropic's Glasswing vulnerability tracking initiative, raising questions about AI labs' growing role in cybersecurity research and disclosure.
+- [OpenAI invites brands to set up shop in ChatGPT](https://www.therundown.ai/articles/openai-invites-brands-to-set-up-shop-in-chatgpt/) — *The Rundown AI* — OpenAI is opening ChatGPT to branded storefronts, a significant monetization and commercialization step that could reshape how consumers discover and interact with products through AI.
 
-- [Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt) — *OpenAI Blog* — OpenAI is launching a business-profile feature inside ChatGPT, allowing companies to manage how they appear in AI-generated responses and convert user interest into direct action.
+- [Amazon builds its home robot team](https://www.therundown.ai/articles/amazon-builds-its-home-robot-team/) — *The Rundown AI* — Amazon is reportedly expanding its dedicated home robotics division, doubling down on consumer-facing physical AI as competition in the domestic robot space heats up.
 
-- [Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives](https://github.com/GoogleChrome/modern-web-guidance) — *Hacker News* — Google Chrome released a curated guidance repo to help AI coding agents generate modern JavaScript, addressing a known weakness where LLMs default to outdated web patterns.
+- [Atuin Threads: All your agent sessions on every machine](https://blog.atuin.sh/threads-agent-sessions/) — *Hacker News* — Atuin introduces persistent, cross-machine agent session management, addressing a key practical gap in multi-device AI agent workflows.
 
-- [I benchmarked TimesFM 3.0, Chronos-2 and Toto 2.0 on market time series. None beat simple baseline.](https://www.reddit.com/r/MachineLearning/comments/1xsqztt/i_benchmarked_timesfm_30_chronos2_and_toto_20_on/) — *Reddit r/MachineLearning* — An independent practitioner finds that three leading foundation time-series models all fail to outperform a simple baseline on financial market data, raising questions about their real-world utility in non-benchmark settings.
+- [The backlash about data centers might really just be about electricity](https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/) — *MIT Technology Review* — On-the-ground reporting from Virginia's Data Center Alley finds that community opposition to AI infrastructure is largely driven by electricity demand and grid strain rather than land use or noise concerns.
+
+- [OpenAI commits $2 million to research on AI and children's safety](https://openai.com/index/children-first-declaration) — *OpenAI Blog* — OpenAI is funding shared tools and research to systematically measure AI risks and benefits for minors, amid growing regulatory pressure on AI's impact on young people.
+
+- [I gave an agent a lakehouse and control of my garden](https://jatorre.github.io/garden/) — *Hacker News* — A developer connected an AI agent to real-world IoT garden controls and a data lakehouse, offering a concrete and candid account of autonomous agent capabilities and failure modes.
 
 ## Deep Dives
 
-- [Auditable Human-Agent Teams for Autonomous X-ray Experimentation](https://arxiv.org/abs/2611.12933) — *ArXiv cs.AI* — Researchers demonstrate fully autonomous synchrotron X-ray experiments on nanoparticle superlattices guided by an AI coding agent, with complete human-agent and agent-agent transcripts enabling post-hoc auditability — a meaningful step toward trustworthy AI in physical science labs.
+- [Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence](https://importai.substack.com/p/import-ai-480-self-sustaining-space) — *Import AI* — Jack Clark's newsletter surveys frontier research including Meta's dexterous robotics work and AI-accelerated scientific discovery, providing essential context for where the field is heading beyond current product cycles.
 
-- [EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery](https://arxiv.org/abs/2611.12934) — *ArXiv cs.AI* — A new benchmark built on 40 years of raw multi-sensor satellite data (Landsat, MODIS, VIIRS, Sentinel-2) tests whether multimodal agents can perform reliable land-change analysis from scratch, exposing a significant gap between curated-benchmark performance and real-world Earth observation tasks.
+- [I built an explorer of 2,100+ robotics papers covering 10 years of CoRL](https://www.reddit.com/r/MachineLearning/comments/1xtul3j/i_built_an_explorer_of_2100_robotics_papers/) — *Reddit r/MachineLearning* — A community-built tool indexing a decade of robot learning research with TLDRs, trend analysis, and code links offers a rare high-signal resource for anyone tracking the arc of embodied AI research.
 
 ---
 
 ## ⚛️ Quantum Computing
 
-- [QuiX Quantum Leads National Mission to Develop 100+ Qubit Photonic Quantum Computer](https://thequantuminsider.com/2026/11/10/quix-quantum-leads-national-mission-100-qubit-photonic-quantum-computer/) — *The Quantum Insider* — QuiX Quantum secured Phase II funding to develop a 100+ qubit photonic quantum computer to address scaling challenges.
+- [Qunova's Hybrid Computing Method Matches Classical Benchmark for Iron-Sulfur Cluster](https://thequantuminsider.com/2026/11/12/qunovas-hybrid-computing-method-matches-classical-benchmark-for-iron-sulfur-cluster/) — *The Quantum Insider* — Qunova's HI-VQE algorithm achieved chemical accuracy at 80 qubits, the first quantum algorithm to reach this precision level for practical use.
 
-- [QuEra, Harvard and Anthropic Use AI to Reduce Quantum Circuit Resource Requirements](https://thequantuminsider.com/2026/11/10/quera-harvard-anthropic-ai-quantum-circuit-resource-requirements/) — *The Quantum Insider* — Research shows AI can design quantum circuits requiring fewer computational resources, expanding the capabilities of future fault-tolerant quantum computers.
+- [Xanadu Reports Revenue Growth as Photonic Partnerships and Government Support Expand](https://thequantuminsider.com/2026/11/12/xanadu-reports-revenue-growth-as-photonic-partnerships-and-government-support-expand/) — *The Quantum Insider* — Xanadu reported 32% quarterly revenue growth and expanded manufacturing partnerships and government support for its photonic quantum data center plans.
 
-- [Intel to Acquire Classiq to Create a Full-Stack Quantum Computing Platform](https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum) — *Hacker News (quantum)* — Intel's acquisition of Classiq aims to create an integrated full-stack quantum computing platform.
+- [Inside this quantum computer, memory vibrates like a guitar string](https://www.sciencedaily.com/releases/2026/11/261109205416.htm) — *ScienceDaily Quantum* — Researchers developed a quantum computer storing information in microscopic vibrations, potentially making quantum machines smaller and more powerful.
 
-- [Bringing the magic: Google breaks open a bottleneck in quantum computing](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/) — *Hacker News (quantum)* — Google overcomes a major bottleneck in quantum computing through advances in magic state cultivation.
+- [Intel to Acquire Classiq to Create a Full-Stack Quantum Computing Platform](https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum) — *Hacker News* — Intel is acquiring Classiq to build a comprehensive full-stack quantum computing platform.
 
-- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Scientists achieved 99.9% accuracy operating multiple silicon qubits simultaneously, enabling larger quantum processors.
+- [Bringing the magic: Google breaks open a bottleneck in quantum computing](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/) — *Hacker News* — Google addressed a major bottleneck in quantum computing through advances in magic state cultivation.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – November 10, 2026 (#906)](https://seroter.com)**
+**[Daily Reading List – November 12, 2026 (#908)](https://seroter.com)**
 
-_New TPUs, cheaper Claude/Muse models, and coding agents demand rethinking product management, code review processes, and developer workflows._
+_Google's Gemini decision API enables multimodal AI decisions; enterprises must modernize legacy systems while avoiding vendor lock-in on AI infrastructure choices._
