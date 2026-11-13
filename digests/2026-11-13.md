@@ -2,75 +2,89 @@
 
 ## 🍴 Restaurant Industry
 
-**Chains are pivoting from value wars to quality and loyalty as Starbucks bets its turnaround on employee investment.**
+**🆕 New today (5 of 7):** [How 9 restaurants are using menu innovation to wean diners off value](https://www.restaurantdive.com/news/restaurant-value-war-over-quality-war-begins-mcdonalds-taco-bell-outback/872953/) · [Taco Bell Tests New Carne Asada Protein in Nashville and Minneapolis-St. Paul Markets](https://www.qsrmagazine.com/news/taco-bell-tests-new-carne-asada-protein-in-nashville-and-minneapolis-st-paul-markets/) · [Starbucks baristas start receiving bonus payments](https://www.nrn.com/quick-service/starbucks-baristas-start-receiving-bonus-payments) · [Dirty Soda Got America to Try It. Now Chains Have to Earn the Second Order](https://www.qsrmagazine.com/story/dirty-soda-got-america-to-try-it-now-chains-have-to-earn-the-second-order/) · [ChatGPT launches Google-like profiles for businesses](https://www.nrn.com/restaurant-technology/chatgpt-launches-google-like-profiles-for-businesses)
 
-- Starbucks rolled out Bean Stock grants to ~200K employees and performance bonuses to ~130K, with 80% of eligible North American workers receiving Q1 payouts — a direct signal that labor investment is central to its Back to Starbucks recovery — [QSR Magazine](https://www.qsrmagazine.com/story/starbucks-is-putting-more-money-in-employees-pockets/)
-- Chick-fil-A adds Spicy Chick-fil-A Sauce as a permanent menu item and launches limited-time Peppermint Cream Cold Brew starting Nov. 16, extending holiday momentum — [QSR Magazine](https://www.qsrmagazine.com/news/chick-fil-a-adds-permanent-spicy-sauce-to-menu-launches-holiday-treats/)
-- Major chains including McDonald's, Taco Bell, and Outback are shifting from value-war discounting toward food quality and LTO innovation to drive traffic and spend — [Restaurant Dive](https://www.restaurantdive.com/news/restaurant-value-war-over-quality-war-begins-mcdonalds-taco-bell-outback/872953/)
-- McDonald's integrated its loyalty program with Uber to deepen member frequency, a notable third-party delivery-loyalty convergence — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/)
-- Craveworthy Brands acquires Papa Gino's parent New England Authentic Eats, adding 160+ locations and ~$160M in annual revenue — meaningful consolidation among mid-tier chains — [Restaurant Dive](https://www.restaurantdive.com/news/craveworthy-brands-acquires-new-england-authentic-eats/874279/)
-- ChatGPT launched claimable business profiles for restaurants, creating a new discovery and reputation channel operators should monitor alongside Google and Yelp — [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/chatgpt-launches-google-like-profiles-for-businesses/)
-- El Pollo Loco plans 25–30 openings in 2027, its most aggressive expansion in years, as improved sales attract franchisee interest in new markets — [QSR Magazine](https://www.qsrmagazine.com/story/el-pollo-loco-eyes-biggest-expansion-push-in-years/)
+**Chains pivot from value wars to quality and experience as QSR competition intensifies.**
+
+- Chains including McDonald's, Taco Bell, and Applebee's are shifting focus from discounting to menu quality, buzzy LTOs, and daypart expansion to sustain traffic gains post-value war — [Restaurant Dive](https://www.restaurantdive.com/news/restaurant-value-war-over-quality-war-begins-mcdonalds-taco-bell-outback/872953/)
+
+- Taco Bell is testing sous-vide carne asada in Nashville and Minneapolis-St. Paul for potential Cantina menu expansion, while also returning the Flamin' Hot Grilled Cheese Burrito nationally — [QSR Magazine](https://www.qsrmagazine.com/news/taco-bell-tests-new-carne-asada-protein-in-nashville-and-minneapolis-st-paul-markets/)
+
+- Starbucks began distributing performance-based quarterly bonuses to ~80% of eligible North American baristas, a key step in its labor relations reset — [Nation's Restaurant News](https://www.nrn.com/quick-service/starbucks-baristas-start-receiving-bonus-payments)
+
+- McDonald's linked its loyalty program to Uber, deepening delivery frequency and member engagement — [Restaurant Dive](https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/)
+
+- Craveworthy Brands is acquiring Papa Gino's parent New England Authentic Eats, adding 160+ locations and ~$160M in annual revenue — [Restaurant Dive](https://www.restaurantdive.com/news/craveworthy-brands-acquires-new-england-authentic-eats/874279/)
+
+- Dirty soda has gone mainstream with Taco Bell making it permanent and McDonald's launching crafted sodas nationally, but retaining repeat customers remains the unresolved challenge — [QSR Magazine](https://www.qsrmagazine.com/story/dirty-soda-got-america-to-try-it-now-chains-have-to-earn-the-second-order/)
+
+- ChatGPT launched Google-style business profiles restaurants can claim, adding a new discovery and consumer-insight channel operators should monitor — [Nation's Restaurant News](https://www.nrn.com/restaurant-technology/chatgpt-launches-google-like-profiles-for-businesses)
 
 ---
 
+**🆕 New today (14 of 16):** [Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/) · [Edge0-145B: Frontier AI Capabilities on Your Own Computer](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer) · [Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility](https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/) · [Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump](https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/) · [Jensen Huang didn’t show confidence in his successor, report says](https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/) · [Eli Lilly CEO pushes back on Dario Amodei's medical claims](https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest) · [Brave Search API now accepts agentic payments via the x402 protocol](https://brave.com/blog/search-api-agentic-payments/) · [Foundation Models framework](https://developer.apple.com/foundation-models-framework/) · [I'm making LLMs work on small and old devices](https://github.com/hyperionaidev/smolmaxxing/) · [AI Is Destroying the Trust Between Writers and Readers](https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/) · [ElevenLabs’ new app combines meeting note-taking and dictation for teams](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/) · [Elevated errors on claude.ai, Claude Code, and platform.claude.com](https://status.claude.com/incidents/nn11wk485zfn) · [Cleaning an Agent's History Hurts When the World Still Holds the Error](https://arxiv.org/abs/2611.14654) · [Together Compiler: Continual Compilation for AI Inference](https://arxiv.org/abs/2611.14681)
+
 ## Executive Summary
-The day's biggest story is Anthropic's IPO filing, marking a landmark moment for the AI industry. Google launched Gemini 4 Hydrogen with an orchestrator framework through its "Antigravity" platform, representing a major new frontier model release. The Jensen Huang/Nvidia scandal deepened with reports of a third affair and a formal Democratic congressional investigation, raising serious national security concerns around U.S.-China chip trade. On the hardware/model side, Apple released its Foundation Models framework for on-device AI, and new research revealed that Chinese frontier AI models bear forensic fingerprints of export-controlled Nvidia GPUs, suggesting widespread sanctions evasion.
+The biggest story today is Anthropic's IPO filing, which is generating enormous community discussion. Google's Gemini 4 "Hydrogen" launch and a new 145B edge model capable of running frontier-class AI on consumer hardware signal rapid progress in both cloud and local AI capabilities. Nvidia continues to dominate headlines for turbulent reasons: Jensen Huang has stepped down or is departing, congressional investigations are underway over China chip sales, and the company privately acknowledged it can track chips to prevent smuggling. OpenAI is committing $2M to children's safety research while also expanding ChatGPT's commercial ecosystem with brand storefronts.
+
+---
 
 ## Top Stories
 
-- [Anthropic IPO](https://ipo.anthropic.com/us/) — *Hacker News* — Anthropic has formally filed for an IPO, making it one of the most significant AI company public offerings in history given its frontier model position and safety-focused mission.
+- [Anthropic IPO](https://ipo.anthropic.com/us/) — *Hacker News* — Anthropic has filed for a public offering, triggering one of the highest-engagement discussions of the day with nearly 900 comments on its implications for AI governance and commercialization.
 
-- [Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) — *Hacker News* — Google launches Gemini 4 Hydrogen, its latest frontier model, alongside an "Orchestrator" framework via the new Antigravity platform for multi-agent coordination.
+- [Gemini 4 Hydrogen and Orchestrator](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/) — *Hacker News* — Google has launched Gemini 4 "Hydrogen," a new frontier model with an orchestrator component, positioned within its "Antigravity" platform for agentic AI workloads.
 
-- [Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled GPUs](https://unemploymentlabs.com/checkpoint-forensics) — *Hacker News* — Forensic analysis of model checkpoints reveals that leading Chinese AI labs trained on Nvidia hardware subject to U.S. export controls, providing concrete evidence of sanctions circumvention.
+- [Edge0-145B: Frontier AI Capabilities on Your Own Computer](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer) — *Hacker News* — A new 145-billion-parameter model claims to deliver frontier-level performance on local consumer hardware, a significant step for private, offline AI deployment.
 
-- [The Unfolding Jensen Huang Scandal: A Timeline](https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/) — *TechCrunch AI* — Nvidia CEO Jensen Huang has resigned following revelations of an affair with an alleged Chinese intelligence operative, with cascading national security implications for U.S. AI chip policy.
+- [Nvidia privately confirmed it could track chips to fight smuggling](https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/) — *MIT Technology Review* — Nvidia told a U.S. congressman it is technically feasible to implement chip-tracking anti-smuggling measures, contradicting an industry group's public claim that such measures are "potentially infeasible."
 
-- [Democrats Launch Nvidia Investigation, Write Scathing Letter on Huang's 'Scheme' with Trump](https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/) — *TechCrunch AI* — Congressional Democrats have opened a formal investigation into Nvidia's China GPU sales and alleged coordination with the Trump administration, the second such inquiry since the spy affair broke.
+- [Democrats launch Nvidia investigation over Huang's 'scheme' with Trump](https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/) — *TechCrunch AI* — A second congressional investigation into Nvidia's China chip sales has been launched, as political scrutiny of the company's dealings intensifies.
 
-- [Nvidia Privately Confirmed It Could Track Chips to Fight Smuggling](https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/) — *MIT Technology Review* — In private communications, Nvidia acknowledged to lawmakers that chip-level tracking to prevent smuggling is technically feasible, contradicting an industry group's public claim that such measures are "potentially infeasible."
+- [Jensen Huang didn't show confidence in his successor, report says](https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/) — *TechCrunch AI* — Reports indicate Huang described his designated successor as a "deer in the headlights," raising questions about Nvidia's leadership transition stability.
 
-- [Foundation Models Framework](https://developer.apple.com/foundation-models-framework/) — *Hacker News* — Apple has released a Foundation Models framework for developers, enabling on-device AI model integration directly into Apple platform apps.
+- [Eli Lilly CEO pushes back on Dario Amodei's medical claims](https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest) — *Hacker News (Gary Marcus)* — The CEO of Eli Lilly has become a prominent industry voice challenging Anthropic CEO Dario Amodei's bold predictions about AI's near-term impact on medicine and drug discovery.
 
-- [Edge0-145B: Frontier AI Capabilities on Your Own Computer](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer) — *Hacker News* — Edge0 introduces a 145B-parameter model designed to run locally on consumer hardware, pushing the boundary of what's achievable in on-device frontier AI.
+- [Brave Search API now accepts agentic payments via the x402 protocol](https://brave.com/blog/search-api-agentic-payments/) — *Hacker News* — Brave Search is enabling AI agents to autonomously pay for search API access using the x402 micropayment protocol, a notable step toward machine-to-machine commerce infrastructure.
 
-- [I'm Making LLMs Work on Small and Old Devices](https://github.com/hyperionaidev/smolmaxxing/) — *Hacker News* — An open-source project ("smolmaxxing") demonstrates techniques to run modern LLMs on severely constrained and legacy hardware, with strong community interest.
+- [Apple Foundation Models Framework](https://developer.apple.com/foundation-models-framework/) — *Hacker News* — Apple has published a developer framework for on-device foundation models, signaling a push to let third-party apps integrate Apple's AI capabilities natively.
 
-- [Anthropic Says 'Pacing, Not Pausing' with Fable 5.2](https://www.therundown.ai/articles/anthropic-says-pacing-not-pausing-with-fable-5-2) — *The Rundown AI* — Anthropic articulates its AI safety philosophy around controlled acceleration rather than development moratoriums, coinciding with its new Fable 5.2 release.
+- [I'm making LLMs work on small and old devices (smolmaxxing)](https://github.com/hyperionaidev/smolmaxxing/) — *Hacker News* — An open-source project is pushing the limits of running LLMs on constrained and legacy hardware, attracting significant community interest with 164 comments.
 
-- [AI Is Turning Apple's App Review Process into a Nightmare for Synth Developers](https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html) — *Hacker News* — Automated AI-driven app review at Apple is producing erratic, inconsistent rejections that are disproportionately harming niche audio and synthesizer app developers.
+- [OpenAI commits $2M to research on AI and children's safety](https://openai.com/index/children-first-declaration) — *OpenAI Blog* — OpenAI is funding shared research tools to measure AI risks and opportunities for children, framing it as part of a broader "Children First" declaration.
 
-- [Nebius Tests the Neocloud Playbook with $40 Billion in Planned Spending](https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/) — *TechCrunch AI* — Nebius is pursuing a $40B AI infrastructure buildout financed via customer prepayments and debt, raising questions about the viability of the neocloud model amid data center delays.
+- [AI Is Destroying the Trust Between Writers and Readers](https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/) — *The Atlantic / Hacker News* — The Atlantic examines how AI-generated content flooding Amazon's book marketplace is systematically eroding reader trust in human authorship.
 
-- [OpenAI Commits $2 Million to Research on AI and Children's Safety](https://openai.com/index/children-first-declaration) — *OpenAI Blog* — OpenAI is funding a $2M research initiative to develop shared tools for measuring AI risks and benefits specifically for young people.
+- [ElevenLabs' new app combines meeting note-taking and dictation for teams](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/) — *TechCrunch AI* — ElevenLabs has launched ElevenAI, a team-focused app combining voice dictation with AI meeting notes, expanding the company beyond its audio synthesis roots into enterprise productivity.
 
-- [Brave Search API Now Accepts Agentic Payments via the x402 Protocol](https://brave.com/blog/search-api-agentic-payments/) — *Hacker News* — Brave enables autonomous AI agents to pay for Search API access using the emerging x402 payment protocol, an early real-world implementation of machine-to-machine payments.
-
-## Deep Dives
-
-- [Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled GPUs](https://unemploymentlabs.com/checkpoint-forensics) — *Hacker News* — A methodologically novel forensic study that deserves a full read: researchers extracted hardware fingerprints embedded in model checkpoints to definitively link Chinese AI labs' training runs to sanctioned Nvidia GPUs, with significant policy implications for export control enforcement.
-
-- [UMAP 0.6: New Initialization, New Optimizers and Faster Performance](https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/) — *Reddit r/MachineLearning* — A significant update to one of ML's most widely used dimensionality reduction tools, introducing algorithmic improvements to initialization and optimization that could meaningfully affect embedding quality and runtime across research and production pipelines.
+- [Claude.ai / Claude Code elevated errors incident](https://status.claude.com/incidents/nn11wk485zfn) — *Hacker News* — A significant service outage across Anthropic's Claude platform generated nearly 330 comments, reflecting the platform's growing critical-infrastructure status for developers.
 
 ---
 
-## ⚛️ Quantum Computing
+## Deep Dives
 
-- [Inside this quantum computer, memory vibrates like a guitar string](https://www.sciencedaily.com/releases/2026/11/261109205416.htm) — *ScienceDaily Quantum* — Researchers created a quantum computer storing information in microscopic vibrations, potentially making quantum machines smaller, more powerful, and better at preserving information.
+- [Cleaning an Agent's History Hurts When the World Still Holds the Error](https://arxiv.org/abs/2611.14654) — *ArXiv cs.AI* — A thought-provoking paper showing that compacting or "correcting" an AI agent's action history can backfire when the real-world consequences of those actions persist, with direct implications for how agentic systems should handle error recovery and handoffs.
 
-- [Bringing the magic: Google breaks open a bottleneck in quantum computing](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/) — *Hacker News (quantum)* — Google solved a major bottleneck in quantum computing through advances in magic state cultivation for fault-tolerant quantum systems.
-
-- [PsiQuantum and AMD Expand Partnership on Quantum Computing Infrastructure](https://thequantuminsider.com/2026/11/12/psiquantum-amd-expand-quantum-computing-infrastructure-partnership/) — *The Quantum Insider* — PsiQuantum and AMD announced an expanded partnership to co-design computing infrastructure for utility-scale, fault-tolerant quantum computers and hybrid quantum-AI applications.
-
-- [A tiny supercurrent could unlock quantum information without destroying it](https://www.sciencedaily.com/releases/2026/11/261102202831.htm) — *ScienceDaily Quantum* — Researchers proposed a breakthrough technique for reading quantum information without destroying qubit states, achieving up to 99.85% accuracy in simulations.
-
-- [Scientists overcome a hidden obstacle to more powerful quantum computers](https://www.sciencedaily.com/releases/2026/10/261024222024.htm) — *ScienceDaily Quantum* — Scientists discovered how to operate multiple silicon qubits simultaneously with 99.9% accuracy, overcoming a major scaling challenge for quantum processors.
+- [Together Compiler: Continual Compilation for AI Inference](https://arxiv.org/abs/2611.14681) — *ArXiv cs.AI* — Together AI presents an agent-driven continual compilation system that optimizes inference deployments as models, architectures, and traffic patterns change rapidly, addressing a key operational bottleneck in production LLM serving.
 
 ---
 
 ## Richard Seroter's Architecture Musings
 
-**[Daily Reading List – November 12, 2026 (#908)](https://seroter.com)**
+**🆕 New post today**
 
-_Google's Gemini API, AI agent improvements, and enterprise modernization pressures are reshaping development workflows this week._
+**[Daily Reading List – November 13, 2026 (#909)](https://seroter.com)**
+
+_Coding agents need guardrails: validate tests independently, guide model behavior, avoid premature multi-agent separation, and prioritize engineering fundamentals._
+
+---
+
+## ⚛️ Quantum Computing
+
+**🆕 New today (3 of 5):** [Tiny flaws in diamonds could unlock a quantum computing revolution](https://www.sciencedaily.com/releases/2026/11/261111005855.htm) · [The Geometry of Quantum Memory: How Anyons Rewrite the Rules of Remembering and Computation in the Quantum Realm](https://thequantuminsider.com/2026/11/13/the-geometry-of-quantum-memory-how-anyons-rewrite-the-rules-of-remembering-and-computation-in-the-quantum-realm/) · [University at Buffalo Study Decodes Quantum Material’s ‘Optical Fingerprints’](https://thequantuminsider.com/2026/11/13/university-at-buffalo-study-decodes-quantum-materials-optical-dingerprints/)
+
+[Tiny flaws in diamonds could unlock a quantum computing revolution](https://www.sciencedaily.com/releases/2026/11/261111005855.htm) represents a major breakthrough in identifying quantum materials suitable for room-temperature operation, while [Inside this quantum computer, memory vibrates like a guitar string](https://www.sciencedaily.com/releases/2026/11/261109205416.htm) demonstrates an innovative approach to quantum memory using microscopic vibrations that could make quantum machines smaller and more robust. These advances address two critical challenges in making quantum computers practical: finding stable materials that don't require extreme cooling and developing better ways to store quantum information without degradation.
+
+On the theoretical and measurement front, [The Geometry of Quantum Memory: How Anyons Rewrite the Rules of Remembering and Computation in the Quantum Realm](https://thequantuminsider.com/2026/11/13/the-geometry-of-quantum-memory-how-anyons-rewrite-the-rules-of-remembering-and-computation-in-the-quantum-realm/) explores how geometric properties of quantum systems could fundamentally improve memory stability by making qubits less susceptible to environmental noise, while [A tiny supercurrent could unlock quantum information without destroying it](https://www.sciencedaily.com/releases/2026/11/261102202831.htm) presents a non-destructive readout technique achieving up to 99.85% accuracy in simulations. Together, these developments suggest a path toward more reliable and practical quantum computers by solving the perennial problems of decoherence and measurement.
+
+Finally, [University at Buffalo Study Decodes Quantum Material's 'Optical Fingerprints'](https://thequantuminsider.com/2026/11/13/university-at-buffalo-study-decodes-quantum-materials-optical-dingerprints/) offers a practical diagnostic tool for characterizing atomic defects in quantum materials, enabling researchers to rapidly identify and optimize the building blocks needed for scalable quantum systems. Collectively, these five stories demonstrate significant progress across material science, quantum memory architecture, and measurement techniques—the key pillars needed to transform quantum computing from laboratory curiosities into functional machines.
