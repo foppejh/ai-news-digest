@@ -23,7 +23,8 @@
 .hl a:visited { color:var(--hl-dim); }
 .hl a.hot, .hl a.hot:visited { color:var(--hl-hot); }
 .hl a:focus-visible, .hl button:focus-visible { outline:2px solid var(--hl-white); outline-offset:2px; }
-.hl-h { text-transform:uppercase; font-weight:700; }
+.hl-h { font-weight:700; }
+.hl a.hot .hl-h { text-transform:uppercase; }  /* all caps only for breaking / big stories */
 .hl-teasers { margin:6px 0 0; }
 .hl-teasers li { padding:6px 0; font-size:.82em; }
 .hl-lead { text-align:center; padding:18px 0 14px; border-bottom:2px solid var(--hl-fg); }
