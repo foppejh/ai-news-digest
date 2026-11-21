@@ -1,11 +1,12 @@
 // Service worker: precache the app shell, runtime-cache digests for offline reading.
 // Bump CACHE when shell files change to force an update.
-const CACHE = 'ai-digest-v3';
+const CACHE = 'ai-digest-v4';
 const SHELL = [
   './',
   './index.html',
   './styles.css',
   './app.js',
+  './zoom.js',
   './vendor/marked.min.js',
   './manifest.webmanifest',
   './icons/icon-180.png',
