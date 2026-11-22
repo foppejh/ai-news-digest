@@ -135,7 +135,22 @@ document.addEventListener('visibilitychange', () => {
 });
 
 if ('serviceWorker' in navigator) {
+  // Auto-update: when a new service worker takes over (sw.js calls skipWaiting + claim),
+  // reload once so the new app shell shows right away instead of on the next launch.
+  // Skipped on the very first install, when there's no older version on screen.
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloading) return;
+    reloading = true;
+    window.location.reload();
+  });
   window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+  // iOS resumes home-screen apps without reloading, so check for an update on each return.
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) return;
+    navigator.serviceWorker.getRegistration().then(reg => reg && reg.update()).catch(() => {});
+  });
 }
 
 // --- Web Push: subscribe, then show the one-time code to paste on the Mac. ---
